@@ -1,0 +1,32 @@
+# finding demonstratives and linking to noun
+# class 9 nouns are often indistinguishable from class 10
+# (the nominal modifiers have to be used instead)
+# seems unlikely that the unidirectional nn will get these right
+#SETPARENT (@<NDEM) (0 NounClass§equals.Bantu10)
+#    TO (-1 (N LINK 0 (NounClass§equals.Bantu10) OR (NounClass§equals.Bantu9)));
+SETPARENT (@<NDEM)
+    TO (-1 (N));
+
+# linking associatives as case
+SETPARENT (@GCON)
+    TO (1* (N) OR (PROPNAME));
+
+# linking noun inside associative to connected noun
+SETCHILD (*) (0 (N) OR (PROPNAME) LINK 1 (@GCON))
+    TO (1* (N) OR (PROPNAME));
+
+# locate subject and link to root
+# this should get some filtering for noun class etc
+# However the noun class tags are incompatible with vislcg
+SETPARENT (@SUBJ)
+    TO (* (V));
+
+# locate object and link to root
+SETPARENT (@OBJ)
+    TO (* (V));
+    
+# link punctuation
+# really we should prefer linking to the root but 
+# I don't know a good way to determine the root
+SETPARENT (PUNCT)
+    TO (* (V));

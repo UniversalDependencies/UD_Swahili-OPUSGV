@@ -1,0 +1,26 @@
+2019-10-02 10:52:36,191 - INFO - allennlp.common.util - Metrics: {
+  "best_epoch": 2,
+  "peak_cpu_memory_MB": 3555.192,
+  "peak_gpu_0_memory_MB": 5481,
+  "peak_gpu_1_memory_MB": 181,
+  "training_duration": "0:21:42.694887",
+  "training_start_epoch": 0,
+  "training_epochs": 9,
+  "epoch": 9,
+  "training_accuracy": 0.9981940017403256,
+  "training_accuracy3": 0.9999953090954294,
+  "training_loss": 0.006482267799695713,
+  "training_cpu_memory_MB": 3555.192,
+  "training_gpu_0_memory_MB": 5481,
+  "training_gpu_1_memory_MB": 181,
+  "validation_accuracy": 0.9877945277452209,
+  "validation_accuracy3": 0.99947459887645,
+  "validation_loss": 0.07834415794199993,
+  "best_validation_accuracy": 0.9810855595521966,
+  "best_validation_accuracy3": 0.9994341834054076,
+  "best_validation_loss": 0.07273565731461971,
+  "test_accuracy": 0.9890421455938697,
+  "test_accuracy3": 0.9996934865900383,
+  "test_loss": 0.0390515114150701
+}
+
