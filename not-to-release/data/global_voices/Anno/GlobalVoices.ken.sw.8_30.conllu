@@ -436,165 +436,186 @@
 24	Oktoba	_	PROPN	PROPNAME	_	23	nmod	_	_
 25	.	_	PUNCT	_	_	10	punct	_	_
 
-# 16299
-1	@MANSOOR_ALJAMRi	_	NOUN	PROPNAME	_	_	_	_	_
-2	:	_	PUNCT	COLON	_	_	_	_	_
-3	Raia	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@SUBJ
-4	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-5	Misri	_	PROPN	PROPNAME	_	_	_	_	_
-6	wanasahihisha	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr+OBJ>
-7	njia	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-8	waliyopitia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=3|Person=3|Polarity=Pos|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-9	na	_	CCONJ	CC	_	_	_	_	_
-10	kusitisha	_	NOUN	V	NounClass=Bantu15|Number=Sing	_	_	_	@<P
-11	utekaji	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-12	nyara	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-13	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-14	chimbuko	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<NH
-15	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-16	waarabu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<NH
-17	.	_	PUNCT	_	_	_	_	_	_
+# 16299 
+# trans: @MANSOOR_ALJAMRi: Egyptians correct the path and end the hijacking of the Arab Spring. 
+# @Mansoor_aljamri: citizens of Egypt 2-pres-make.correct path 2-past-9.rel-go.through and make.hesitate scooping? captive of source of 2-arab
+1	@MANSOOR_ALJAMRi	_	NOUN	PROPNAME	_	6	discourse	_	_
+2	:	_	PUNCT	COLON	_	6	punct	_	_
+3	Raia	_	NOUN	N	NounClass=Bantu10|Number=Plur	6	nsubj	_	@SUBJ
+4	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	5	case	_	@GCON
+5	Misri	_	PROPN	PROPNAME	_	3	nmod	_	_
+6	wanasahihisha	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	0	root	_	@FMAINVtr+OBJ>
+7	njia	_	NOUN	N	NounClass=Bantu10|Number=Plur	6	obj	_	@OBJ
+8	waliyopitia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=3|Person=3|Polarity=Pos|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	7	acl	_	@FMAINVtr-OBJ>
+9	na	_	CCONJ	CC	_	10	cc	_	_
+10	kusitisha	_	NOUN	V	NounClass=Bantu15|Number=Sing	6	conj	_	@<P
+11	utekaji	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	10	ccomp	_	@FMAINVtr+OBJ>
+12	nyara	_	NOUN	N	NounClass=Bantu9|Number=Sing	11	obj	_	@OBJ
+13	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	14	case	_	@GCON
+14	chimbuko	_	NOUN	N	NounClass=Bantu5|Number=Sing	12	nmod	_	@<NH
+15	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	16	case	_	@GCON
+16	waarabu	_	NOUN	N	NounClass=Bantu2|Number=Plur	14	nmod	_	@<NH
+17	.	_	PUNCT	_	_	6	punct	_	_
 
-# 14570
-1	@Gsquare86	_	NUM	PROPNAME	_	_	_	_	_
-2	:	_	PUNCT	COLON	_	_	_	_	_
-3	Sielewi	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Neg|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-4	vipi	_	PRON	INTERROG	NounClass=Bantu8|Number=Plur	_	_	_	@ADVL
-5	mkuu	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-6	wa	_	ADP	GEN-CON	NounClass=Bantu1|Number=Sing	_	_	_	@GCON
-7	MOI	_	PROPN	PROPNAME	_	_	_	_	_
-8	Aldy	_	PROPN	PROPNAME	_	_	_	_	_
-9	alishtakiwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-10	ilhali	_	ADV	ADV	_	_	_	_	_
-11	hakuna	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr
-12	polisi	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-13	wala	_	ADV	ADV	_	_	_	_	_
-14	msaidizi	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-15	wake	_	PRON	PRON	NounClass=Bantu1|Number=Sing	_	_	_	@GCON
-16	hawakushtakiwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Neg|Subcat=Ditran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-17	na	_	ADP	AG-PART	_	_	_	_	_
-18	lolote?!!!!#ManzaYaMubarak	_	PROPN	N	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Fut|Voice=Act|Voice=Appl	_	_	_	@AG
+# 14570 
+# trans: @Gsquare86: I don’t get how head of MOI Aldy charged yet no policeman nor his men get charged with anything?!!!! #MubarakTrial 
+# @Gsquare86 : 1S.Neg-understand how head of MOI Aldy 2-past-accuse-pass whereas there.aren't police nor assistant his 2.neg-accuse-pass
+1	@Gsquare86	_	PROPN	PROPNAME	_	3	discourse	_	_
+2	:	_	PUNCT	COLON	_	3	punct	_	_
+3	Sielewi	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Neg|Subcat=Tran|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+4	vipi	_	PRON	INTERROG	NounClass=Bantu8|Number=Plur	9	advmod	_	@ADVL
+5	mkuu	_	NOUN	N	NounClass=Bantu1|Number=Sing	9	nsubj	_	@SUBJ
+6	wa	_	ADP	GEN-CON	NounClass=Bantu1|Number=Sing	7	case	_	@GCON
+7	MOI	_	PROPN	PROPNAME	_	5	nmod	_	_
+8	Aldy	_	PROPN	PROPNAME	_	5	appos	_	_
+9	alishtakiwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	3	ccomp	_	@FMAINVtr-OBJ>
+10	ilhali	_	ADV	ADV	_	12	advmod	_	_
+11	hakuna	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	12	cop	_	@FMAINVintr
+12	polisi	_	NOUN	N	NounClass=Bantu10|Number=Plur	9	advcl	_	@OBJ
+13	wala	_	CCONJ	ADV	_	14	cc	_	_
+14	msaidizi	_	NOUN	N	NounClass=Bantu1|Number=Sing	12	conj	_	@SUBJ
+15	wake	_	DET	PRON	NounClass=Bantu1|Number=Sing	14	det	_	@GCON
+16	hawakushtakiwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Neg|Subcat=Ditran|Tense=Past|Tense=Past|Voice=Act	12	acl	_	@FMAINVtr-OBJ>
+17	na	_	ADP	AG-PART	_	18	case	_	_
+18	lolote	_	PRON	_	_	16	obl	_	_
+19	?!!!!	_	PUNCT	_	_	3	punct	_	_
+20	#ManzaYaMubarak	_	PROPN	N	_	3	discourse	_	@
 
-# 28536
-1	Serikali	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-2	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-3	Ethiopia	_	PROPN	PROPNAME	_	_	_	_	_
-4	"	_	PUNCT	DOUBLE-QUOTE-OPENING	_	_	_	_	_
-5	imetangaza	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr+OBJ>
-6	hali	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-7	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-8	hatari	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-9	"	_	PUNCT	DOUBLE-QUOTE-OPENING	_	_	_	_	_
-10	inayodumu	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVintr
-11	kwa	_	ADP	PREP	_	_	_	_	_
-12	miezi	_	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@<P
-13	sita	_	NUM	NUM	NumType=Card	_	_	_	@<P
-14	.	_	PUNCT	_	_	_	_	_	_
+# 28536  
+# I don't think these quotes should be where they currently are.
+# trans: Now, the government in Ethiopia has declared a ‘state of emergency’ that lasts in six months. 
+# government of Ethiopia " 9-perf-announce state of danger
+1	Serikali	_	NOUN	N	NounClass=Bantu9|Number=Sing	5	nsubj	_	@SUBJ
+2	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	3	case	_	@GCON
+3	Ethiopia	_	PROPN	PROPNAME	_	1	nmod	_	_
+4	"	_	PUNCT	DOUBLE-QUOTE-OPENING	_	5	punct	_	_
+5	imetangaza	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	0	root	_	@FMAINVtr+OBJ>
+6	hali	_	NOUN	N	NounClass=Bantu9|Number=Sing	5	obj	_	@OBJ
+7	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	8	case	_	@GCON
+8	hatari	_	NOUN	N	NounClass=Bantu9|Number=Sing	6	nmod	_	@<NH
+9	"	_	PUNCT	DOUBLE-QUOTE-OPENING	_	10	punct	_	_
+10	inayodumu	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act	6	acl	_	@FMAINVintr
+11	kwa	_	ADP	PREP	_	12	case	_	_
+12	miezi	_	NOUN	N	NounClass=Bantu4|Number=Plur	10	obl	_	@<P
+13	sita	_	NUM	NUM	NumType=Card	12	nummod	_	@<P
+14	.	_	PUNCT	_	_	5	punct	_	_
 
-# 5238
-1	Carrefour	_	VERB	PROPNAME	_	_	_	_	_
-2	,	_	PUNCT	COMMA	_	_	_	_	_
-3	kitongoji	_	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@<P
-4	kikubwa	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu7|Number=Sing	_	_	_	@<NADJ
-5	cha	_	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	_	_	_	@GCON
-6	jiji	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<NH
-7	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-8	port	_	PROPN	PROPNAME	_	_	_	_	_
-9	au	_	CCONJ	CONJ/CC	_	_	_	_	_
-10	Prince	_	PROPN	PROPNAME	_	_	_	_	_
-11	,	_	PUNCT	COMMA	_	_	_	_	_
-12	kipo	_	AUX	V-BE	_	_	_	_	_
-13	kwenye	_	ADP	PREP	_	_	_	_	_
-14	mpaka	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@<P
-15	na	_	CCONJ	CC	_	_	_	_	_
-16	jimbo	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<P
-17	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-18	Leogane	_	NOUN	PROPNAME	Aspect=Imp|Mood=Sub|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@<NH
-19	.	_	PUNCT	_	_	_	_	_	_
+# 5238 
+# trans: Carrefour, a large suburb of Port-au-Prince, is on Leogane state's border. 
+# Carrefour, village large of city of Port au Prince 17-cop at border with province of Leogane .
+1	Carrefour	_	VERB	PROPNAME	_	14	nsubj	_	_
+2	,	_	PUNCT	COMMA	_	3	punct	_	_
+3	kitongoji	_	NOUN	N	NounClass=Bantu7|Number=Sing	1	appos	_	@<P
+4	kikubwa	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu7|Number=Sing	3	amod	_	@<NADJ
+5	cha	_	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	6	case	_	@GCON
+6	jiji	_	NOUN	N	NounClass=Bantu5|Number=Sing	3	nmod	_	@<NH
+7	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	8	case	_	@GCON
+8	Port	_	PROPN	PROPNAME	_	6	nmod	_	_
+9	au	_	PROPN	CONJ/CC	_	8	flat	_	_
+10	Prince	_	PROPN	PROPNAME	_	8	flat	_	_
+11	,	_	PUNCT	COMMA	_	3	appos	_	_
+12	kipo	_	AUX	V-BE	_	14	cop	_	_
+13	kwenye	_	ADP	PREP	_	14	case	_	_
+14	mpaka	_	NOUN	N	NounClass=Bantu1|Number=Sing	0	root	_	@<P
+15	na	_	ADP	CC	_	16	case	_	_
+16	jimbo	_	NOUN	N	NounClass=Bantu5|Number=Sing	14	nmod	_	@<P
+17	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	18	case	_	@GCON
+18	Leogane	_	NOUN	PROPNAME	Aspect=Imp|Mood=Sub|Polarity=Pos|Subcat=Tran|Voice=Act	16	nmod	_	@<NH
+19	.	_	PUNCT	_	_	14	punct	_	_
 
-# 5366
-1	Kuuchunguza	_	VERB	N	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu11|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-2	utamaduni	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
-3	na	_	CCONJ	CC	_	_	_	_	_
-4	nchi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-5	kupitia	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Appl	_	_	_	@-FMAINV-n
-6	macho	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@P>
-7	ya	_	ADP	GEN-CON	NounClass=Bantu6|Number=Plur	_	_	_	@GCON
-8	mtu	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@<NH
-9	mgeni	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu1|Number=Sing	_	_	_	@<NADJ
-10	kunatoa	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Appl	_	_	_	@-FMAINV-n
-11	fursa	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-12	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-13	kujifunza	_	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-14	mengi	_	PRON	PRON	NounClass=Bantu6|Number=Plur	_	_	_	@<DN
-15	.	_	PUNCT	_	_	_	_	_	_
+# 5366 
+# one of the very few cases where a verb beginning with ku- is not an infinitival
+# trans: To look at a culture and country through the eyes of an outsider is a learning experience. 
+# looking culture and country going.through eyes of people foreign 15-pres-give oportunity of learning many.
+1	Kuuchunguza	_	VERB	N	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu11|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act	10	nsubj	_	@-FMAINV-n
+2	utamaduni	_	NOUN	N	NounClass=Bantu11|Number=Sing	1	obj	_	@OBJ
+3	na	_	CCONJ	CC	_	4	cc	_	_
+4	nchi	_	NOUN	N	NounClass=Bantu9|Number=Sing	2	conj	_	@OBJ
+5	kupitia	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Appl	1	xcomp	_	@-FMAINV-n
+6	macho	_	NOUN	N	NounClass=Bantu6|Number=Plur	5	obj	_	@P>
+7	ya	_	ADP	GEN-CON	NounClass=Bantu6|Number=Plur	8	case	_	@GCON
+8	mtu	_	NOUN	N	NounClass=Bantu1|Number=Sing	6	nmod	_	@<NH
+9	mgeni	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu1|Number=Sing	8	amod	_	@<NADJ
+10	kunatoa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu15|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Pass|Voice=Appl	0	root	_	@-FMAINV-n
+11	fursa	_	NOUN	N	NounClass=Bantu9|Number=Sing	10	obj	_	@OBJ
+12	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	13	case	_	@GCON
+13	kujifunza	_	NOUN	N	NounClass=Bantu15|Number=Sing	11	nmod	_	@<NH
+14	mengi	_	PRON	PRON	NounClass=Bantu6|Number=Plur	11	amod	_	@<DN
+15	.	_	PUNCT	_	_	10	punct	_	_
 
-# 17778
-1	Omar	_	PROPN	PROPNAME	_	_	_	_	_
-2	Mohammed	_	PROPN	PROPNAME	_	_	_	_	_
-3	ni	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-def
-4	mwandishi	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@<P
-5	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-6	habari	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-7	Mtanzania	_	PROPN	PROPNAME	NounClass=Bantu1|Number=Sing	_	_	_	@<NH
-8	anayeishi	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVintr
-9	Dar	_	PROPN	PROPNAME	_	_	_	_	_
-10	es	_	ADV	ADV	_	_	_	_	_
-11	Salaam	_	PROPN	PROPNAME	_	_	_	_	_
-12	.	_	PUNCT	_	_	_	_	_	_
+# 17778 
+# trans: Omar Mohammed is a Tanzanian journalist based in Dar es Salaam. 
+# Omar Mohammed is reporter of news 1-Tanzania 1-pres-1.rel-live Dar es Salaam .
+1	Omar	_	PROPN	PROPNAME	_	4	nsubj	_	_
+2	Mohammed	_	PROPN	PROPNAME	_	1	flat	_	_
+3	ni	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	4	cop	_	@FMAINVintr-def
+4	mwandishi	_	NOUN	N	NounClass=Bantu1|Number=Sing	0	root	_	@<P
+5	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	6	case	_	@GCON
+6	habari	_	NOUN	N	NounClass=Bantu9|Number=Sing	4	nmod	_	@<NH
+7	Mtanzania	_	PROPN	PROPNAME	NounClass=Bantu1|Number=Sing	4	nmod	_	@<NH
+8	anayeishi	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act	4	acl	_	@FMAINVintr
+9	Dar	_	PROPN	PROPNAME	_	8	obj	_	_
+10	es	_	PROPN	ADV	_	9	flat	_	_
+11	Salaam	_	PROPN	PROPNAME	_	9	flat	_	_
+12	.	_	PUNCT	_	_	4	punct	_	_
 
-# 13012
-1	Wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-2	-	_	PUNCT	HYPHEN	_	_	_	_	_
-3	Ganda	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-4	wengine	_	ADJ	N	Degree=Pos|NounClass=Bantu2|Number=Plur	_	_	_	@<DN
-5	,	_	PUNCT	COMMA	_	_	_	_	_
-6	hata	_	ADV	ADV	_	_	_	_	_
-7	hivyo	_	ADV	ADV	_	_	_	_	_
-8	,	_	PUNCT	COMMA	_	_	_	_	_
-9	wanadhani	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-10	maadhimisho	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-11	hayo	_	PRON	PRON	NounClass=Bantu6|Number=Plur	_	_	_	@<NDEM
-12	ni	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-def
-13	upotevu	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<P
-14	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-15	rasilimali	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<NH
-16	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-17	nchi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-18	ambayo	_	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@ADVL
-19	mpaka	_	ADP	PREP	_	_	_	_	_
-20	sasa	_	ADV	ADV	_	_	_	_	_
-21	wapo	_	AUX	V-BE	_	_	_	_	_
-22	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<P
-23	wanalala	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVintr
-24	njaa	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-25	.	_	PUNCT	_	_	_	_	_	_
+# 13012 
+# trans: Some Ugandans, however, think the the celebration is a waste of resources in a country where some people sleep hungry. 
+# another case where a locative copula is used in a verbal construction with no overt relative markers on the verb. Possibly the wrong analysis
+1	Wa	_	NOUN	GEN-CON	NounClass=Bantu3|Number=Sing	9	nsubj	_	@GCON
+2	-	_	PUNCT	HYPHEN	_	1	compound	_	_
+3	Ganda	_	NOUN	N	NounClass=Bantu9|Number=Sing	1	compound	_	@SUBJ
+4	wengine	_	DET	N	Degree=Pos|NounClass=Bantu2|Number=Plur	1	det	_	@<DN
+5	,	_	PUNCT	COMMA	_	6	punct	_	_
+6	hata	_	ADV	ADV	_	9	advmod	_	_
+7	hivyo	_	ADV	ADV	_	6	compound	_	_
+8	,	_	PUNCT	COMMA	_	9	punct	_	_
+9	wanadhani	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+10	maadhimisho	_	NOUN	N	NounClass=Bantu6|Number=Plur	13	nsubj	_	@OBJ
+11	hayo	_	DET	PRON	NounClass=Bantu6|Number=Plur	10	det	_	@<NDEM
+12	ni	_	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	13	cop	_	@FMAINVintr-def
+13	upotevu	_	NOUN	N	NounClass=Bantu11|Number=Sing	9	ccomp	_	@<P
+14	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	15	case	_	@GCON
+15	rasilimali	_	NOUN	N	NounClass=Bantu10|Number=Plur	13	nmod	_	@<NH
+16	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	17	case	_	@GCON
+17	nchi	_	NOUN	N	NounClass=Bantu9|Number=Sing	15	nmod	_	@<NH
+18	ambayo	_	PRON	PRON	NounClass=Bantu9|Number=Sing	23	obl	_	@ADVL
+19	mpaka	_	ADP	PREP	_	20	case	_	_
+20	sasa	_	ADV	ADV	_	23	obl	_	_
+21	wapo	_	AUX	V-BE	_	23	cop	_	_
+22	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	23	nsubj	_	@<P
+23	wanalala	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	17	acl	_	@FMAINVintr
+24	njaa	_	NOUN	N	NounClass=Bantu9|Number=Sing	23	obj	_	@<P
+25	.	_	PUNCT	_	_	9	punct	_	_
 
-# 6450
-1	Magazeti	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@SUBJ
-2	makubwa	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu6|Number=Plur	_	_	_	@<NADJ
-3	na	_	CCONJ	CC	_	_	_	_	_
-4	vituo	_	NOUN	N	NounClass=Bantu8|Number=Plur	_	_	_	@<P
-5	vya	_	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	_	_	_	@GCON
-6	redio	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-7	vimeyapuuza	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Appl	_	_	_	@FMAINVtr+OBJ>
-8	maandamano	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-9	hayo	_	PRON	PRON	NounClass=Bantu6|Number=Plur	_	_	_	@<NDEM
-10	na	_	CCONJ	CC	_	_	_	_	_
-11	vinaendelea	_	VERB	V	Aspect=Imp|Mood=Cnd|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-12	na	_	CCONJ	CC	_	_	_	_	_
-13	shughuli	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-14	zao	_	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-15	kama	_	ADV	ADV	_	_	_	_	_
-16	vile	_	ADV	ADV	_	_	_	_	_
-17	hakuna	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr
-18	kilichotokea	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu7|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act|Voice=Appl	_	_	_	@FMAINVintr
-19	.	_	PUNCT	_	_	_	_	_	_
+# 6450 
+# strange and interesting case in which the more proximal of the two conjuncts shows agreement with the verb but the more distal one does not.
+# Mainstream newspapers and radio stations ignore the rally and go about their business like nothing happened.
+1	Magazeti	_	NOUN	N	NounClass=Bantu6|Number=Plur	7	nsubj	_	@SUBJ
+2	makubwa	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu6|Number=Plur	1	amod	_	@<NADJ
+3	na	_	CCONJ	CC	_	4	cc	_	_
+4	vituo	_	NOUN	N	NounClass=Bantu8|Number=Plur	1	conj	_	@<P
+5	vya	_	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	6	case	_	@GCON
+6	redio	_	NOUN	N	NounClass=Bantu9|Number=Sing	4	nmod	_	@<NH
+7	vimeyapuuza	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Appl	0	root	_	@FMAINVtr+OBJ>
+8	maandamano	_	NOUN	N	NounClass=Bantu6|Number=Plur	7	obj	_	@OBJ
+9	hayo	_	DET	PRON	NounClass=Bantu6|Number=Plur	8	det	_	@<NDEM
+10	na	_	CCONJ	CC	_	11	cc	_	_
+11	vinaendelea	_	VERB	V	Aspect=Imp|Mood=Cnd|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|Voice=Act	7	conj	_	@FMAINVtr-OBJ>
+12	na	_	ADP	CC	_	13	case	_	_
+13	shughuli	_	NOUN	N	NounClass=Bantu10|Number=Plur	11	nmod	_	@<P
+14	zao	_	DET	PRON	NounClass=Bantu10|Number=Plur	13	det	_	@GCON
+15	kama	_	ADV	ADV	_	18	advmod	_	_
+16	vile	_	ADV	ADV	_	15	fixed	_	_
+17	hakuna	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	18	cop	_	@FMAINVintr
+18	kilichotokea	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu7|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act|Voice=Appl	7	advcl	_	@FMAINVintr
+19	.	_	PUNCT	_	_	7	punct	_	_
 
-# 12830
+# 12830 
+# As Sundari said, “We are here for a common cause- we are here for the world
 1	Kama	_	SCONJ	CONJ	_	_	_	_	_
-2	Sundari	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-3	alivyosema	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu8|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
+2	Sundari	_	NOUN	N	NounClass=Bantu9|Number=Sing	3	nsubj	_	@<P
+3	alivyosema	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu8|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	0	root	_	@FMAINVtr-OBJ>
 4	,	_	PUNCT	COMMA	_	_	_	_	_
 5	“	_	PUNCT	NUM	_	_	_	_	_
 6	Tupo	_	AUX	V-BE	_	_	_	_	_
