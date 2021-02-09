@@ -602,7 +602,7 @@
 16	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	17	case	_	@GCON
 17	mantiki	_	NOUN	N	NounClass=Bantu9|Number=Sing	15	nmod	_	@<NH
 18	na	_	CCONJ	CC	_	19	cc	_	_
-19	wasio	_	VERB	REL-SI	_NounClass=Bantu2|Number=Plur	11	conj	_	_
+19	wasio	_	VERB	REL-SI	NounClass=Bantu2|Number=Plur	11	conj	_	_
 20	na	_	ADP	CC	_	21	case	_	_
 21	manufaa	_	NOUN	N	NounClass=Bantu6|Number=Plur	19	obl	_	@PAT
 22	,	_	PUNCT	COMMA	_	23	punct	_	_
