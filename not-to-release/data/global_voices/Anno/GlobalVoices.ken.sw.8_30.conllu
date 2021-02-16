@@ -921,168 +921,185 @@
 14	.	_	PUNCT	_	_	3	punct	_	_
 
 # 22071 
-# trans: How can you support CPJ’s #RightToReport in the Digital Age Campaign?
-1	Unawezaje	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=2|Polarity=Int|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-2	kuunga	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-3	mkono	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
-4	Kampeni	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-5	hiyo	_	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@<NDEM
-6	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-7	CPJ	_	PROPN	PROPNAME	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-8	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-9	#	_	PUNCT	NUM	_	_	_	_	_
-10	RightToReport	_	NOUN	PROPNAME	Degree=Pos	_	_	_	@OBJ
-11	kwenye	_	ADP	PREP	_	_	_	_	_
-12	enzi	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-13	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-14	Dijitali	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-15	?	_	PUNCT	QUESTION-MARK	_	_	_	_	_
+# trans: How can you support CPJ’s #RightToReport in the Digital Age Campaign? 
+# ilg: 2SG-pres-can-interog join 
+1	Unawezaje	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=2|Polarity=Int|Subcat=Tran|Tense=Pres|Voice=Act	2	aux	_	@FMAINVtr-OBJ>
+2	kuunga	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@-FMAINV-n
+3	mkono	_	NOUN	N	NounClass=Bantu3|Number=Sing	2	obj	_	@OBJ
+4	Kampeni	_	NOUN	N	NounClass=Bantu9|Number=Sing	2	iobj	_	@SUBJ
+5	hiyo	_	DET	PRON	NounClass=Bantu9|Number=Sing	4	det	_	@<NDEM
+6	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	7	case	_	@GCON
+7	CPJ	_	PROPN	PROPNAME	NounClass=Bantu9|Number=Sing	4	nmod	_	@<NH
+8	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	9	case	_	@GCON
+9	#RightToReport	_	PROPN	NUM	Degree=Pos	7	nmod	_	@OBJ
+10	kwenye	_	ADP	PREP	_	11	case	_	_
+11	enzi	_	NOUN	N	NounClass=Bantu10|Number=Plur	2	obl	_	@<P
+12	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	13	case	_	@GCON
+13	Dijitali	_	NOUN	N	NounClass=Bantu9|Number=Sing	11	nmod	_	@<NH
+14	?	_	PUNCT	QUESTION-MARK	_	2	punct	_	_
 
-# 1644
-1	Manaibu	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@SUBJ
-2	wajumbe	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<P
-3	10	_	NUM	NUM	_	_	_	_	_
-4	tu	_	ADV	ADV	_	_	_	_	_
+# 1644 
+# trans: Only 10 deputies supported a -sponsored no confidence motion in the Tymoshenko-led government in the Ukrainian parliament today. 
+# ilg: deputy delegate 10 only is? join hand manuscript  of being with trust 3-pat-1.rel-sponsor with in government 9-pres-9.rel-lead with tymoshenko in Parliament of Ukraine 
+1	Manaibu	_	NOUN	N	NounClass=Bantu6|Number=Plur	6	nsubj	_	@SUBJ
+2	wajumbe	_	NOUN	N	NounClass=Bantu2|Number=Plur	1	compound	_	@<P
+3	10	_	NUM	NUM	_	1	nummod	_	_
+4	tu	_	ADV	ADV	_	3	advmod	_	_
 5	ndio	_	ADV	V-BE	_	_	_	_	_
-6	waliounga	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	_	_	_	@FMAINVtr+OBJ>
-7	mkono	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
+6	waliounga	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	0	root	_	@FMAINVtr+OBJ>
+7	mkono	_	NOUN	N	NounClass=Bantu3|Number=Sing	6	obj	_	@OBJ
 8	muswada	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
-9	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-10	kutokuwa	_	VERB	V	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV
-11	na	_	CCONJ	CC	_	_	_	_	_
-12	imani	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@PAT
+9	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	10	case	_	@GCON
+10	kutokuwa	_	VERB	V	NounClass=Bantu15|Number=Sing	12	cop	_	@-FMAINV
+11	na	_	CCONJ	CC	_	12	case	_	_
+12	imani	_	NOUN	N	NounClass=Bantu9|Number=Sing	8	nmod	_	@PAT
 13	uliofadhiliwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-14	na	_	ADP	CC	_	_	_	_	_
-15	katika	_	ADP	PREP	_	_	_	_	_
+14	na	_	ADP	CC	_	16	case	_	_
+15	katika	_	ADP	PREP	_	16	case	_	_
 16	serikali	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-17	inayoongozwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-18	na	_	ADP	AG-PART	_	_	_	_	_
-19	Tymoshenko	_	VERB	PROPNAME	NounClass=Bantu3|Number=Sing	_	_	_	@AG
-20	katika	_	ADP	PREP	_	_	_	_	_
+17	inayoongozwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Pass	16	acl	_	@FMAINVtr-OBJ>
+18	na	_	ADP	AG-PART	_	19	case	_	_
+19	Tymoshenko	_	VERB	PROPNAME	NounClass=Bantu3|Number=Sing	17	obj	_	@AG
+20	katika	_	ADP	PREP	_	21	case	_	_
 21	bunge	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<P
-22	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-23	Ukraine	_	NOUN	N	Aspect=Imp|Mood=Sub|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@<NH
-24	leo	_	ADV	ADV	_	_	_	_	_
-25	hii	_	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@<NDEM
+22	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	23	case	_	@GCON
+23	Ukraine	_	NOUN	N	Aspect=Imp|Mood=Sub|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	21	nmod	_	@<NH
+24	leo	_	NOUN	N	_	_	_	_	_
+25	hii	_	DET	PRON	NounClass=Bantu9|Number=Sing	24	det	_	@<NDEM
 26	.	_	PUNCT	_	_	_	_	_	_
 
-# 14713
-1	Afrika	_	PROPN	PROPNAME	_	_	_	_	_
-2	na	_	CCONJ	CC	_	_	_	_	_
-3	Waafrika	_	PROPN	PROPNAME	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-4	hawana	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-5	hatia	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-6	na	_	CCONJ	CC	_	_	_	_	_
-7	kosa	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@OBJ
-8	lolote	_	PRON	PRON	NounClass=Bantu5|Number=Sing	_	_	_	@OBJ
-9	lenye	_	SCONJ	POSS-PRON	NounClass=Bantu5|Number=Sing	_	_	_	@ADVL
-10	mwonekano	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
-11	usiowa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-12	kimantiki	_	VERB	N	Degree=Pos|NounClass=Bantu7|Number=Sing	_	_	_	@-FMAINV-n
-13	.	_	PUNCT	_	_	_	_	_	_
+# 14713	
+# trans: Africa and Africans are not liable guilty of any offence in the form of irrationality. 
+# ilg: Africa and Africans 2.neg-be guilt and error any having visibility/form 3-neg-be logic
+1	Afrika	_	PROPN	PROPNAME	_	5	nsubj	_	_
+2	na	_	CCONJ	CC	_	3	cc	_	_
+3	Waafrika	_	PROPN	PROPNAME	NounClass=Bantu2|Number=Plur	1	conj	_	@SUBJ
+4	hawana	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	5	cop	_	@FMAINVtr+OBJ>
+5	hatia	_	NOUN	N	NounClass=Bantu9|Number=Sing	0	root	_	@OBJ
+6	na	_	CCONJ	CC	_	7	cc	_	_
+7	kosa	_	NOUN	N	NounClass=Bantu5|Number=Sing	5	conj	_	@OBJ
+8	lolote	_	DET	PRON	NounClass=Bantu5|Number=Sing	7	det	_	@OBJ
+9	lenye	_	SCONJ	POSS-PRON	NounClass=Bantu5|Number=Sing	12	mark	_	@ADVL
+10	mwonekano	_	NOUN	N	NounClass=Bantu3|Number=Sing	12	nsubj	_	@OBJ
+11	usiowa	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	12	cop	_	@FMAINVtr-OBJ>
+12	kimantiki	_	VERB	N	Degree=Pos|NounClass=Bantu7|Number=Sing	7	acl	_	@-FMAINV-n
+13	.	_	PUNCT	_	_	5	punct	_	_
 
-# 11452
-1	Kwa	_	ADP	PREP	_	_	_	_	_
-2	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<P
-3	wenye	_	SCONJ	POSS-PRON	NounClass=Bantu2|Number=Plur	_	_	_	@ADVL
-4	kipato	_	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@<P
-5	cha	_	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	_	_	_	@GCON
-6	chini	_	ADV	N	_	_	_	_	_
-7	au	_	CCONJ	CONJ/CC	_	_	_	_	_
-8	wale	_	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-9	wasio	_	PRON	REL-SI	_	_	_	_	_
-10	nacho	_	CCONJ	CC	NounClass=Bantu7|Number=Sing	_	_	_	@PAT
-11	kabisa	_	ADV	ADV	_	_	_	_	_
-12	,	_	PUNCT	COMMA	_	_	_	_	_
-13	kilimo	_	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@SUBJ
-14	cha	_	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	_	_	_	@GCON
-15	bustani	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<NH
-16	mijini	_	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@P>
-17	chaweza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-18	kuwa	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@-FMAINV-n
-19	sehemu	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-20	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-21	suluhisho	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<NH
-22	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-23	kuwa	_	NOUN	V	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-24	na	_	CCONJ	PREP	_	_	_	_	_
-25	chakula	_	NOUN	N	NounClass=Bantu7|Number=Coll|Number=Sing	_	_	_	@<P
-26	cha	_	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	_	_	_	@GCON
-27	hakika	_	ADV	ADV	_	_	_	_	_
-28	.	_	PUNCT	_	_	_	_	_	_
+# 11452 
+# Kwa watu wenye kipato cha chini au wale wasio nacho kabisa, kilimo cha bustani mijini chaweza kuwa sehemu ya suluhisho la kuwa na chakula cha hakika.
+# trans: For people with low or no income, urban gardening may be the key to food security. 
+# ilg: for people having income of bottom or 2-those 2-neg.be-rel with 7-those entirely farming of garden city-loc 7-can inf-be area of solution? of being with food of certainty
+1	Kwa	_	ADP	PREP	_	2	case	_	_
+2	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	20	obl	_	@<P
+3	wenye	_	ADP	POSS-PRON	NounClass=Bantu2|Number=Plur	4	case	_	@ADVL
+4	kipato	_	NOUN	N	NounClass=Bantu7|Number=Sing	2	nmod	_	@<P
+5	cha	_	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	6	case	_	@GCON
+6	chini	_	ADV	N	_	4	nmod	_	_
+7	au	_	CCONJ	CONJ/CC	_	8	cc	_	_
+8	wale	_	PRON	PRON	NounClass=Bantu2|Number=Plur	2	conj	_	@SUBJ
+9	wasio	_	AUX	REL-SI	_	11	cop	_	_
+10	na	_	ADP	_	_	11	case	_	_
+11	cho	_	PRON	PRON	NounClass=Bantu7|Number=Sing	8	acl	_	@PAT
+12	kabisa	_	ADV	ADV	_	11	advmod	_	_
+13	,	_	PUNCT	COMMA	_	20	punct	_	_
+14	kilimo	_	NOUN	N	NounClass=Bantu7|Number=Sing	20	nsubj	_	@SUBJ
+15	cha	_	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	16	case	_	@GCON
+16	bustani	_	NOUN	N	NounClass=Bantu5|Number=Sing	14	nmod	_	@<NH
+17	mijini	_	NOUN	N	NounClass=Bantu4|Number=Plur	14	nmod	_	@P>
+18	chaweza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	20	aux	_	@FMAINVtr-OBJ>
+19	kuwa	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	20	cop	_	@-FMAINV-n
+20	sehemu	_	NOUN	N	NounClass=Bantu9|Number=Sing	0	root	_	@<P
+21	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	22	case	_	@GCON
+22	suluhisho	_	NOUN	N	NounClass=Bantu5|Number=Sing	20	nmod	_	@<NH
+23	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	26	case	_	@GCON
+24	kuwa	_	NOUN	V	NounClass=Bantu15|Number=Sing	26	cop	_	@<NH
+25	na	_	ADP	PREP	_	26	case	_	_
+26	chakula	_	NOUN	N	NounClass=Bantu7|Number=Coll|Number=Sing	22	nmod	_	@<P
+27	cha	_	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	28	case	_	@GCON
+28	hakika	_	NOUN	ADV	_	26	nmod	_	_
+29	.	_	PUNCT	_	_	20	punct	_	_
 
-# 13679
-1	Mwanaharakati	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-2	Mejdi	_	PROPN	PROPNAME	Degree=Pos|NounClass=Bantu1|Number=Sing	_	_	_	@<NADJ
-3	Ahmed	_	PROPN	PROPNAME	_	_	_	_	_
-4	pia	_	ADV	ADV	_	_	_	_	_
-5	alitia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-6	neno	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@OBJ
-7	katika	_	ADP	PREP	_	_	_	_	_
-8	suala	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<P
-9	hili	_	PRON	PRON	NounClass=Bantu5|Number=Sing	_	_	_	@<NDEM
-10	:	_	PUNCT	QUESTION-MARK	_	_	_	_	_
+# 13679 
+# Mwanaharakati Mejdi Ahmed pia alitia neno katika suala hili: 
+# trans: Activist Mejdi Ahmed also had his word about the matter:
+1	Mwanaharakati	_	NOUN	N	NounClass=Bantu1|Number=Sing	5	nsubj	_	@SUBJ
+2	Mejdi	_	PROPN	PROPNAME	Degree=Pos|NounClass=Bantu1|Number=Sing	1	appos	_	@<NADJ
+3	Ahmed	_	PROPN	PROPNAME	_	2	flat	_	_
+4	pia	_	ADV	ADV	_	5	advmod	_	_
+5	alitia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	0	root	_	@FMAINVtr+OBJ>
+6	neno	_	NOUN	N	NounClass=Bantu5|Number=Sing	5	obj	_	@OBJ
+7	katika	_	ADP	PREP	_	8	case	_	_
+8	suala	_	NOUN	N	NounClass=Bantu5|Number=Sing	5	obl	_	@<P
+9	hili	_	DET	PRON	NounClass=Bantu5|Number=Sing	8	det	_	@<NDEM
+10	:	_	PUNCT	QUESTION-MARK	_	5	punct	_	_
 
-# 1270
-1	Hizi	_	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@SUBJ
-2	ni	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-def
-3	lugha	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-4	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-5	kweli	_	ADV	ADV	_	_	_	_	_
-6	na	_	CCONJ	CC	_	_	_	_	_
-7	zinaonyesha	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr+OBJ>
-8	uwezo	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
-9	zaidi	_	ADJ	ADJ	Degree=Cmp	_	_	_	@AD-A>
-10	ya	_	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	_	_	_	@GCON
-11	Ki	_	NOUN	PROPNAME	_	_	_	_	_
-12	-	_	PUNCT	HYPHEN	_	_	_	_	_
-13	Manx	_	PROPN	PROPNAME	_	_	_	_	_
-14	na	_	CCONJ	CC	_	_	_	_	_
-15	Ki	_	AUX	V-BE	_	_	_	_	_
-16	-	_	PUNCT	HYPHEN	_	_	_	_	_
-17	Tirahi	_	NOUN	PROPNAME	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-18	.	_	PUNCT	_	_	_	_	_	_
+# 1270 
+# Hizi ni lugha za kweli na zinaonyesha uwezo zaidi ya Ki-Manx na Ki-Tirahi
+# trans: These are real languages and show a lot more vitality than Manx and Tirahi.
+# these-10 be language of truth and 10-pres-show ability more
+1	Hizi	_	PRON	PRON	NounClass=Bantu10|Number=Plur	3	nsubj	_	@SUBJ
+2	ni	_	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	3	cop	_	@FMAINVintr-def
+3	lugha	_	NOUN	N	NounClass=Bantu10|Number=Plur	0	root	_	@<P
+4	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	5	case	_	@GCON
+5	kweli	_	NOUN	ADV	NounClass=Bantu11|Number=Sing	3	nmod	_	_
+6	na	_	CCONJ	CC	_	7	cc	_	_
+7	zinaonyesha	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	3	conj	_	@FMAINVtr+OBJ>
+8	uwezo	_	NOUN	N	NounClass=Bantu11|Number=Sing	7	obj	_	@OBJ
+9	zaidi	_	ADJ	ADJ	Degree=Cmp	11	case	_	@AD-A>
+10	ya	_	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	9	compound	_	@GCON
+11	Ki-Manx	_	PROPN	PROPNAME	_	8	nmod	_	_
+12	na	_	CCONJ	CC	_	13	cc	_	_
+13	Ki-Tirahi	_	PROPN	V-BE	NounClass=Bantu9|Number=Sing	11	conj	_	@OBJ
+14	.	_	PUNCT	_	_	3	punct	_	_
 
-# 772
-1	Jumatano	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-2	,	_	PUNCT	COMMA	_	_	_	_	_
-3	msemaji	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-4	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-5	CNDP	_	PROPN	PROPNAME	_	_	_	_	_
-6	alitangaza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr-OBJ>
-7	kusitishwa	_	VERB	V	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV-n
-8	kwa	_	ADP	GEN-CON-KWA	_	_	_	_	_
-9	mapigano	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
-10	,	_	PUNCT	COMMA	_	_	_	_	_
-11	japokuwa	_	ADV	ADV	_	_	_	_	_
-12	hali	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-13	huko	_	ADV	ADV	_	_	_	_	_
-14	Goma	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-15	iliendelea	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVintr
-16	kuwa	_	SCONJ	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@CS
-17	kutoeleweka	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@-FMAINV
-18	.	_	PUNCT	_	_	_	_	_	_
+# 772 
+# Jumatano, msemaji wa CNDP alitangaza kusitishwa kwa mapigano, japokuwa hali huko Goma iliendelea kuwa kutoeleweka.
+# trans: On Wednesday, a spokesperson of the CNDP announced a unilateral ceasefire, although the situation on the ground in Goma remains chaotic. 
+# Wednesday, speaker of CNDP 1-past-announce inf-hesitate-cause for battle
+1	Jumatano	_	NOUN	N	NounClass=Bantu9|Number=Sing	6	obl	_	@SUBJ
+2	,	_	PUNCT	COMMA	_	6	punct	_	_
+3	msemaji	_	NOUN	N	NounClass=Bantu1|Number=Sing	6	nsubj	_	@SUBJ
+4	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	5	case	_	@GCON
+5	CNDP	_	PROPN	PROPNAME	_	3	nmod	_	_
+6	alitangaza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Cau	0	root	_	@FMAINVtr-OBJ>
+7	kusitishwa	_	VERB	V	NounClass=Bantu15|Number=Sing	6	xcomp	_	@-FMAINV-n
+8	kwa	_	ADP	GEN-CON-KWA	_	9	case	_	_
+9	mapigano	_	NOUN	N	NounClass=Bantu6|Number=Plur	7	nmod	_	@<P
+10	,	_	PUNCT	COMMA	_	6	punct	_	_
+11	japokuwa	_	ADV	ADV	_	15	advmod	_	_
+12	hali	_	NOUN	N	NounClass=Bantu9|Number=Sing	15	nsubj	_	@SUBJ
+13	huko	_	DET	ADV	_	14	det	_	_
+14	Goma	_	PROPN	N	NounClass=Bantu9|Number=Sing	12	nmod	_	@SUBJ
+15	iliendelea	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	6	advcl	_	@FMAINVintr
+16	kuwa	_	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	15	xcomp	_	@CS
+17	kutoeleweka	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	16	xcomp	_	@-FMAINV
+18	.	_	PUNCT	_	_	6	punct	_	_
 
-# 22999
-1	Nimekuwa	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVintr
-2	mwanaharakati	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ+rel
-3	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-4	siasa	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-5	tangu	_	ADP	PREP	_	_	_	_	_
-6	nikiwa	_	VERB	V	Aspect=Imp|Mood=Cnd|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVintr
-7	na	_	ADP	PREP	_	_	_	_	_
-8	umri	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<P
-9	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-10	miaka	_	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@<NH
-11	18	_	NUM	NUM	_	_	_	_	_
-12	.	_	PUNCT	_	_	_	_	_	_
+# 22999 
+# Nimekuwa mwanaharakati wa siasa tangu nikiwa na umri wa miaka 18.
+# trans: I have been a political activist since I was 18 years old.
+1	Nimekuwa	_	AUX	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Intr|Voice=Act	2	cop	_	@FMAINVintr
+2	mwanaharakati	_	NOUN	N	NounClass=Bantu1|Number=Sing	0	root	_	@SUBJ+rel
+3	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	4	case	_	@GCON
+4	siasa	_	NOUN	N	NounClass=Bantu9|Number=Sing	2	nmod	_	@<NH
+5	tangu	_	SCONJ	PREP	_	8	mark	_	_
+6	nikiwa	_	VERB	V	Aspect=Imp|Mood=Cnd|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Subcat=Intr|Tense=Pres|Voice=Act	8	cop	_	@FMAINVintr
+7	na	_	ADP	PREP	_	8	case	_	_
+8	umri	_	NOUN	N	NounClass=Bantu11|Number=Sing	2	advcl	_	@<P
+9	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	10	case	_	@GCON
+10	miaka	_	NOUN	N	NounClass=Bantu4|Number=Plur	8	nmod	_	@<NH
+11	18	_	NUM	NUM	_	10	nummod	_	_
+12	.	_	PUNCT	_	_	2	punct	_	_
 
-# 18784
-1	Kwa	_	ADP	PREP	_	_	_	_	_
-2	hakika	_	ADV	ADV	_	_	_	_	_
+# 18784 
+# Kwa hakika, watu maarufu kama Khabensky wanauwezekano mkuba wa kumsifu Rais nyakati za migogoro ya kimataifa.
+# trans: In fact, people as famous as Khabensky are far likelier to laud the President in times of international crisis. 
+# ilg: for truth, people distinguished like Khabensky 
+1	Kwa	_	ADP	PREP	_	2	case	_	_
+2	hakika	_	NOUN	N	NounClass=9|Number=Sing	_	_	_	_
 3	,	_	PUNCT	COMMA	_	_	_	_	_
 4	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-5	maarufu	_	ADJ	ADJ	Degree=Pos	_	_	_	@<NADJ
+5	maarufu	_	ADJ	ADJ	Degree=Pos	4	amod	_	@<NADJ
 6	kama	_	ADV	ADV	_	_	_	_	_
 7	Khabensky	_	PROPN	PROPNAME	_	_	_	_	_
 8	wanauwezekano	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVtr+OBJ>
