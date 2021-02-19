@@ -1094,105 +1094,119 @@
 # 18784 
 # Kwa hakika, watu maarufu kama Khabensky wanauwezekano mkuba wa kumsifu Rais nyakati za migogoro ya kimataifa.
 # trans: In fact, people as famous as Khabensky are far likelier to laud the President in times of international crisis. 
-# ilg: for truth, people distinguished like Khabensky 
+# ilg: for truth, people distinguished like Khabensky 2-pres-be.likely largeness? of praising president time of dispute of nations.
 1	Kwa	_	ADP	PREP	_	2	case	_	_
-2	hakika	_	NOUN	N	NounClass=9|Number=Sing	_	_	_	_
-3	,	_	PUNCT	COMMA	_	_	_	_	_
-4	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
+2	hakika	_	NOUN	N	NounClass=9|Number=Sing	8	obl	_	_
+3	,	_	PUNCT	COMMA	_	8	punct	_	_
+4	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	8	nsubj	_	@SUBJ
 5	maarufu	_	ADJ	ADJ	Degree=Pos	4	amod	_	@<NADJ
-6	kama	_	ADV	ADV	_	_	_	_	_
-7	Khabensky	_	PROPN	PROPNAME	_	_	_	_	_
-8	wanauwezekano	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-9	mkuba	_	NOUN	N	_	_	_	_	_
-10	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-11	kumsifu	_	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-12	Rais	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-13	nyakati	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-14	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-15	migogoro	_	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@<NH
-16	ya	_	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	_	_	_	@GCON
-17	kimataifa	_	ADV	ADV	_	_	_	_	_
-18	.	_	PUNCT	_	_	_	_	_	_
+6	kama	_	ADV	ADV	_	5	advmod	_	_
+7	Khabensky	_	PROPN	PROPNAME	_	6	nmod	_	_
+8	wanauwezekano	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	0	root	_	@FMAINVtr+OBJ>
+9	mkuba	_	NOUN	N	_	8	obj	_	_
+10	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	11	case	_	@GCON
+11	kumsifu	_	NOUN	N	NounClass=Bantu15|Number=Sing	9	nmod	_	@<NH
+12	Rais	_	NOUN	N	NounClass=Bantu9|Number=Sing	11	obj	_	@OBJ
+13	nyakati	_	NOUN	N	NounClass=Bantu10|Number=Plur	8	obl	_	@OBJ
+14	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	15	case	_	@GCON
+15	migogoro	_	NOUN	N	NounClass=Bantu4|Number=Plur	13	nmod	_	@<NH
+16	ya	_	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	17	case	_	@GCON
+17	kimataifa	_	NOUN	ADV	_	15	nmod	_	_
+18	.	_	PUNCT	_	_	8	punct	_	_
 
-# 5886
-1	Mfumo	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@SUBJ
-2	unapaswa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-3	kudumishwa	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	_	_	_	@-FMAINV-n
-4	ili	_	SCONJ	CONJ	_	_	_	_	_
-5	kuepuka	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-6	kuundwa	_	VERB	N	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV-n
-7	kwa	_	ADP	GEN-CON-KWA	NounClass=Bantu15|Number=Sing	_	_	_	@ADVL
-8	hali	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-9	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-10	kutegemewa	_	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-11	katika	_	ADP	PREP	_	_	_	_	_
-12	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<P
-13	ambao	_	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-14	wanakuwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVintr
-15	marais	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
-16	.	_	PUNCT	_	_	_	_	_	_
+# 5886 
+# trans: The status quo should be maintained to avoid creating an aura of indispensability around individuals who become President.
+# ilg: structure 3-pres-be.obliged maintaining that avoiding constructing for situation of inf-rely.on in people who 2-pres-be presidents
+1	Mfumo	_	NOUN	N	NounClass=Bantu3|Number=Sing	2	nsubj	_	@SUBJ
+2	unapaswa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	0	root	_	@FMAINVtr-OBJ>
+3	kudumishwa	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	2	xcomp	_	@-FMAINV-n
+4	ili	_	SCONJ	CONJ	_	5	mark	_	_
+5	kuepuka	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	3	ccomp	_	@-FMAINV-n
+6	kuundwa	_	VERB	N	NounClass=Bantu15|Number=Sing	5	xcomp	_	@-FMAINV-n
+7	kwa	_	ADP	GEN-CON-KWA	NounClass=Bantu15|Number=Sing	8	case	_	@ADVL
+8	hali	_	NOUN	N	NounClass=Bantu9|Number=Sing	6	nmod	_	@<P
+9	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	10	case	_	@GCON
+10	kutegemewa	_	NOUN	N	NounClass=Bantu15|Number=Sing	8	nmod	_	@<NH
+11	katika	_	ADP	PREP	_	12	case	_	_
+12	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	8	nmod	_	@<P
+13	ambao	_	PRON	PRON	NounClass=Bantu2|Number=Plur	15	nsubj	_	@SUBJ
+14	wanakuwa	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	15	cop	_	@FMAINVintr
+15	marais	_	NOUN	N	NounClass=Bantu6|Number=Plur	12	acl	_	@<P
+16	.	_	PUNCT	_	_	2	punct	_	_
 
-# 18023
-1	Labda	_	ADV	ADV	_	_	_	_	_
-2	mtazamo	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@SUBJ
-3	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-4	Meena	_	PROPN	PROPNAME	NounClass=Bantu3|Number=Sing	_	_	_	@<NH
-5	ulinikaa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-6	zana	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-7	akili	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-8	mwangu	_	PRON	PRON	NounClass=Bantu18|Number=Sing	_	_	_	@GCON
-9	tangu	_	ADP	PREP	_	_	_	_	_
-10	awali	_	NOUN	ADV	_	_	_	_	_
-11	na	_	CCONJ	CC	_	_	_	_	_
-12	ndio	_	AUX	V-BE	_	_	_	_	_
-13	maana	_	SCONJ	CONJ	_	_	_	_	_
-14	ninaamini	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-15	hisia	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-16	hizi	_	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@<NDEM
-17	ndizo	_	AUX	V-BE	NounClass=Bantu10|Number=Plur	_	_	_	@FMAINVintr-def
-18	zilizonisaidia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	_	_	_	@FMAINVtr-OBJ>
-19	kumtangaza	_	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	_	_	_	@-FMAINV-n
-20	Meena	_	PROPN	PROPNAME	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@OBJ
-21	.	_	PUNCT	_	_	_	_	_	_
+# 18023  
+# Labda mtazamo wa Meena ulinikaa zana akili mwangu tangu awali na ndio maana ninaamini hisia hizi ndizo zilizonisaidia kumtangaza Meena.
+# trans: Maybe Meena’s accent struck to my mind since then and I believe that feeling helped me in my voice over for Meena.
+# ilg: perhaps accent/attitude? of Meena 3-past-stay implant mind my since beginning and is.emph reason 1-pres-dream feeling this is.emph 10-past-10.rel-1S-help inf-3S-announce Meena
+1	Labda	_	ADV	ADV	_	5	advmod	_	_
+2	mtazamo	_	NOUN	N	NounClass=Bantu3|Number=Sing	5	nsubj	_	@SUBJ
+3	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	4	case	_	@GCON
+4	Meena	_	PROPN	PROPNAME	NounClass=Bantu3|Number=Sing	2	nmod	_	@<NH
+5	ulinikaa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	0	root	_	@FMAINVtr+OBJ>
+6	zana	_	NOUN	N	NounClass=Bantu10|Number=Plur	5	obj	_	@OBJ
+7	akili	_	NOUN	N	NounClass=Bantu10|Number=Plur	6	nmod	_	@OBJ
+8	mwangu	_	DET	PRON	NounClass=Bantu18|Number=Sing	7	nmod	_	@GCON
+9	tangu	_	ADP	PREP	_	10	case	_	_
+10	awali	_	NOUN	ADV	_	5	obl	_	_
+11	na	_	CCONJ	CC	_	14	cc	_	_
+12	ndio	_	AUX	V-BE	_	14	aux	_	_
+13	maana	_	NOUN	N	NounClass=Bantu9|Number=Sing	14	obl	_	_
+14	ninaamini	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	5	conj	_	@FMAINVtr+OBJ>
+15	hisia	_	NOUN	N	NounClass=Bantu10|Number=Plur	18	nsubj	_	@OBJ
+16	hizi	_	DET	PRON	NounClass=Bantu10|Number=Plur	15	det	_	@<NDEM
+17	ndizo	_	AUX	V-BE	NounClass=Bantu10|Number=Plur	18	aux	_	@FMAINVintr-def
+18	zilizonisaidia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|ObjNounClass=1|ObjPerson=1|ObjNumber=Sing|Person=3|Polarity=Pos|RelSubcat=Intr|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	14	ccomp	_	@FMAINVtr-OBJ>
+19	kumtangaza	_	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	18	xcomp	_	@-FMAINV-n
+20	Meena	_	PROPN	PROPNAME	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=2|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	19	obj	_	@OBJ
+21	.	_	PUNCT	_	_	5	punct	_	_
 
-# 24762
-1	Sarafu	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@SUBJ
-2	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-3	Syria	_	PROPN	PROPNAME	_	_	_	_	_
-4	zilizotengenezwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu8|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	_	_	_	@FMAINVintr
-5	kwa	_	ADP	PREP	_	_	_	_	_
-6	dhahabu	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-7	zikiwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVintr
-8	mnadani	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@<P
-9	kwenye	_	ADP	PREP	_	_	_	_	_
-10	mtandao	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@<P
-11	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-12	Facebook	_	PROPN	N	_	_	_	_	_
-13	.	_	PUNCT	_	_	_	_	_	_
+# 24762 
+# Sarafu za Syria zilizotengenezwa kwa dhahabu zikiwa mnadani kwenye mtandao wa Facebook. 
+# trans: Syrian gold coins on sale on a facebook page 
+# ilg: coins of syria 10-past-10.rel-prepared for gold 10-be? auction in page of facebook .
+1	Sarafu	_	NOUN	N	NounClass=Bantu10|Number=Plur	8	nsubj	_	@SUBJ
+2	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	3	case	_	@GCON
+3	Syria	_	PROPN	PROPNAME	_	1	nmod	_	_
+4	zilizotengenezwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu8|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	1	acl	_	@FMAINVintr
+5	kwa	_	ADP	PREP	_	6	case	_	_
+6	dhahabu	_	NOUN	N	NounClass=Bantu9|Number=Sing	4	obl	_	@<P
+7	zikiwa	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	8	cop	_	@FMAINVintr
+8	mnadani	_	NOUN	N	NounClass=Bantu3|Number=Sing	0	root	_	@<P
+9	kwenye	_	ADP	PREP	_	10	case	_	_
+10	mtandao	_	NOUN	N	NounClass=Bantu3|Number=Sing	8	nmod	_	@<P
+11	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	12	case	_	@GCON
+12	Facebook	_	PROPN	N	_	10	nmod	_	_
+13	.	_	PUNCT	_	_	8	punct	_	_
 
-# 6643
-1	Pia	_	ADV	ADV	_	_	_	_	_
-2	kuna	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr
-3	ukurasa	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
-4	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-5	Facebook	_	NOUN	N	_	_	_	_	_
-6	wenye	_	SCONJ	POSS-PRON	NounClass=Bantu2|Number=Plur	_	_	_	@ADVL
-7	zaidi	_	ADJ	ADJ	Degree=Cmp	_	_	_	@AD-A>
-8	ya	_	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	_	_	_	@GCON
-9	washabiki	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<NH
-10	700	_	NUM	NUM	_	_	_	_	_
-11	,	_	PUNCT	COMMA	_	_	_	_	_
-12	ambapo	_	PRON	PRON	NounClass=Bantu16|Number=Sing	_	_	_	@ADVL
-13	tayari	_	ADV	ADV	Degree=Pos	_	_	_	@ADVL
-14	mapendekezo	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
-15	yamekwishaanza	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-16	kutolewa	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Appl|Voice=Pass	_	_	_	@-FMAINV-n
-17	.	_	PUNCT	_	_	_	_	_	_
+# 6643 
+# Pia kuna ukurasa wa Facebook wenye zaidi ya washabiki 700, ambapo tayari mapendekezo yamekwishaanza kutolewa.
+# trans: There is also a Facebook page with almost 700 fans, where suggestions have already been posted. 
+# ilg: also there.is page of facebook 
+1	Pia	_	ADV	ADV	_	3	advmod	_	_
+2	kuna	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	3	cop	_	@FMAINVintr
+3	ukurasa	_	NOUN	N	NounClass=Bantu11|Number=Sing	0	root	_	@OBJ
+4	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	5	case	_	@GCON
+5	Facebook	_	NOUN	N	_	3	nmod	_	_
+6	wenye	_	ADP	POSS-PRON	NounClass=Bantu2|Number=Plur	9	case	_	@ADVL
+7	zaidi	_	ADJ	ADJ	Degree=Cmp	9	case	_	@AD-A>
+8	ya	_	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	7	fixed	_	@GCON
+9	washabiki	_	NOUN	N	NounClass=Bantu2|Number=Plur	3	nmod	_	@<NH
+10	700	_	NUM	NUM	_	9	nummod	_	_
+11	,	_	PUNCT	COMMA	_	15	punct	_	_
+12	ambapo	_	PRON	PRON	NounClass=Bantu16|Number=Sing	15	obl	_	@ADVL
+13	tayari	_	ADV	ADV	Degree=Pos	15	advmod	_	@ADVL
+14	mapendekezo	_	NOUN	N	NounClass=Bantu6|Number=Plur	15	nsubj	_	@<P
+15	yamekwishaanza	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	3	acl	_	@FMAINVtr-OBJ>
+16	kutolewa	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Appl|Voice=Pass	15	xcomp	_	@-FMAINV-n
+17	.	_	PUNCT	_	_	3	punct	_	_
 
-# 24003
+# 24003 
+# Lakini nina wasiwasi kwamba hadhira hii inaweza isimsaidie mwanablogu. 
+# trans: But I suspect that much of this audience will never be yours. 
+# ilg: but 1S-have doubts that 
 1	Lakini	_	SCONJ	CONJ	_	_	_	_	_
 2	nina	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-3	wasiwasi	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
+3	wasiwasi	_	NOUN	N	NounClass=Bantu11|Number=Sing	2	obj	_	@OBJ
 4	kwamba	_	SCONJ	CONJ	_	_	_	_	_
 5	hadhira	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
 6	hii	_	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@<NDEM
