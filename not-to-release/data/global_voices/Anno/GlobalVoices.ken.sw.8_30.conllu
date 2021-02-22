@@ -1407,21 +1407,21 @@
 # 2509 
 # Ingawa ni chombo kilichojitokeza hivi karibuni tu katika mapambano ya kandanda, kuna baadhi ya watu wanaohusianisha asili yake na utamaduni wa Kiafrika.
 # trans: Though a fairly recent instrument at South African football games, some trace the roots to African tradition.
-# ilg: although is tool 7-past-7.rel-emerge 
+# ilg: although is tool 7-past-7.rel-emerge recently _ just in contests of football? , there are some of people 
 1	Ingawa	_	ADV	CONJ	_	3	advmod	_	_
 2	ni	_	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	3	cop	_	@FMAINVintr-def
-3	chombo	_	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@<P
+3	chombo	_	NOUN	N	NounClass=Bantu7|Number=Sing	0	root	_	@<P
 4	kilichojitokeza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu7|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	3	acl	_	@FMAINVintr
-5	hivi	_	ADV	ADV	_	_	_	_	_
+5	hivi	_	ADV	ADV	_	4	advmod	_	_
 6	karibuni	_	ADV	ADV	_	5	fixed	_	_
-7	tu	_	ADV	ADV	_	_	_	_	_
+7	tu	_	ADV	ADV	_	5	advmod	_	_
 8	katika	_	ADP	PREP	_	9	case	_	_
-9	mapambano	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
+9	mapambano	_	NOUN	N	NounClass=Bantu6|Number=Plur	4	obl	_	@<P
 10	ya	_	ADP	GEN-CON	NounClass=Bantu6|Number=Plur	11	case	_	@GCON
 11	kandanda	_	NOUN	N	_	9	nmod	_	_
-12	,	_	PUNCT	COMMA	_	_	_	_	_
+12	,	_	PUNCT	COMMA	_	14	punct	_	_
 13	kuna	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	14	cop	_	@FMAINVintr
-14	baadhi	_	NOUN	N	NounClass=Bantu9|Number=Sing	0	root	_	@SUBJ
+14	baadhi	_	NOUN	N	NounClass=Bantu9|Number=Sing	3	parataxis	_	@SUBJ
 15	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	16	case	_	@GCON
 16	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	14	nmod	_	@<NH
 17	wanaohusianisha	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu16|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act	16	acl	_	@FMAINVtr-OBJ>
@@ -1433,84 +1433,95 @@
 23	Kiafrika	_	PROPN	PROPNAME	NounClass=Bantu7|Number=Sing	21	nmod	_	@<NH
 24	.	_	PUNCT	_	_	14	punct	_	_
 
-# 4917
-1	Mwanamume	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-2	mmoja	_	NUM	NUM	NounClass=Bantu1|NumType=Card|Number=Sing	_	_	_	@QN
-3	mwenye	_	SCONJ	POSS-PRON	NounClass=Bantu1|Number=Sing	_	_	_	@ADVL
-4	umri	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<P
-5	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-6	miaka	_	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@<NH
-7	55	_	NUM	NUM	_	_	_	_	_
-8	au	_	CCONJ	CONJ/CC	_	_	_	_	_
-9	zaidi	_	ADJ	ADJ	Degree=Cmp	_	_	_	@AD-A>
-10	kidogo	_	ADJ	ADJ	Degree=Pos	_	_	_	@ADVL
-11	.	_	PUNCT	_	_	_	_	_	_
-12	watoto	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-13	wake	_	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-14	walimfukuza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-15	kutoka	_	ADP	V	_	_	_	_	_
-16	kwenye	_	ADP	PREP	_	_	_	_	_
-17	nyumba	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@P>
-18	yake	_	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-19	mwenyewe	_	PRON	PRON	NounClass=Bantu1|Number=Sing	_	_	_	@ADVL
-20	.	_	PUNCT	_	_	_	_	_	_
+# 4917 
+# Mwanamume mmoja mwenye umri wa miaka 55 au zaidi kidogo. watoto wake walimfukuza kutoka kwenye nyumba yake mwenyewe.
+# trans: A man, aged 55 or a little older. His children threw him out of his home.
+# ilg: 
+1	Mwanamume	_	NOUN	N	NounClass=Bantu1|Number=Sing	14	discourse	_	@SUBJ
+2	mmoja	_	NUM	NUM	NounClass=Bantu1|NumType=Card|Number=Sing	1	nummod	_	@QN
+3	mwenye	_	ADP	POSS-PRON	NounClass=Bantu1|Number=Sing	4	case	_	@ADVL
+4	umri	_	NOUN	N	NounClass=Bantu11|Number=Sing	1	nmod	_	@<P
+5	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	6	case	_	@GCON
+6	miaka	_	NOUN	N	NounClass=Bantu4|Number=Plur	4	nmod	_	@<NH
+7	55	_	NUM	NUM	_	6	nummod	_	_
+8	au	_	CCONJ	CONJ/CC	_	9	cc	_	_
+9	zaidi	_	ADJ	ADJ	Degree=Cmp	6	conj	_	@AD-A>
+10	kidogo	_	ADV	ADJ	Degree=Pos	9	advmod	_	@ADVL
+11	.	_	PUNCT	_	_	14	punct	_	_
+12	watoto	_	NOUN	N	NounClass=Bantu2|Number=Plur	14	nsubj	_	@SUBJ
+13	wake	_	DET	PRON	NounClass=Bantu2|Number=Plur	12	nmod	_	@GCON
+14	walimfukuza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+15	kutoka	_	ADP	V	_	17	case	_	_
+16	kwenye	_	ADP	PREP	_	17	case	_	_
+17	nyumba	_	NOUN	N	NounClass=Bantu9|Number=Sing	14	obl	_	@P>
+18	yake	_	DET	PRON	NounClass=Bantu9|Number=Sing	17	nmod	_	@GCON
+19	mwenyewe	_	PRON	PRON	NounClass=Bantu1|Number=Sing	14	obj	_	@ADVL
+20	.	_	PUNCT	_	_	14	punct	_	_
 
-# 5117
-1	Ikikabilia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-2	na	_	CCONJ	CC	_	_	_	_	_
-3	kukosolewa	_	VERB	V	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV-n
-4	,	_	PUNCT	COMMA	_	_	_	_	_
-5	China	_	PROPN	PROPNAME	_	_	_	_	_
-6	ilieleza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-7	vikali	_	ADV	ADV	_	_	_	_	_
-8	kutoridhika	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@-FMAINV-n
-9	.	_	PUNCT	_	_	_	_	_	_
+# 5117 
+# Ikikabilia na kukosolewa, China ilieleza vikali kutoridhika.
+# trans: Facing the critique, China expressed strong discontent.
+# ilg: 9-cont-face 
+1	Ikikabilia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	6	advcl	_	@FMAINVtr-OBJ>
+2	na	_	ADP	CC	_	3	case	_	_
+3	kukosolewa	_	VERB	V	NounClass=Bantu15|Number=Sing	1	nmod	_	@-FMAINV-n
+4	,	_	PUNCT	COMMA	_	6	punct	_	_
+5	China	_	PROPN	PROPNAME	_	6	nsubj	_	_
+6	ilieleza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+7	vikali	_	ADV	ADV	_	8	advmod	_	_
+8	kutoridhika	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	6	xcomp	_	@-FMAINV-n
+9	.	_	PUNCT	_	_	6	punct	_	_
 
-# 19628
-1	Askari	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-2	yeyote	_	PRON	PRON	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-3	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-4	Misri	_	PROPN	PROPNAME	_	_	_	_	_
-5	ametumikia	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-6	katika	_	ADP	PREP	_	_	_	_	_
-7	jeshi	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<P
-8	anajua	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-9	vizuri	_	ADV	ADV	_	_	_	_	_
-10	sana	_	ADJ	ADJ	Degree=Pos	_	_	_	@<AD-A
-11	mikopo	_	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@OBJ
-12	mikubwa	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu4|Number=Plur	_	_	_	@<NADJ
-13	majenerali	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-14	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-15	jeshi	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<NH
-16	inayoingizwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act|Voice=Rcp	_	_	_	@FMAINVtr-OBJ>
-17	kwenye	_	ADP	PREP	_	_	_	_	_
-18	akaunti	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-19	zao	_	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-20	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-21	benki	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-22	.	_	PUNCT	_	_	_	_	_	_
+# 19628 
+# Askari yeyote ya Misri ametumikia katika jeshi anajua vizuri sana mikopo mikubwa majenerali wa jeshi inayoingizwa kwenye akaunti zao za benki
+# trans: Any any Egyptian soldier served in the army knows very well how large credits the army generals own in their bank accounts.
+# ilg: soldier any of Egypt 1-perf-serve 
+1	Askari	_	NOUN	N	NounClass=Bantu9|Number=Sing	8	nsubj	_	@SUBJ
+2	yeyote	_	DET	PRON	NounClass=Bantu1|Number=Sing	1	det	_	@SUBJ
+3	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	4	case	_	@GCON
+4	Misri	_	PROPN	PROPNAME	_	1	nmod	_	_
+5	ametumikia	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	1	acl	_	@FMAINVtr-OBJ>
+6	katika	_	ADP	PREP	_	7	case	_	_
+7	jeshi	_	NOUN	N	NounClass=Bantu5|Number=Sing	5	obl	_	@<P
+8	anajua	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+9	vizuri	_	ADV	ADV	_	8	advmod	_	_
+10	sana	_	ADV	ADJ	Degree=Pos	9	advmod	_	@<AD-A
+11	mikopo	_	NOUN	N	NounClass=Bantu4|Number=Plur	8	obj	_	@OBJ
+12	mikubwa	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu4|Number=Plur	11	amod	_	@<NADJ
+13	majenerali	_	NOUN	N	NounClass=Bantu6|Number=Plur	16	nsubj	_	@OBJ
+14	wa	_	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	15	case	_	@GCON
+15	jeshi	_	NOUN	N	NounClass=Bantu5|Number=Sing	13	nmod	_	@<NH
+16	inayoingizwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act|Voice=Rcp	11	acl	_	@FMAINVtr-OBJ>
+17	kwenye	_	ADP	PREP	_	18	case	_	_
+18	akaunti	_	NOUN	N	NounClass=Bantu10|Number=Plur	16	obl	_	@<P
+19	zao	_	DET	PRON	NounClass=Bantu10|Number=Plur	18	nmod	_	@GCON
+20	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	21	case	_	@GCON
+21	benki	_	NOUN	N	NounClass=Bantu9|Number=Sing	18	nmod	_	@<NH
+22	.	_	PUNCT	_	_	8	punct	_	_
 
-# 29054
-1	Chanzo	_	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@NH
-2	:	_	PUNCT	COLON	_	_	_	_	_
-3	Maher	_	PROPN	PROPNAME	_	_	_	_	_
-4	Al	_	PROPN	PROPNAME	_	_	_	_	_
-5	-	_	PUNCT	HYPHEN	_	_	_	_	_
-6	Khaled	_	PROPN	PROPNAME	_	_	_	_	_
-7	/	_	PUNCT	SLASH	_	_	_	_	_
-8	SyriaUntold	_	PROPN	PROPNAME	_	_	_	_	_
-9	.	_	PUNCT	_	_	_	_	_	_
+# 29054 
+# Chanzo: Maher Al-Khaled/SyriaUntold. 
+# trans: Source: Maher Al-Khaled/SyriaUntold.
+1	Chanzo	_	NOUN	N	NounClass=Bantu7|Number=Sing	3	nsubj	_	@NH
+2	:	_	PUNCT	COLON	_	3	punct	_	_
+3	Maher	_	PROPN	PROPNAME	_	0	root	_	_
+4	Al-Khaled	_	PROPN	PROPNAME	_	3	flat	_	_
+5	/	_	PUNCT	SLASH	_	6	punct	_	_
+6	SyriaUntold	_	PROPN	PROPNAME	_	3	parataxis	_	_
+7	.	_	PUNCT	_	_	3	punct	_	_
 
-# 2353
-1	Baadhi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-2	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-3	wamiliki	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<NH
-4	wadogo	_	ADJ	N	Degree=Pos|NounClass=Bantu2|Number=Plur	_	_	_	@<P
-5	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-6	mali	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<NH
-7	hizo	_	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@<NDEM
-8	huko	_	ADV	ADV	_	_	_	_	_
-9	Blantyre	_	VERB	PROPNAME	_	_	_	_	_
+# 2353 
+# Baadhi ya wamiliki wadogo wa mali hizo huko Blantyre wanadai kama Kwacha 500 kwa mabango waliyowekwa katika maeneo yao ya biashara ama kazi, imegundulika. 
+# trans: Some small scale property owners in Blantyre are demanding, at least, K500 for political posters placed in their area of business or enterprise, it has been learnt.
+1	Baadhi	_	NOUN	N	NounClass=Bantu9|Number=Sing	10	_	_	@SUBJ
+2	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	3	case	_	@GCON
+3	wamiliki	_	NOUN	N	NounClass=Bantu2|Number=Plur	1	nmod	_	@<NH
+4	wadogo	_	ADJ	N	Degree=Pos|NounClass=Bantu2|Number=Plur	3	amod	_	@<P
+5	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	6	case	_	@GCON
+6	mali	_	NOUN	N	NounClass=Bantu10|Number=Plur	3	nmod	_	@<NH
+7	hizo	_	DET	PRON	NounClass=Bantu10|Number=Plur	6	det	_	@<NDEM
+8	huko	_	ADV	ADV	_	9	_	_	_
+9	Blantyre	_	VERB	PROPNAME	_	6	_	_	_
 10	wanadai	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
 11	kama	_	ADV	ADV	_	_	_	_	_
 12	Kwacha	_	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@<P
