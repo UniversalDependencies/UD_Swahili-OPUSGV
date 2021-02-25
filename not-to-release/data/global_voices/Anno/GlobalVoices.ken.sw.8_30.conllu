@@ -1512,126 +1512,142 @@
 
 # 2353 
 # Baadhi ya wamiliki wadogo wa mali hizo huko Blantyre wanadai kama Kwacha 500 kwa mabango waliyowekwa katika maeneo yao ya biashara ama kazi, imegundulika. 
-# trans: Some small scale property owners in Blantyre are demanding, at least, K500 for political posters placed in their area of business or enterprise, it has been learnt.
-1	Baadhi	_	NOUN	N	NounClass=Bantu9|Number=Sing	10	_	_	@SUBJ
+# trans: Some small scale property owners in Blantyre are demanding, at least, K500 for political posters placed in their area of business or enterprise, it has been learnt. 
+# ilg: some of .. 2-pres-demand around Kwacha 500 for posters 2-past-6.rel-be.placed in areas their of business or work, 9-perf-discover-pass
+1	Baadhi	_	NOUN	N	NounClass=Bantu9|Number=Sing	10	nsubj	_	@SUBJ
 2	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	3	case	_	@GCON
 3	wamiliki	_	NOUN	N	NounClass=Bantu2|Number=Plur	1	nmod	_	@<NH
 4	wadogo	_	ADJ	N	Degree=Pos|NounClass=Bantu2|Number=Plur	3	amod	_	@<P
 5	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	6	case	_	@GCON
 6	mali	_	NOUN	N	NounClass=Bantu10|Number=Plur	3	nmod	_	@<NH
 7	hizo	_	DET	PRON	NounClass=Bantu10|Number=Plur	6	det	_	@<NDEM
-8	huko	_	ADV	ADV	_	9	_	_	_
-9	Blantyre	_	VERB	PROPNAME	_	6	_	_	_
-10	wanadai	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-11	kama	_	ADV	ADV	_	_	_	_	_
-12	Kwacha	_	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@<P
-13	500	_	NUM	NUM	_	_	_	_	_
-14	kwa	_	ADP	PREP	_	_	_	_	_
-15	mabango	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@P>
-16	waliyowekwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu16|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-17	katika	_	ADP	PREP	_	_	_	_	_
-18	maeneo	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
-19	yao	_	PRON	PRON	NounClass=Bantu6|Number=Plur	_	_	_	@GCON
-20	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-21	biashara	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-22	ama	_	CCONJ	CONJ/CC	_	_	_	_	_
-23	kazi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-24	,	_	PUNCT	COMMA	_	_	_	_	_
-25	imegundulika	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVintr
-26	.	_	PUNCT	_	_	_	_	_	_
+8	huko	_	ADP	ADV	_	9	case	_	_
+9	Blantyre	_	PROPN	PROPNAME	_	6	nmod	_	_
+10	wanadai	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	25	csubj	_	@FMAINVtr-OBJ>
+11	kama	_	ADP	ADV	_	12	case	_	_
+12	Kwacha	_	NOUN	N	NounClass=Bantu7|Number=Sing	10	obl	_	@<P
+13	500	_	NUM	NUM	_	12	nummod	_	_
+14	kwa	_	ADP	PREP	_	15	case	_	_
+15	mabango	_	NOUN	N	NounClass=Bantu6|Number=Plur	10	obl	_	@P>
+16	waliyowekwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu16|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	15	acl	_	@FMAINVtr-OBJ>
+17	katika	_	ADP	PREP	_	18	case	_	_
+18	maeneo	_	NOUN	N	NounClass=Bantu6|Number=Plur	16	obl	_	@<P
+19	yao	_	DET	PRON	NounClass=Bantu6|Number=Plur	18	nmod	_	@GCON
+20	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	21	case	_	@GCON
+21	biashara	_	NOUN	N	NounClass=Bantu9|Number=Sing	18	nmod	_	@<NH
+22	ama	_	CCONJ	CONJ/CC	_	23	cc	_	_
+23	kazi	_	NOUN	N	NounClass=Bantu9|Number=Sing	21	conj	_	@<NH
+24	,	_	PUNCT	COMMA	_	25	punct	_	_
+25	imegundulika	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	0	root	_	@FMAINVintr
+26	.	_	PUNCT	_	_	25	punct	_	_
 
-# 23771
-1	Si	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINV
-2	lazima	_	ADV	ADV	_	_	_	_	_
-3	kila	_	ADJ	ADJ	Degree=Pos	_	_	_	@DN>
-4	mmoja	_	NUM	NUM	NounClass=Bantu1|NumType=Card|Number=Sing	_	_	_	@SUBJ
-5	afike	_	VERB	V	Aspect=Imp|Mood=Sub|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVintr
-6	Chuo	_	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@OBJ
-7	Kikuu	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu7|Number=Sing	_	_	_	@<NADJ
-8	,	_	PUNCT	COMMA	_	_	_	_	_
-9	lakini	_	SCONJ	CONJ	_	_	_	_	_
-10	raia	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@SUBJ
-11	wote	_	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@<DN
-12	wanastahili	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-13	elimu	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-14	bora	_	ADJ	ADJ	Degree=Pos	_	_	_	@<NADJ
-15	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-16	msingi	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@<NH
-17	!	_	PUNCT	EXCLAM	_	_	_	_	_
+# 23771 
+# Si lazima kila mmoja afike Chuo Kikuu, lakini raia wote wanastahili elimu bora ya msingi!
+# trans: Not everyone needs to go to university, but everyone deserves a good basic education!
+1	Si	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	2	cop	_	@FMAINV
+2	lazima	_	ADV	ADV	_	0	root	_	_
+3	kila	_	DET	ADJ	Degree=Pos	4	det	_	@DN>
+4	mmoja	_	NOUN	NUM	NounClass=Bantu1|NumType=Card|Number=Sing	5	nsubj	_	@SUBJ
+5	afike	_	VERB	V	Aspect=Imp|Mood=Sub|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	2	acl	_	@FMAINVintr
+6	Chuo	_	NOUN	N	NounClass=Bantu7|Number=Sing	5	obj	_	@OBJ
+7	Kikuu	_	ADJ	ADJ	Degree=Pos|NounClass=Bantu7|Number=Sing	6	amod	_	@<NADJ
+8	,	_	PUNCT	COMMA	_	12	punct	_	_
+9	lakini	_	CCONJ	CONJ	_	12	cc	_	_
+10	raia	_	NOUN	N	NounClass=Bantu10|Number=Plur	12	nsubj	_	@SUBJ
+11	wote	_	DET	PRON	NounClass=Bantu2|Number=Plur	10	det	_	@<DN
+12	wanastahili	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	2	conj	_	@FMAINVtr+OBJ>
+13	elimu	_	NOUN	N	NounClass=Bantu10|Number=Plur	12	obj	_	@OBJ
+14	bora	_	ADJ	ADJ	Degree=Pos	13	amod	_	@<NADJ
+15	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	16	case	_	@GCON
+16	msingi	_	NOUN	N	NounClass=Bantu3|Number=Sing	13	nmod	_	@<NH
+17	!	_	PUNCT	EXCLAM	_	2	punct	_	_
 
-# 9185
-1	Naweza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-2	kusema	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-3	tu	_	ADV	ADV	_	_	_	_	_
-4	kwamba	_	SCONJ	CONJ	_	_	_	_	_
-5	baadhi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-6	yao	_	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-7	walikuwa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVintr
-8	na	_	ADP	CC	_	_	_	_	_
-9	bahati	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-10	kubaki	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@-FMAINV-n
-11	hai	_	ADJ	ADJ	Degree=Pos	_	_	_	@<NADJ
-12	.	_	PUNCT	_	_	_	_	_	_
+# 9185 
+# Naweza kusema tu kwamba baadhi yao walikuwa na bahati kubaki hai. 
+# trans: I should say some were lucky to be alive.
+1	Naweza	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	2	aux	_	@FMAINVtr-OBJ>
+2	kusema	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@-FMAINV-n
+3	tu	_	ADV	ADV	_	2	amod	_	_
+4	kwamba	_	SCONJ	CONJ	_	9	mark	_	_
+5	baadhi	_	NOUN	N	NounClass=Bantu9|Number=Sing	9	nsubj	_	@SUBJ
+6	yao	_	DET	PRON	NounClass=Bantu9|Number=Sing	5	nmod	_	@GCON
+7	walikuwa	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	9	cop	_	@FMAINVintr
+8	na	_	ADP	CC	_	9	case	_	_
+9	bahati	_	NOUN	N	NounClass=Bantu9|Number=Sing	2	ccomp	_	@<P
+10	kubaki	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act	9	xcomp	_	@-FMAINV-n
+11	hai	_	ADJ	ADJ	Degree=Pos	10	obj	_	@<NADJ
+12	.	_	PUNCT	_	_	2	punct	_	_
 
-# 22017
-1	Kadri	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-2	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-3	garimoshi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-4	lilivyoongeza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr+OBJ>
-5	mwendo	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
-6	,	_	PUNCT	COMMA	_	_	_	_	_
-7	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@OBJ
-8	wawili	_	NUM	NUM	NounClass=Bantu2|NumType=Card|Number=Plur	_	_	_	@QN
-9	walianguka	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVintr
-10	kupitia	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Appl	_	_	_	@-FMAINV-n
-11	mlangoni	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@<P
-12	,	_	PUNCT	COMMA	_	_	_	_	_
-13	chupuchupu	_	VERB	V	NounClass=Bantu7|Number=Sing	_	_	_	@FMAINVtr-OBJ>
-14	kupoteza	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	_	_	_	@-FMAINV-n
-15	maisha	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-16	.	_	PUNCT	_	_	_	_	_	_
+# 22017 
+# Kadri ya garimoshi lilivyoongeza mwendo, watu wawili walianguka kupitia mlangoni, chupuchupu kupoteza maisha.
+# trans: As the train gathered speed quickly, some people fell from the door and two persons were miraculously saved from death. 
+# ilg: amount? of train 5-past-7.rel-increase?? speed , people two 2-past-fall.down going.through door, narrowly/nearly loosing? life. 
+# note: I think kupitia mlangoni might be a resultative?
+1	Kadri	_	NOUN	N	NounClass=Bantu9|Number=Sing	4	nsubj	_	@SUBJ
+2	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	3	case	_	@GCON
+3	garimoshi	_	NOUN	N	NounClass=Bantu9|Number=Sing	1	nmod	_	@<NH
+4	lilivyoongeza	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu5|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Cau	9	advcl	_	@FMAINVtr+OBJ>
+5	mwendo	_	NOUN	N	NounClass=Bantu3|Number=Sing	4	obj	_	@OBJ
+6	,	_	PUNCT	COMMA	_	4	punct	_	_
+7	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	9	nsubj	_	@OBJ
+8	wawili	_	NUM	NUM	NounClass=Bantu2|NumType=Card|Number=Plur	7	nummod	_	@QN
+9	walianguka	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Voice=Act	0	root	_	@FMAINVintr
+10	kupitia	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Appl	9	xcomp	_	@-FMAINV-n
+11	mlangoni	_	NOUN	N	NounClass=Bantu3|Number=Sing	10	obj	_	@<P
+12	,	_	PUNCT	COMMA	_	14	punct	_	_
+13	chupuchupu	_	ADV	V	NounClass=Bantu7|Number=Sing	14	advmod	_	@FMAINVtr-OBJ>
+14	kupoteza	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	9	parataxis	_	@-FMAINV-n
+15	maisha	_	NOUN	N	NounClass=Bantu6|Number=Plur	14	obj	_	@OBJ
+16	.	_	PUNCT	_	_	14	punct	_	_
 
-# 3670
-1	Hakuna	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr
-2	shaka	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-3	kwamba	_	SCONJ	CONJ	_	_	_	_	_
-4	hao	_	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@NDEM>
-5	wengine	_	NOUN	N	Degree=Pos|NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-6	tisa	_	NUM	NUM	NumType=Card	_	_	_	@QN
-7	ukitoa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-8	Ahmed	_	PROPN	PROPNAME	_	_	_	_	_
-9	Zoweil	_	PROPN	PROPNAME	Degree=Pos|NounClass=Bantu8|Number=Plur	_	_	_	@OBJ
-10	wamekuwa	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVintr
-11	na	_	ADP	PREP	_	_	_	_	_
-12	nafasi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-13	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-14	pekee	_	ADJ	ADJ	Degree=Pos	_	_	_	@<NADJ
-15	katika	_	ADP	PREP	_	_	_	_	_
-16	maisha	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
-17	yetu	_	PRON	PRON	NounClass=Bantu4|Number=Plur	_	_	_	@GCON
-18	katika	_	ADP	PREP	_	_	_	_	_
-19	mwaka	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@<P
-20	2009,lakini	_	VERB	ADJ	Degree=Pos	_	_	_	@<P
-21	Amr	_	PROPN	PROPNAME	_	_	_	_	_
-22	Khalid	_	PROPN	PROPNAME	_	_	_	_	_
-23	!	_	PUNCT	EXCLAM	_	_	_	_	_
-24	!	_	PUNCT	EXCLAM	_	_	_	_	_
-25	?	_	PUNCT	QUESTION-MARK	_	_	_	_	_
-26	?	_	PUNCT	QUESTION-MARK	_	_	_	_	_
+# 3670 
+# Hakuna shaka kwamba hao wengine tisa ukitoa Ahmed Zoweil wamekuwa na nafasi ya pekee katika maisha yetu katika mwaka 2009,lakini Amr Khalid!!??
+# trans: with no doubt that the previous nine except for Ahmed Zoweil has played an important and influential role in our lives in 2009 but Amr Khalid !!??
+# neg.there.be doubt that 
+1	Hakuna	_	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	2	cop	_	@FMAINVintr
+2	shaka	_	NOUN	N	NounClass=Bantu10|Number=Plur	0	root	_	@OBJ
+3	kwamba	_	SCONJ	CONJ	_	12	mark	_	_
+4	hao	_	DET	PRON	NounClass=Bantu2|Number=Plur	5	det	_	@NDEM>
+5	wengine	_	NOUN	N	Degree=Pos|NounClass=Bantu2|Number=Plur	12	nsubj	_	@SUBJ
+6	tisa	_	NUM	NUM	NumType=Card	5	nummod	_	@QN
+7	ukitoa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	5	parataxis	_	@FMAINVtr+OBJ>
+8	Ahmed	_	PROPN	PROPNAME	_	7	obj	_	_
+9	Zoweil	_	PROPN	PROPNAME	Degree=Pos|NounClass=Bantu8|Number=Plur	8	flat	_	@OBJ
+10	wamekuwa	_	AUX	V	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	12	cop	_	@FMAINVintr
+11	na	_	ADP	PREP	_	12	case	_	_
+12	nafasi	_	NOUN	N	NounClass=Bantu9|Number=Sing	2	ccomp	_	@<P
+13	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	14	case	_	@GCON
+14	pekee	_	ADJ	ADJ	Degree=Pos	12	amod	_	@<NADJ
+15	katika	_	ADP	PREP	_	16	case	_	_
+16	maisha	_	NOUN	N	NounClass=Bantu6|Number=Plur	12	obl	_	@<P
+17	yetu	_	DET	PRON	NounClass=Bantu4|Number=Plur	16	nmod	_	@GCON
+18	katika	_	ADP	PREP	_	19	case	_	_
+19	mwaka	_	NOUN	N	NounClass=Bantu3|Number=Sing	12	obl	_	@<P
+20	2009 	_	NUM	NUM	_	19	nummod	_	_
+21	 ,	_	PUNCT	_	_	23	punct	_	_
+22	lakini	_	CCONJ	ADJ	Degree=Pos	23	cc	_	@<P
+23	Amr	_	PROPN	PROPNAME	_	12	dep	_	_
+24	Khalid	_	PROPN	PROPNAME	_	23	flat	_	_
+25	!	_	PUNCT	EXCLAM	_	2	punct	_	_
+26	!	_	PUNCT	EXCLAM	_	2	punct	_	_
+27	?	_	PUNCT	QUESTION-MARK	_	2	punct	_	_
+28	?	_	PUNCT	QUESTION-MARK	_	2	punct	_	_
 
-# 16298
-1	Mansoor	_	PROPN	PROPNAME	_	_	_	_	_
-2	Al	_	PROPN	PROPNAME	_	_	_	_	_
-3	-	_	PUNCT	HYPHEN	_	_	_	_	_
-4	Jamri	_	NOUN	N	_	_	_	_	_
-5	,	_	PUNCT	COMMA	_	_	_	_	_
-6	pia	_	ADV	ADV	_	_	_	_	_
-7	kutoka	_	ADP	PREP	_	_	_	_	_
-8	Bahrain	_	PROPN	PROPNAME	Degree=Pos	_	_	_	@P>
-9	anakumbushia	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-10	:	_	PUNCT	COLON	_	_	_	_	_
+# 16298 
+# Mansoor Al-Jamri, pia kutoka Bahrain anakumbushia: 
+# trans: Mansoor Al-Jamri, also from Bahrain, notes:
+1	Mansoor	_	PROPN	PROPNAME	_	7	nsubj	_	_
+2	Al-Jamri	_	PROPN	PROPNAME	_	1	flat	_	_
+3	,	_	PUNCT	COMMA	_	_	_	_	_
+4	pia	_	ADV	ADV	_	5	advmod	_	_
+5	kutoka	_	ADP	PREP	_	1	parataxis	_	_
+6	Bahrain	_	PROPN	PROPNAME	Degree=Pos	5	obj	_	@P>
+7	anakumbushia	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+8	:	_	PUNCT	COLON	_	7	punct	_	_
 
-# 24635
+# 24635 
+# Uharibifu wa Bwawa la Mariba limejengwa karne ya nane (KK) na limelengwa na ndege za kijeshi za Kisaudi
+# trans: Albukhaiti posts a photograph of ruins, of what he describes as the dam, which dates back to the 8th century BC and is considered the oldest known dam in the world:
 1	Uharibifu	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@SUBJ
 2	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
 3	Bwawa	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<NH
