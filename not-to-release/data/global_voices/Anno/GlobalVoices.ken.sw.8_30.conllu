@@ -1638,7 +1638,7 @@
 # trans: Mansoor Al-Jamri, also from Bahrain, notes:
 1	Mansoor	_	PROPN	PROPNAME	_	7	nsubj	_	_
 2	Al-Jamri	_	PROPN	PROPNAME	_	1	flat	_	_
-3	,	_	PUNCT	COMMA	_	_	_	_	_
+3	,	_	PUNCT	COMMA	_	5	punct	_	_
 4	pia	_	ADV	ADV	_	5	advmod	_	_
 5	kutoka	_	ADP	PREP	_	1	parataxis	_	_
 6	Bahrain	_	PROPN	PROPNAME	Degree=Pos	5	obj	_	@P>
@@ -1670,86 +1670,97 @@
 20	Kisaudi	_	PROPN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
 
 # 14373
-1	Zile	_	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@SUBJ
-2	zinazounga	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Appl	_	_	_	@FMAINVtr+OBJ>
-3	mkono	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
-4	maandamano	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-5	haya	_	PRON	PRON	NounClass=Bantu6|Number=Plur	_	_	_	@<NDEM
-6	ni	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-def
-7	kama	_	ADV	ADV	_	_	_	_	_
-8	harakazi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@FMAINVtr-OBJ>
-9	zaShahbag	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	_	_	_	@OBJ
-10	na	_	CCONJ	CC	_	_	_	_	_
-11	Eneo	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@SUBJ
-12	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-13	Projonmo	_	NOUN	PROPNAME	Degree=Pos	_	_	_	@<NH
-14	na	_	CCONJ	CC	_	_	_	_	_
-15	zile	_	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@SUBJ
-16	zinazopinga	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act|Voice=Rcp	_	_	_	@FMAINVtr+OBJ>
-17	maandamano	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-18	ni	_	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-def
-19	Sauti	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-20	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-21	Wazalendo	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<NH
-22	na	_	CCONJ	CC	_	_	_	_	_
-23	Bamboo	_	PROPN	PROPNAME	Degree=Pos	_	_	_	@PCOMPL-S
-24	Castle	_	PROPN	PROPNAME	_	_	_	_	_
-25	.	_	PUNCT	_	_	_	_	_	_
+# Zile zinazounga mkono maandamano haya ni kama harakazi zaShahbag na Eneo la Projonmo na zile zinazopinga maandamano ni Sauti za Wazalendo na Bamboo Castle.
+# trans: Those for the protests include Shahbag Movement and Projonmo Square and those against are Voice of Nationalist and Bamboo Castle. 
+# ilg: those 10-pres-10.rel-confess hand? demonstration this be like movement? of Shahbag and area of Projonmo and those 10-pres-10.rel-oppose demonstration be voice of patriots and bamboo castle .
+1	Zile	_	PRON	PRON	NounClass=Bantu10|Number=Plur	8	nsubj	_	@SUBJ
+2	zinazounga	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Appl	1	acl	_	@FMAINVtr+OBJ>
+3	mkono	_	NOUN	N	NounClass=Bantu3|Number=Sing	2	obj	_	@OBJ
+4	maandamano	_	NOUN	N	NounClass=Bantu6|Number=Plur	2	iobj	_	@OBJ
+5	haya	_	DET	PRON	NounClass=Bantu6|Number=Plur	4	det	_	@<NDEM
+6	ni	_	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	8	cop	_	@FMAINVintr-def
+7	kama	_	ADV	ADV	_	8	advmod	_	_
+8	harakazi	_	NOUN	N	NounClass=Bantu10|Number=Sing	_	_	_	@FMAINVtr-OBJ>
+9	za 	_	ADP	GEN-CON	NounClass=Bantu10|Number=Sing	10	case	_	_
+10	 Shahbag	_	PROPN	V	Aspect=Imp|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	8	nmod	_	@OBJ
+11	na	_	CCONJ	CC	_	12	cc	_	_
+12	Eneo	_	NOUN	N	NounClass=Bantu5|Number=Sing	8	conj	_	@SUBJ
+13	la	_	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	14	case	_	@GCON
+14	Projonmo	_	NOUN	PROPNAME	Degree=Pos	12	nmod	_	@<NH
+15	na	_	CCONJ	CC	_	20	cc	_	_
+16	zile	_	PRON	PRON	NounClass=Bantu10|Number=Plur	20	nsubj	_	@SUBJ
+17	zinazopinga	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act|Voice=Rcp	16	acl	_	@FMAINVtr+OBJ>
+18	maandamano	_	NOUN	N	NounClass=Bantu6|Number=Plur	17	obj	_	@OBJ
+19	ni	_	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	20	cop	_	@FMAINVintr-def
+20	Sauti	_	NOUN	N	NounClass=Bantu10|Number=Plur	8	conj	_	@<P
+21	za	_	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	22	case	_	@GCON
+22	Wazalendo	_	NOUN	N	NounClass=Bantu2|Number=Plur	20	nmod	_	@<NH
+23	na	_	CCONJ	CC	_	24	cc	_	_
+24	Bamboo	_	PROPN	PROPNAME	Degree=Pos	20	conj	_	@PCOMPL-S
+25	Castle	_	PROPN	PROPNAME	_	24	flat	_	_
+26	.	_	PUNCT	_	_	8	punct	_	_
 
-# 19428
-1	Kwa	_	ADP	PREP	_	_	_	_	_
-2	mujibu	_	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@<P
-3	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-4	takwimu	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<NH
-5	zilizotolewa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Appl|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-6	na	_	ADP	AG-PART	_	_	_	_	_
-7	ofisi	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@AG
-8	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-9	Mwanasheria	_	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@<NH
-10	Mkuu	_	ADJ	N	Degree=Pos|NounClass=Bantu1|Number=Sing	_	_	_	@<NADJ
-11	wa	_	ADP	GEN-CON	NounClass=Bantu1|Number=Sing	_	_	_	@GCON
-12	serikali	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-13	mnamo	_	ADP	PREP	_	_	_	_	_
-14	Machi	_	NOUN	PROPNAME	_	_	_	_	_
-15	27	_	NUM	NUM	_	_	_	_	_
-16	,	_	PUNCT	COMMA	_	_	_	_	_
-17	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@PAT
-18	2,157	_	NUM	NUM	_	_	_	_	_
-19	wamekamatwa	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Pass	_	_	_	@FMAINVtr+OBJ>
-20	wakati	_	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
-21	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-22	maandamano	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<NH
-23	.	_	PUNCT	_	_	_	_	_	_
+# 19428 
+# Kwa mujibu wa takwimu zilizotolewa na ofisi ya Mwanasheria Mkuu wa serikali mnamo Machi 27, watu 2,157 wamekamatwa wakati wa maandamano. 
+# trans: According to figures released by the Office of the Attorney General on 27 March 2,157 have been detained during the protests. 
+# ilg: for duty of statistics 10-past-10.rel-give-pass by lawyer major of government on March 27, 
+1	Kwa	_	ADP	PREP	_	2	case	_	_
+2	mujibu	_	NOUN	N	NounClass=Bantu3|Number=Sing	19	obl	_	@<P
+3	wa	_	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	4	case	_	@GCON
+4	takwimu	_	NOUN	N	NounClass=Bantu10|Number=Plur	2	nmod	_	@<NH
+5	zilizotolewa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Appl|Voice=Pass	4	acl	_	@FMAINVtr-OBJ>
+6	na	_	ADP	AG-PART	_	7	case	_	_
+7	ofisi	_	NOUN	N	NounClass=Bantu9|Number=Sing	5	obl	_	@AG
+8	ya	_	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	9	case	_	@GCON
+9	Mwanasheria	_	NOUN	N	NounClass=Bantu1|Number=Sing	7	nmod	_	@<NH
+10	Mkuu	_	ADJ	N	Degree=Pos|NounClass=Bantu1|Number=Sing	9	amod	_	@<NADJ
+11	wa	_	ADP	GEN-CON	NounClass=Bantu1|Number=Sing	12	case	_	@GCON
+12	serikali	_	NOUN	N	NounClass=Bantu9|Number=Sing	9	nmod	_	@<NH
+13	mnamo	_	ADP	PREP	_	14	case	_	_
+14	Machi	_	NOUN	PROPNAME	_	5	obl	_	_
+15	27	_	NUM	NUM	_	14	flat	_	_
+16	,	_	PUNCT	COMMA	_	19	punct	_	_
+17	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	19	nsubj	_	@PAT
+18	2,157	_	NUM	NUM	_	17	nummod	_	_
+19	wamekamatwa	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Pass	0	root	_	@FMAINVtr+OBJ>
+20	wakati	_	NOUN	N	NounClass=Bantu11|Number=Sing	19	obl	_	@OBJ
+21	wa	_	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	22	case	_	@GCON
+22	maandamano	_	NOUN	N	NounClass=Bantu6|Number=Plur	20	nmod	_	@<NH
+23	.	_	PUNCT	_	_	19	punct	_	_
 
-# 7707
-1	Kama	_	SCONJ	CONJ	_	_	_	_	_
-2	nchi	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@P>
-3	,	_	PUNCT	COMMA	_	_	_	_	_
-4	inatubidi	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=1|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-5	tufute	_	VERB	V	Aspect=Imp|Mood=Sub|NounClass=Bantu8|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-6	vipengele	_	NOUN	N	NounClass=Bantu8|Number=Plur	_	_	_	@OBJ
-7	kwenye	_	ADP	PREP	_	_	_	_	_
-8	katiba	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@P>
-9	ambavyo	_	PRON	PRON	NounClass=Bantu8|Number=Plur	_	_	_	@ADVL
-10	vinatoa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu5|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-11	nyumba	_	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-12	3	_	NUM	NUM	_	_	_	_	_
-13	au	_	CCONJ	CONJ/CC	_	_	_	_	_
-14	zaidi	_	ADJ	ADJ	Degree=Cmp	_	_	_	@AD-A>
-15	pamoja	_	ADV	ADV	_	_	_	_	_
-16	na	_	CCONJ	CC	_	_	_	_	_
-17	magari	_	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
-18	n.k	_	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-19	.	_	PUNCT	_	_	_	_	_	_
-20	kwa	_	ADP	PREP	_	_	_	_	_
-21	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@P>
-22	ambao	_	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-23	walilitumikia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	_	_	_	@FMAINVtr+OBJ>
-24	taifa	_	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@OBJ
-25	hili	_	PRON	PRON	NounClass=Bantu5|Number=Sing	_	_	_	@<NDEM
-26	.	_	PUNCT	_	_	_	_	_	_
+# 7707 
+# Kama nchi, inatubidi tufute vipengele kwenye katiba ambavyo vinatoa nyumba 3 au zaidi pamoja na magari n.k. kwa watu ambao walilitumikia taifa hili.
+# trans: As a country, we should wipe off the letters in the constitution that give those 3 or more houses plus cars etc to people who have served this country. 
+# ilg: as country, 9-pres-2PL-be.obliged 2PL-search aspect in constitution which 8-pres-give house 3 or more together with cars etc. for people who 2-past-seve country this .
+1	Kama	_	ADP	CONJ	_	2	case	_	_
+2	nchi	_	NOUN	N	NounClass=Bantu10|Number=Plur	4	advmod	_	@P>
+3	,	_	PUNCT	COMMA	_	4	punct	_	_
+4	inatubidi	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=1|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+5	tufute	_	VERB	V	Aspect=Imp|Mood=Sub|NounClass=Bantu8|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	4	ccomp	_	@FMAINVtr+OBJ>
+6	vipengele	_	NOUN	N	NounClass=Bantu8|Number=Plur	5	obj	_	@OBJ
+7	kwenye	_	ADP	PREP	_	8	case	_	_
+8	katiba	_	NOUN	N	NounClass=Bantu9|Number=Sing	6	nmod	_	@P>
+9	ambavyo	_	PRON	PRON	NounClass=Bantu8|Number=Plur	10	nsubj	_	@ADVL
+10	vinatoa	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu5|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	6	acl	_	@FMAINVtr+OBJ>
+11	nyumba	_	NOUN	N	NounClass=Bantu10|Number=Plur	10	obj	_	@OBJ
+12	3	_	NUM	NUM	_	11	nummod	_	_
+13	au	_	CCONJ	CONJ/CC	_	14	cc	_	_
+14	zaidi	_	ADJ	ADJ	Degree=Cmp	12	conj	_	@AD-A>
+15	pamoja	_	ADV	ADV	_	17	cc	_	_
+16	na	_	CCONJ	CC	_	15	fixed	_	_
+17	magari	_	NOUN	N	NounClass=Bantu6|Number=Plur	11	conj	_	@<P
+18	n.k.	_	NOUN	N	NounClass=Bantu9|Number=Sing	11	conj	_	@OBJ
+19	kwa	_	ADP	PREP	_	20	case	_	_
+20	watu	_	NOUN	N	NounClass=Bantu2|Number=Plur	10	obl	_	@P>
+21	ambao	_	PRON	PRON	NounClass=Bantu2|Number=Plur	22	nsubj	_	@SUBJ
+22	walilitumikia	_	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	20	acl	_	@FMAINVtr+OBJ>
+23	taifa	_	NOUN	N	NounClass=Bantu5|Number=Sing	22	obj	_	@OBJ
+24	hili	_	DET	PRON	NounClass=Bantu5|Number=Sing	23	det	_	@<NDEM
+25	.	_	PUNCT	_	_	4	punct	_	_
 
-# 19369
+# 19369 
+# Hivyo kama umechukizwa au unasumbuliwa inaelekezwa kwa mwanamke unayemjali, jinsi gani baadhi yenu mna ujasiri kuuliza swali kama mwanamke anahisi kunyanyaswa?
+# trans: So if it offends or bothers you went it is directed at a woman you care about, how can some of you actually have the nerve to question whether the woman feels harassed?
 1	Hivyo	_	ADV	ADV	_	_	_	_	_
 2	kama	_	ADV	ADV	_	_	_	_	_
 3	umechukizwa	_	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr-OBJ>
