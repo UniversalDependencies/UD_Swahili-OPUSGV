@@ -1,31 +1,3 @@
-# 14895
-# Trans: The sentiments apparent in the comments on Pres Obama’s speech went beyond envy, jealous and pity.
-# attitudes of people in opinions concerning speech of president Obama 4.past.seen evidently crossing border of envy, jealousy, and state of dismalness
-1	Mitizamo	mtizamo	NOUN	N	NounClass=Bantu4|Number=Plur	12	nsubj	_	@SUBJ
-2	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	3	case	_	@GCON
-3	watu	mtu	NOUN	N	NounClass=Bantu2|Number=Plur	1	nmod	_	@<NH
-4	kwenye	kwenye	ADP	PREP	_	5	case	_	_
-5	maoni	oni	NOUN	N	NounClass=Bantu6|Number=Plur	1	nmod	_	@P>
-6	kuhusiana	husiana	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Rcp	5	acl	_	@-FMAINV-n
-7	na	na	ADP	PREP	_	8	case	_	_
-8	hotuba	hotuba	NOUN	N	NounClass=Bantu9|Number=Sing	6	obl	_	@<P
-9	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	10	case	_	@GCON
-10	Rais	rais	NOUN	N	NounClass=Bantu9|Number=Sing	8	nmod	_	@<NH
-11	Obama	Obama	PROPN	PROPNAME	_	10	flat	_	_
-12	ilionekana	onekana	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	0	root	_	@FMAINVintr
-13	dhahiri	dhahiri	ADV	ADV	_	14	advmod	_	_
-14	kuvuka	vuka	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	12	xcomp	_	@-FMAINV-n
-15	mipaka	mpaka	NOUN	N	NounClass=Bantu4|Number=Plur	14	obj	_	@OBJ
-16	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	17	case	_	@GCON
-17	husuda	husuda	NOUN	N	NounClass=Bantu9|Number=Sing	15	nmod	_	@<NH
-18	,	,	PUNCT	COMMA	_	19	punct	_	_
-19	wivu	wivu	NOUN	N	NounClass=Bantu11|Number=Sing	17	conj	_	@<P
-20	na	na	CCONJ	CC	_	21	cc	_	_
-21	hali	hali	NOUN	N	NounClass=Bantu9|Number=Sing	17	conj	_	@OBJ
-22	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	23	case	_	@GCON
-23	kusikitisha	sikitisha	NOUN	N	NounClass=Bantu15|Number=Sing	21	nmod	_	@<NH
-24	.	.	PUNCT	_	_	12	punct	_	_
-
 # 23312
 # trans: Glad that finally, a technological solution has been found to connect legislators to p'ple — Qatahar Raymond (@qataharraymond) February 26, 2015
 # I.have pleasure that finally, solution of technology is.available with connect legislators and citizens
@@ -691,8 +663,6 @@
 22	upenyo	penyo	VERB	V	Aspect=Imp|Mood=Sub|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	21	obj	_	@OBJ
 23	wazi	wazi	ADJ	ADJ	Degree=Pos	22	amod	_	@<NADJ
 24	.	.	PUNCT	_	_	6	punct	_	_
-
-
 
 # 22968
 # trans: The strange absence of information about the Perrellas' role in the incident motivated local journalists to further investigate the story.
@@ -1760,63 +1730,70 @@
 
 # 19369
 # Hivyo kama umechukizwa au unasumbuliwa inaelekezwa kwa mwanamke unayemjali, jinsi gani baadhi yenu mna ujasiri kuuliza swali kama mwanamke anahisi kunyanyaswa?
-# trans: So if it offends or bothers you went it is directed at a woman you care about, how can some of you actually have the nerve to question whether the woman feels harassed?
-1	Hivyo	hivyo	ADV	ADV	_	_	_	_	_
-2	kama	kama	ADV	ADV	_	_	_	_	_
-3	umechukizwa	chukizwa	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-4	au	au	CCONJ	CONJ/CC	_	_	_	_	_
-5	unasumbuliwa	sumbuliwa	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-6	inaelekezwa	elekezwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-7	kwa	kwa	ADP	PREP	_	_	_	_	_
-8	mwanamke	mwanamke	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@<P
-9	unayemjali	jali	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu11|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-10	,	,	PUNCT	COMMA	_	_	_	_	_
-11	jinsi	jinsi	ADV	ADV	_	_	_	_	_
-12	gani	gani	ADJ	ADJ	Degree=Pos	_	_	_	@ADVL
-13	baadhi	baadhi	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-14	yenu	enu	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-15	mna	mna	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu18|Number=Sing|Person=3|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr
-16	ujasiri	ujasiri	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
-17	kuuliza	uliza	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-18	swali	swali	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@OBJ
-19	kama	kama	ADV	ADV	_	_	_	_	_
-20	mwanamke	mwanamke	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-21	anahisi	hisi	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVintr
-22	kunyanyaswa	nyanyaswa	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	_	_	_	@-FMAINV-n
-23	?	?	PUNCT	QUESTION-MARK	_	_	_	_	_
+# trans: So if it offends or bothers you went it is directed at a woman you care about, how can some of you actually have the nerve to question whether the woman feels harassed? 
+# ilg: like so 2SG-perf-hate-cause or 2SG-pres-bother 9-pres-direct for woman 2SG-pres-1.rel-1-care how type some yours have nerve 15-ask questions like woman 1-pres-feel inf-harrass-pass ?
+1	Hivyo	hivyo	ADV	ADV	_	3	advmod	_	_
+2	kama	kama	ADV	ADV	_	3	advmod	_	_
+3	umechukizwa	chukizwa	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	16	advcl	_	@FMAINVtr-OBJ>
+4	au	au	CCONJ	CONJ/CC	_	5	cc	_	_
+5	unasumbuliwa	sumbuliwa	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=2|Polarity=Pos|Subcat=Tran|Voice=Act	3	conj	_	@FMAINVtr-OBJ>
+6	inaelekezwa	elekezwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Pass	3	advmod	_	@FMAINVtr-OBJ>
+7	kwa	kwa	ADP	PREP	_	8	case	_	_
+8	mwanamke	mwanamke	NOUN	N	NounClass=Bantu1|Number=Sing	6	obl	_	@<P
+9	unayemjali	jali	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu11|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	8	acl	_	@FMAINVtr-OBJ>
+10	,	,	PUNCT	COMMA	_	16	punct	_	_
+11	jinsi	jinsi	ADV	ADV	_	16	advmod	_	_
+12	gani	gani	ADJ	ADJ	Degree=Pos	11	amod	_	@ADVL
+13	baadhi	baadhi	NOUN	N	NounClass=Bantu9|Number=Sing	16	nsubj	_	@SUBJ
+14	yenu	enu	DET	PRON	NounClass=Bantu9|Number=Sing	13	nmod	_	@GCON
+15	mna	mna	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu18|Number=Sing|Person=3|Polarity=Pos|Voice=Act	16	cop	_	@FMAINVintr
+16	ujasiri	ujasiri	NOUN	N	NounClass=Bantu11|Number=Sing	0	root	_	@OBJ
+17	kuuliza	uliza	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	16	xcomp	_	@-FMAINV-n
+18	swali	swali	NOUN	N	NounClass=Bantu5|Number=Sing	17	obj	_	@OBJ
+19	kama	kama	ADV	ADV	_	21	advmod	_	_
+20	mwanamke	mwanamke	NOUN	N	NounClass=Bantu1|Number=Sing	21	nsubj	_	@SUBJ
+21	anahisi	hisi	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	18	acl	_	@FMAINVintr
+22	kunyanyaswa	nyanyaswa	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	21	xcomp	_	@-FMAINV-n
+23	?	?	PUNCT	QUESTION-MARK	_	16	punct	_	_
 
-# 2205
-1	Wakati	wakati	NOUN	ADV	_	_	_	_	_
-2	kuna	kuna	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr
-3	chereko	chereko	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ+rel
-4	chereko	ereko	VERB	N	NounClass=Bantu9|Number=Sing	_	_	_	@FMAINVintr
-5	sehemu	sehemu	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@SUBJ
-6	mbalimbali	mbalimbali	ADJ	ADJ	Degree=Pos	_	_	_	@<NADJ
-7	,	,	PUNCT	COMMA	_	_	_	_	_
-8	pia	pia	ADV	ADV	_	_	_	_	_
-9	kuna	kuna	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr
-10	masikitiko	sikitiko	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-11	kati	kati	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-12	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-13	wanaokiunga	mwanaokiunga	NOUN	N	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-14	mkono	mkono	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
-15	chama	chama	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@OBJ
-16	cha	cha	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	_	_	_	@GCON
-17	BJP	B_P	PROPN	PROPNAME	_	_	_	_	_
-18	.	.	PUNCT	_	_	_	_	_	_
+# 2205 
+# Wakati kuna chereko chereko sehemu mbalimbali, pia kuna masikitiko kati ya wanaokiunga mkono chama cha BJP.
+# trans: While there is jubilation in many quarters, there is gloom among the supporters of the BJP 
+# ilg: time there.is excitement area various, also there.is sadness ceter of 
+1	Wakati	wakati	NOUN	ADV	_	3	nsubj	_	_
+2	kuna	kuna	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	3	cop	_	@FMAINVintr
+3	cherekochereko	chereko	NOUN	N	NounClass=Bantu9|Number=Sing|NounClass=Bantu9|Number=Sing	9	advcl	_	@SUBJ+rel|@FMAINVintr
+4	sehemu	sehemu	NOUN	N	NounClass=Bantu10|Number=Plur	3	obj	_	@SUBJ
+5	mbalimbali	mbalimbali	ADJ	ADJ	Degree=Pos	4	amod	_	@<NADJ
+6	,	,	PUNCT	COMMA	_	9	punct	_	_
+7	pia	pia	ADV	ADV	_	9	advmod	_	_
+8	kuna	kuna	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	9	cop	_	@FMAINVintr
+9	masikitiko	sikitiko	NOUN	N	NounClass=Bantu6|Number=Plur	0	root	_	@OBJ
+10	kati	kati	NOUN	N	NounClass=Bantu9|Number=Sing	12	case	_	@OBJ
+11	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	10	fixed	_	@GCON
+12	wanaokiunga	mwanaokiunga	NOUN	N	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	9	nmod	_	@FMAINVtr+OBJ>
+13	mkono	mkono	NOUN	N	NounClass=Bantu3|Number=Sing	12	nmod	_	@OBJ
+14	chama	chama	NOUN	N	NounClass=Bantu7|Number=Sing	12	nmod	_	@OBJ
+15	cha	cha	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	16	case	_	@GCON
+16	BJP	B_P	PROPN	PROPNAME	_	14	nmod	_	_
+17	.	.	PUNCT	_	_	9	punct	_	_
 
-# 6183
-1	Kwa	kwa	ADP	PREP	_	_	_	_	_
-2	hakika	hakika	ADV	ADV	_	_	_	_	_
-3	tutageuka	geuka	VERB	N	NounClass=Bantu15|Number=Sing	_	_	_	@FMAINVtr-OBJ>
-4	kuwa	kuwa	SCONJ	CONJ	_	_	_	_	_
-5	mashabiki	shabiki	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
-6	wakubwa	kubwa	ADJ	ADJ	NounClass=Bantu2|Number=Plur	_	_	_	@<NADJ
-7	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-8	mstari	mstari	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@<NH
-9	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-10	mbele	mbele	ADV	N	_	_	_	_	_
-11	.	.	PUNCT	_	_	_	_	_	_
+# 6183 
+# Kwa hakika tutageuka kuwa mashabiki wakubwa wa mstari wa mbele. 
+# trans: In fact, we will turn into their biggest cheerleaders 
+# ilg: for certainty 2PL-fut-turn being fans major of line of front.
+# note: case where kuwa is 'become'.
+1	Kwa	kwa	ADP	PREP	_	2	case	_	_
+2	hakika	hakika	ADV	ADV	_	3	obl	_	_
+3	tutageuka	geuka	VERB	N	NounClass=Bantu15|Number=Sing	0	root	_	@FMAINVtr-OBJ>
+4	kuwa	kuwa	VERB	CONJ	_	3	xcomp	_	_
+5	mashabiki	shabiki	NOUN	N	NounClass=Bantu6|Number=Plur	4	obj	_	@<P
+6	wakubwa	kubwa	ADJ	ADJ	NounClass=Bantu2|Number=Plur	5	amod	_	@<NADJ
+7	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	8	case	_	@GCON
+8	mstari	mstari	NOUN	N	NounClass=Bantu3|Number=Sing	5	nmod	_	@<NH
+9	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	10	case	_	@GCON
+10	mbele	mbele	ADV	N	_	8	nmod	_	_
+11	.	.	PUNCT	_	_	3	punct	_	_
 
 # 5151
 1	Kinachoonyeshwa	onyeshwa	VERB	_	NounClass=Bantu7|Number=Sing	_	_	_	@FMAINVtr-OBJ>
@@ -10293,7 +10270,7 @@
 
 # 7709
 # Trans: Things they couldn't provide while they had access to the resources to do so!
-#
+# 
 1	Vitu	kitu	NOUN	N	NounClass=Bantu8|Number=Plur	0	root	_	@SUBJ
 2	ambavyo	amba	PRON	PRON	NounClass=Bantu8|Number=Plur	4	obj	_	@ADVL
 3	hawakuweza	weza	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Neg|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	4	aux	_	@FMAINVtr-OBJ>
@@ -10306,3 +10283,31 @@
 10	kufanya	fanya	NOUN	N	NounClass=Bantu15|Number=Sing	8	nmod	_	@<NH
 11	hivyo	hivyo	ADV	ADV	_	10	advmod	_	_
 12	!	!	PUNCT	EXCLAM	_	1	punct	_	_
+
+# 14895
+# Trans: The sentiments apparent in the comments on Pres Obama’s speech went beyond envy, jealous and pity.
+# attitudes of people in opinions concerning speech of president Obama 4.past.seen evidently crossing border of envy, jealousy, and state of dismalness
+1	Mitizamo	mtizamo	NOUN	N	NounClass=Bantu4|Number=Plur	12	nsubj	_	@SUBJ
+2	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	3	case	_	@GCON
+3	watu	mtu	NOUN	N	NounClass=Bantu2|Number=Plur	1	nmod	_	@<NH
+4	kwenye	kwenye	ADP	PREP	_	5	case	_	_
+5	maoni	oni	NOUN	N	NounClass=Bantu6|Number=Plur	1	nmod	_	@P>
+6	kuhusiana	husiana	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Rcp	5	acl	_	@-FMAINV-n
+7	na	na	ADP	PREP	_	8	case	_	_
+8	hotuba	hotuba	NOUN	N	NounClass=Bantu9|Number=Sing	6	obl	_	@<P
+9	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	10	case	_	@GCON
+10	Rais	rais	NOUN	N	NounClass=Bantu9|Number=Sing	8	nmod	_	@<NH
+11	Obama	Obama	PROPN	PROPNAME	_	10	flat	_	_
+12	ilionekana	onekana	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	0	root	_	@FMAINVintr
+13	dhahiri	dhahiri	ADV	ADV	_	14	advmod	_	_
+14	kuvuka	vuka	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	12	xcomp	_	@-FMAINV-n
+15	mipaka	mpaka	NOUN	N	NounClass=Bantu4|Number=Plur	14	obj	_	@OBJ
+16	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	17	case	_	@GCON
+17	husuda	husuda	NOUN	N	NounClass=Bantu9|Number=Sing	15	nmod	_	@<NH
+18	,	,	PUNCT	COMMA	_	19	punct	_	_
+19	wivu	wivu	NOUN	N	NounClass=Bantu11|Number=Sing	17	conj	_	@<P
+20	na	na	CCONJ	CC	_	21	cc	_	_
+21	hali	hali	NOUN	N	NounClass=Bantu9|Number=Sing	17	conj	_	@OBJ
+22	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	23	case	_	@GCON
+23	kusikitisha	sikitisha	NOUN	N	NounClass=Bantu15|Number=Sing	21	nmod	_	@<NH
+24	.	.	PUNCT	_	_	12	punct	_	_
