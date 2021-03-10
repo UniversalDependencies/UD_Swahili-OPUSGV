@@ -1795,120 +1795,140 @@
 10	mbele	mbele	ADV	N	_	8	nmod	_	_
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-# 5151
-1	Kinachoonyeshwa	onyeshwa	VERB	_	NounClass=Bantu7|Number=Sing	_	_	_	@FMAINVtr-OBJ>
-2	kwenye	kwenye	ADP	PREP	_	_	_	_	_
-3	Imedi	Imedi	PROPN	PROPNAME	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Neg|Subcat=Tran|Voice=Act	_	_	_	@<P
-4	TV	TA	PROPN	PROPNAME	_	_	_	_	_
-5	,	,	PUNCT	COMMA	_	_	_	_	_
-6	jina	jina	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@SUBJ
-7	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-8	kipindi	kipindi	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@<NH
-9	hicho	hicho	PRON	PRON	NounClass=Bantu7|Number=Sing	_	_	_	@<NDEM
-10	linatafsirika	tafsirika	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	_	_	_	@FMAINVintr
-11	kama	kama	ADV	ADV	_	_	_	_	_
-12	Usiku	usiku	ADV	N	_	_	_	_	_
-13	pamoja	pamoja	ADV	ADV	_	_	_	_	_
-14	na	na	CCONJ	CC	_	_	_	_	_
-15	Shorena	shorena	VERB	PROPNAME	_	_	_	_	_
-16	na	na	CCONJ	CC	_	_	_	_	_
-17	kinaongelea	ongelea	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu7|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-18	mada	mada	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-19	zinazohusu	husu	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-20	tendo	tendo	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@OBJ
-21	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-22	ngono	ngono	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-23	.	.	PUNCT	_	_	_	_	_	_
+# 5151 
+# lit: Kinachoonyeshwa kwenye Imedi TV, jina la kipindi hicho linatafsirika kama Usiku pamoja na Shorena na kinaongelea mada zinazohusu tendo la ngono.
+# trans: Shown on Imedi TV, the title translates as Night with Shorena and covers topics about sex. 
+# ilg: 7-pres-7.rel-show in Imedi TV, name of block/period 5-pres-?-translate-able like night together with Shorena and 7-pres-talk topic 10-pres-10.rel-about action of sex
+# note: this is odd because the subject of kinachoonyeshwa and kinaongelea is like an implied kipindi? while the central verb linatafsirika (think this is a typo and it should be linafasirika?) is agreeing with jina.
+1	Kinachoonyeshwa	onyeshwa	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos	10	dislocated	_	@FMAINVtr-OBJ>
+2	kwenye	kwenye	ADP	PREP	_	3	case	_	_
+3	Imedi	Imedi	PROPN	PROPNAME	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Neg|Subcat=Tran|Voice=Act	1	obl	_	@<P
+4	TV	TA	PROPN	PROPNAME	_	3	flat	_	_
+5	,	,	PUNCT	COMMA	_	10	punct	_	_
+6	jina	jina	NOUN	N	NounClass=Bantu5|Number=Sing	10	nsubj	_	@SUBJ
+7	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	8	case	_	@GCON
+8	kipindi	kipindi	NOUN	N	NounClass=Bantu7|Number=Sing	6	nmod	_	@<NH
+9	hicho	hicho	DET	PRON	NounClass=Bantu7|Number=Sing	8	det	_	@<NDEM
+10	linatafsirika	tafsirika	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	0	root	_	@FMAINVintr
+11	kama	kama	ADP	ADV	_	12	case	_	_
+12	Usiku	usiku	ADV	N	_	10	obl	_	_
+13	pamoja	pamoja	ADV	ADV	_	15	case	_	_
+14	na	na	CCONJ	CC	_	13	fixed	_	_
+15	Shorena	shorena	VERB	PROPNAME	_	12	nmod	_	_
+16	na	na	CCONJ	CC	_	17	cc	_	_
+17	kinaongelea	ongelea	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu7|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	10	conj	_	@FMAINVtr+OBJ>
+18	mada	mada	NOUN	N	NounClass=Bantu9|Number=Sing	17	obj	_	@OBJ
+19	zinazohusu	husu	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	18	acl	_	@FMAINVtr+OBJ>
+20	tendo	tendo	NOUN	N	NounClass=Bantu5|Number=Sing	19	obj	_	@OBJ
+21	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	22	case	_	@GCON
+22	ngono	ngono	NOUN	N	NounClass=Bantu9|Number=Sing	20	nmod	_	@<NH
+23	.	.	PUNCT	_	_	10	punct	_	_
 
-# 5679
-1	Tanataka	tataka	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@NH
-2	kufanya	fanya	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-3	kazi	kazi	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-4	kwa	kwa	ADP	PREP	_	_	_	_	_
-5	ufanisi	ufanisi	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@P>
-6	zaidi	zaidi	ADJ	ADJ	Degree=Cmp	_	_	_	@AD-A>
-7	,	,	PUNCT	COMMA	_	_	_	_	_
-8	na	na	CCONJ	CC	_	_	_	_	_
-9	kutenda	tenda	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV-n
-10	kwa	kwa	ADP	GEN-CON-KWA	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV-n
-11	nguvu	nguvu	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-12	zaidi	zaidi	ADJ	ADJ	Degree=Cmp	_	_	_	@AD-A>
-13	.	.	PUNCT	_	_	_	_	_	_
+# 5679 
+# lit: Tanataka kufanya kazi kwa ufanisi zaidi, na kutenda kwa nguvu zaidi.
+# trans: We seek to work together more effectively, and act more powerfully. 
+# ilg: 2PL-pres-want 15-do work for efficiency more , and do for strength more .
+1	Tanataka	tataka	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@NH
+2	kufanya	fanya	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	1	xcomp	_	@-FMAINV-n
+3	kazi	kazi	NOUN	N	NounClass=Bantu9|Number=Sing	2	obj	_	@OBJ
+4	kwa	kwa	ADP	PREP	_	5	case	_	_
+5	ufanisi	ufanisi	NOUN	N	NounClass=Bantu11|Number=Sing	2	obl	_	@P>
+6	zaidi	zaidi	ADJ	ADJ	Degree=Cmp	5	amod	_	@AD-A>
+7	,	,	PUNCT	COMMA	_	9	punct	_	_
+8	na	na	CCONJ	CC	_	9	cc	_	_
+9	kutenda	tenda	NOUN	N	NounClass=Bantu15|Number=Sing	2	conj	_	@-FMAINV-n
+10	kwa	kwa	ADP	GEN-CON-KWA	NounClass=Bantu15|Number=Sing	11	case	_	@-FMAINV-n
+11	nguvu	nguvu	NOUN	N	NounClass=Bantu9|Number=Sing	9	obl	_	@<P
+12	zaidi	zaidi	ADJ	ADJ	Degree=Cmp	11	amod	_	@AD-A>
+13	.	.	PUNCT	_	_	1	punct	_	_
 
-# 12132
-1	Wakati	wakati	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@ADVL
-2	mwingine	ingine	ADJ	ADJ	Degree=Pos|NounClass=Bantu11|Number=Sing	_	_	_	@<DN
-3	wagojwa	gojwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-4	wanaweza	weza	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-5	kuwa	wa	VERB	V	_	_	_	_	_
-6	wadhaifu	dhaifu	ADJ	ADJ	Degree=Pos|NounClass=Bantu2|Number=Plur	_	_	_	@<NADJ
-7	sana	sana	ADJ	ADJ	Degree=Pos	_	_	_	@<AD-A
-8	kiasi	kiasi	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@<P
-9	cha	cha	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	_	_	_	@GCON
-10	kushindwa	shindwa	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-11	hata	hata	ADV	ADV	_	_	_	_	_
-12	kulia	lia	VERB	N	NounClass=Bantu9|Number=Sing	_	_	_	@-FMAINV-n
-13	.	.	PUNCT	_	_	_	_	_	_
+# 12132 
+# lit: Wakati mwingine wagojwa wanaweza kuwa wadhaifu sana kiasi cha kushindwa hata kulia.
+# trans: It so happens that the victims can be too weak to even cry. 
+# ilg: time another 2-victims 2-pres-can 15-be weak very amount of 15-being.unable even 15-crying.
+1	Wakati	wakati	NOUN	N	NounClass=Bantu11|Number=Sing	6	obl	_	@ADVL
+2	mwingine	ingine	ADJ	ADJ	Degree=Pos|NounClass=Bantu11|Number=Sing	1	amod	_	@<DN
+3	wagojwa	gojwa	NOUN	V	NounClass=Bantu2|Number=Plur	6	nsubj	_	@FMAINVtr-OBJ>
+4	wanaweza	weza	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	6	aux	_	@FMAINVtr-OBJ>
+5	kuwa	wa	AUX	V	_	6	cop	_	_
+6	wadhaifu	dhaifu	ADJ	ADJ	Degree=Pos|NounClass=Bantu2|Number=Plur	0	root	_	@<NADJ
+7	sana	sana	ADV	ADJ	Degree=Pos	6	advmod	_	@<AD-A
+8	kiasi	kiasi	NOUN	N	NounClass=Bantu7|Number=Sing	6	nmod	_	@<P
+9	cha	cha	ADP	GEN-CON	NounClass=Bantu7|Number=Sing	10	case	_	@GCON
+10	kushindwa	shindwa	NOUN	N	NounClass=Bantu15|Number=Sing	8	nmod	_	@<NH
+11	hata	hata	ADV	ADV	_	12	advmod	_	_
+12	kulia	lia	VERB	N	NounClass=Bantu9|Number=Sing	10	xcomp	_	@-FMAINV-n
+13	.	.	PUNCT	_	_	6	punct	_	_
 
-# 3854
-1	Nami	nami	CCONJ	CC	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-2	ninashiriki	shiriki	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-3	katika	katika	ADP	PREP	_	_	_	_	_
-4	kuchefuka	chefuka	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<P
-5	na	na	CCONJ	CC	_	_	_	_	_
-6	uvunjifu	vunjifu	VERB	N	NounClass=Bantu11|Number=Sing	_	_	_	@FMAINVtr-OBJ>
-7	huu	huu	PRON	PRON	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
-8	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-9	sheria	sheria	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-10	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-11	haki	haki	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-12	miliki	miliki	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-13	,	,	PUNCT	COMMA	_	_	_	_	_
-14	na	na	CCONJ	CC	_	_	_	_	_
-15	njia	njia	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-16	iliyozoeleka	zoeleka	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr-OBJ>
-17	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-18	kutafsiri	tafsiri	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-19	na	na	CCONJ	CC	_	_	_	_	_
-20	‘	t	CCONJ	NUM	_	_	_	_	_
-21	kuiba	iba	VERB	V	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV-n
-22	’	t	ADP	_	_	_	_	_	_
-23	kazi	kazi	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-24	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-25	wengine	wengine	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<NH
-26	si	si	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINV
-27	nafuu	nafuu	ADJ	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-28	.	.	PUNCT	_	_	_	_	_	_
+# 3854 
+# lit: Nami ninashiriki katika kuchefuka na uvunjifu huu wa sheria ya haki miliki, na njia iliyozoeleka ya kutafsiri na ‘kuiba’ kazi za wengine si nafuu. 
+# trans:  I share in the revulsion for plagiarism, and the common tactic of translating and plariagizing is no better. 
+# ilg: and.me 1S-pres-participate in revulsion? with breaking this of law of fair law and way 9-past-9.rel-be.used of translating and ' stealing ' work of otheres is.not improvement.
+1	Nami	nami	PRON	CC	NounClass=Bantu1|Number=Sing	2	nsubj	_	@SUBJ
+2	ninashiriki	shiriki	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+3	katika	katika	ADP	PREP	_	4	case	_	_
+4	kuchefuka	chefuka	NOUN	N	NounClass=Bantu15|Number=Sing	2	obl	_	@<P
+5	na	na	ADP	CC	_	6	case	_	_
+6	uvunjifu	vunjifu	VERB	N	NounClass=Bantu11|Number=Sing	4	nmod	_	@FMAINVtr-OBJ>
+7	huu	huu	DET	PRON	NounClass=Bantu11|Number=Sing	6	det	_	@OBJ
+8	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	9	case	_	@GCON
+9	sheria	sheria	NOUN	N	NounClass=Bantu9|Number=Sing	6	nmod	_	@<NH
+10	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	11	case	_	@GCON
+11	haki	haki	NOUN	N	NounClass=Bantu9|Number=Sing	9	nmod	_	@<NH
+12	miliki	miliki	NOUN	N	NounClass=Bantu9|Number=Sing	11	_	_	@<P
+13	,	,	PUNCT	COMMA	_	27	punct	_	_
+14	na	na	CCONJ	CC	_	27	cc	_	_
+15	njia	njia	NOUN	N	NounClass=Bantu9|Number=Sing	27	nsubj	_	@SUBJ
+16	iliyozoeleka	zoeleka	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Cau	15	acl	_	@FMAINVtr-OBJ>
+17	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	18	case	_	@GCON
+18	kutafsiri	tafsiri	NOUN	N	NounClass=Bantu15|Number=Sing	15	nmod	_	@<NH
+19	na	na	CCONJ	CC	_	21	cc	_	_
+20	‘	t	PUNCT	NUM	_	21	punct	_	_
+21	kuiba	iba	VERB	V	NounClass=Bantu15|Number=Sing	18	conj	_	@-FMAINV-n
+22	’	t	PUNCT	_	_	21	punct	_	_
+23	kazi	kazi	NOUN	N	NounClass=Bantu10|Number=Plur	21	obj	_	@OBJ
+24	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	25	case	_	@GCON
+25	wengine	wengine	NOUN	N	NounClass=Bantu2|Number=Plur	23	nmod	_	@<NH
+26	si	si	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	27	cop	_	@FMAINV
+27	nafuu	nafuu	ADJ	N	NounClass=Bantu9|Number=Sing	2	parataxis	_	@<P
+28	.	.	PUNCT	_	_	2	punct	_	_
 
-# 25765
-1	"	"	PUNCT	DOUBLE-QUOTE-OPENING	_	_	_	_	_
-2	Ardhi	ardhi	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@PAT
-3	zetu	etu	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-4	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-5	urithi	urithi	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<NH
-6	zinachukuliwa	chukuliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-7	kwa	kwa	ADP	PREP	_	_	_	_	_
-8	nguvu	nguvu	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-9	.	.	PUNCT	_	_	_	_	_	_
+# 25765 
+# lit: "Ardhi zetu za urithi zinachukuliwa kwa nguvu.
+# trans: "Our ancestral lands are being forcibly taken from us. 
+# ilg: " lands ours of inheritancve 10-pres-take-pass for strength.
+1	"	"	PUNCT	DOUBLE-QUOTE-OPENING	_	6	punct	_	_
+2	Ardhi	ardhi	NOUN	N	NounClass=Bantu10|Number=Plur	6	nsubj	_	@PAT
+3	zetu	etu	DET	PRON	NounClass=Bantu10|Number=Plur	2	nmod	_	@GCON
+4	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	5	case	_	@GCON
+5	urithi	urithi	NOUN	N	NounClass=Bantu11|Number=Sing	2	nmod	_	@<NH
+6	zinachukuliwa	chukuliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Pass	0	root	_	@FMAINVtr-OBJ>
+7	kwa	kwa	ADP	PREP	_	8	case	_	_
+8	nguvu	nguvu	NOUN	N	NounClass=Bantu9|Number=Sing	6	obl	_	@<P
+9	.	.	PUNCT	_	_	6	punct	_	_
 
-# 341
-1	Tunayo	tuna	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=1|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-2	programu	programu	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-3	inayolenga	lenga	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|ObjNounClass=Bantu5|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-4	kuwapata	pata	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-5	mabloga	mabloga	NOUN	N	_	_	_	_	_
-6	wazuri	zuri	ADJ	ADJ	Degree=Pos|NounClass=Bantu2|Number=Plur	_	_	_	@<NADJ
-7	walioko	walioko	VERB	REL-LI	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-loc
-8	mikoani	mkoa	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@<P
-9	na	na	CCONJ	CC	_	_	_	_	_
-10	kuwakuza	kuza	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<P
-11	kwa	kwa	ADP	GEN-CON-KWA	NounClass=Bantu15|Number=Sing	_	_	_	@ADVL
+# 341 
+# lit: Tunayo programu inayolenga kuwapata mabloga wazuri walioko mikoani na kuwakuza kwa kuwanukuu au kwa kuongea nao. 
+# trans: We have a program designed to find good provincial blogs and promote them by quoting from them and talking to them. 
+# ilg: 2PL-have-9 program 9-pres-9.rel-aim 15-get blogs good 2-rel-be.there? region and 15-2-grow for 15-2-quote of for 15-talk with them.
+1	Tunayo	tuna	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|ObjNounClass=9|ObjNumber=Sing|Person=1|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@FMAINVtr+OBJ>
+2	programu	programu	NOUN	N	NounClass=Bantu9|Number=Plur	1	obj	_	@OBJ
+3	inayolenga	lenga	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|ObjNounClass=Bantu5|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	2	acl	_	@FMAINVtr-OBJ>
+4	kuwapata	pata	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act	3	xcomp	_	@-FMAINV-n
+5	mabloga	mabloga	NOUN	N	_	4	obj	_	_
+6	wazuri	zuri	ADJ	ADJ	Degree=Pos|NounClass=Bantu2|Number=Plur	5	amod	_	@<NADJ
+7	walioko	walioko	VERB	REL-LI	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	5	acl	_	@FMAINVintr-loc
+8	mikoani	mkoa	NOUN	N	NounClass=Bantu4|Number=Plur	7	obj	_	@<P
+9	na	na	CCONJ	CC	_	10	cc	_	_
+10	kuwakuza	kuza	NOUN	N	NounClass=Bantu15|Number=Sing	4	conj	_	@<P
+11	kwa	kwa	ADP	GEN-CON-KWA	NounClass=Bantu15|Number=Sing	12	case	_	@ADVL
 12	kuwanukuu	anukuu	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<P
-13	au	au	CCONJ	CONJ/CC	_	_	_	_	_
-14	kwa	kwa	ADP	PREP	_	_	_	_	_
-15	kuongea	ongea	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<P
-16	nao	nao	CCONJ	CC	NounClass=Bantu2|Number=Plur	_	_	_	@OBJ
-17	.	.	PUNCT	_	_	_	_	_	_
+13	au	au	CCONJ	CONJ/CC	_	15	cc	_	_
+14	kwa	kwa	ADP	PREP	_	15	case	_	_
+15	kuongea	ongea	NOUN	N	NounClass=Bantu15|Number=Sing	12	conj	_	@<P
+16	na	nao	CCONJ	CC	NounClass=Bantu2|Number=Plur	17	case	_	@OBJ
+17	wao	wao	PRON	CC	NounClass=Bantu2|Number=Plur	15	obl	_	@OBJ
+18	.	.	PUNCT	_	_	1	punct	_	_
 
 # 20121
 1	Kutokana	tokana	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@SUBJ
