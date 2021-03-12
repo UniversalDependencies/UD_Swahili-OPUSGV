@@ -1930,86 +1930,95 @@
 17	wao	wao	PRON	CC	NounClass=Bantu2|Number=Plur	15	obl	_	@OBJ
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# 20121
-1	Kutokana	tokana	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@SUBJ
-2	na	na	CCONJ	CC	_	_	_	_	_
-3	harakati	harakati	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-4	zake	ake	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-5	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-6	kisiasa	siasa	ADV	ADV	_	_	_	_	_
-7	,	,	PUNCT	COMMA	_	_	_	_	_
-8	serikali	serikali	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-9	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-10	zamani	zamani	ADV	ADV	_	_	_	_	_
-11	ilimfunga	funga	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-12	jela	jela	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-13	kwa	kwa	ADP	PREP	_	_	_	_	_
-14	karibu	karibu	ADV	ADV	_	_	_	_	_
-15	miongo	mongo	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@OBJ
-16	miwili	wili	NUM	NUM	NounClass=Bantu4|NumType=Card|Number=Plur	_	_	_	@QN
-17	,	,	PUNCT	COMMA	_	_	_	_	_
-18	walimtesa	tesa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-19	,	,	PUNCT	COMMA	_	_	_	_	_
-20	kumnyima	nyima	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-21	matibabu	tibabu	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@<P
-22	na	na	CCONJ	CC	_	_	_	_	_
-23	kumpokonya	pokonya	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Appl	_	_	_	@-FMAINV-n
-24	nyumbani	nyumbani	ADV	ADV	_	_	_	_	_
-25	kwake	ake	PRON	PRON	NounClass=Bantu15|Number=Sing	_	_	_	@ADVL
-26	.	.	PUNCT	_	_	_	_	_	_
+# 20121 
+# lit: Kutokana na harakati zake za kisiasa, serikali ya zamani ilimfunga jela kwa karibu miongo miwili, walimtesa, kumnyima matibabu na kumpokonya nyumbani kwake.
+# trans: Due to his political activities, the former regime put him in jail for nearly two decades, tortured him, withheld medical treatment and confiscated his home. 
+# ilg: originating with movement his of politics, government of past 9-past-1-bind jail for nearly decade two, 2-past-1-torture , 15-1-kept.back cure and stole home his
+1	Kutokana	tokana	NOUN	N	NounClass=Bantu15|Number=Sing	11	obl	_	@SUBJ
+2	na	na	ADP	CC	_	3	case	_	_
+3	harakati	harakati	NOUN	N	NounClass=Bantu10|Number=Plur	1	nmod	_	@<P
+4	zake	ake	DET	PRON	NounClass=Bantu10|Number=Plur	3	nmod	_	@GCON
+5	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	6	case	_	@GCON
+6	kisiasa	siasa	NOUN	ADV	_	3	nmod	_	_
+7	,	,	PUNCT	COMMA	_	11	punct	_	_
+8	serikali	serikali	NOUN	N	NounClass=Bantu9|Number=Sing	11	nsubj	_	@SUBJ
+9	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	10	case	_	@GCON
+10	zamani	zamani	NOUN	N	NounClass=Bantu9|Number=Sing	8	nmod	_	_
+11	ilimfunga	funga	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	0	root	_	@FMAINVtr+OBJ>
+12	jela	jela	NOUN	N	NounClass=Bantu9|Number=Sing	11	obj	_	@OBJ
+13	kwa	kwa	ADP	PREP	_	15	case	_	_
+14	karibu	karibu	ADV	ADV	_	15	advmod	_	_
+15	miongo	mongo	NOUN	N	NounClass=Bantu4|Number=Plur	11	obl	_	@OBJ
+16	miwili	wili	NUM	NUM	NounClass=Bantu4|NumType=Card|Number=Plur	15	nummod	_	@QN
+17	,	,	PUNCT	COMMA	_	18	punct	_	_
+18	walimtesa	tesa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	11	conj	_	@FMAINVtr-OBJ>
+19	,	,	PUNCT	COMMA	_	20	punct	_	_
+20	kumnyima	nyima	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act	11	conj	_	@-FMAINV-n
+21	matibabu	tibabu	NOUN	N	NounClass=Bantu6|Number=Plur	20	obj	_	@<P
+22	na	na	CCONJ	CC	_	23	cc	_	_
+23	kumpokonya	pokonya	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Appl	11	conj	_	@-FMAINV-n
+24	nyumbani	nyumbani	ADV	ADV	_	23	obj	_	_
+25	kwake	ake	DET	PRON	NounClass=Bantu15|Number=Sing	24	nmod	_	@ADVL
+26	.	.	PUNCT	_	_	11	punct	_	_
 
-# 20564
-1	Kuvunja	vunja	NOUN	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Ditran|Voice=Act	_	_	_	@-FMAINV-n
-2	haki	haki	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-3	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-4	waandishi	mwandishi	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<NH
-5	ni	ni	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-def
-6	wazi	wazi	ADV	ADV	_	_	_	_	_
-7	ni	ni	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-def
-8	uvunjaji	uvunjaji	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<P
-9	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-10	haki	haki	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-11	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-12	uhuru	uhuru	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<NH
-13	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-14	vyombo	chombo	NOUN	N	NounClass=Bantu8|Number=Plur	_	_	_	@<NH
-15	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	_	_	_	@GCON
-16	habari	habari	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-17	na	na	CCONJ	CC	_	_	_	_	_
-18	hali	hali	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-19	hiyo	hiyo	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@<NDEM
-20	haitavuliwa	vuliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Fut|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-21	.	.	PUNCT	_	_	_	_	_	_
+# 20564 
+# lit. Kuvunja haki za waandishi ni wazi ni uvunjaji wa haki ya uhuru wa vyombo vya habari na hali hiyo haitavuliwa. 
+# trans: Any violation of the rights of journalists is a clear violation of the right to freedom of the media and can not be tolerated. 
+# ilg: breaking right of writers is clearly is breaking of right of freedom of vessel? of media and situation this tolerated?
+1	Kuvunja	vunja	NOUN	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Ditran|Voice=Act	8	nsubj	_	@-FMAINV-n
+2	haki	haki	NOUN	N	NounClass=Bantu10|Number=Plur	1	obj	_	@OBJ
+3	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	4	case	_	@GCON
+4	waandishi	mwandishi	NOUN	N	NounClass=Bantu2|Number=Plur	2	nmod	_	@<NH
+5	ni	ni	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	8	cop	_	@FMAINVintr-def
+6	wazi	wazi	ADV	ADV	_	8	advmod	_	_
+7	ni	ni	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	8	cop	_	@FMAINVintr-def
+8	uvunjaji	uvunjaji	NOUN	N	NounClass=Bantu11|Number=Sing	0	root	_	@<P
+9	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	10	case	_	@GCON
+10	haki	haki	NOUN	N	NounClass=Bantu9|Number=Sing	8	nmod	_	@<NH
+11	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	12	case	_	@GCON
+12	uhuru	uhuru	NOUN	N	NounClass=Bantu11|Number=Sing	10	nmod	_	@<NH
+13	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	14	case	_	@GCON
+14	vyombo	chombo	NOUN	N	NounClass=Bantu8|Number=Plur	12	nmod	_	@<NH
+15	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	16	case	_	@GCON
+16	habari	habari	NOUN	N	NounClass=Bantu9|Number=Sing	14	nmod	_	@<NH
+17	na	na	CCONJ	CC	_	20	cc	_	_
+18	hali	hali	NOUN	N	NounClass=Bantu9|Number=Sing	20	nsubj	_	@<NH
+19	hiyo	hiyo	DET	PRON	NounClass=Bantu9|Number=Sing	18	det	_	@<NDEM
+20	haitavuliwa	vuliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Fut|Voice=Pass	8	conj	_	@FMAINVtr-OBJ>
+21	.	.	PUNCT	_	_	8	punct	_	_
 
-# 18864
-1	Muungano	muungano	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@SUBJ
-2	ulioongozwa	ongozwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu11|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-3	na	na	ADP	AG-PART	_	_	_	_	_
-4	Marekani	Marekani	PROPN	PROPNAME	_	_	_	_	_
+# 18864 
+# lit: Muungano ulioongozwa na Marekani, ulifanikisha kuipatia uhuru nchi ya Kuwait mapema mwezi Februari, 1991, miezi nane mara baada ya kuvamiwa na nchi ya Iraq.
+# trans: A US-led coalition liberated Kuwait in February 1991, after an eight-month Iraqi invasion 
+# ilg: coalition 3-past-3.rel-lead by America, 3-past-accomplish 15-9-obtain-appl freedom countryof Kuwait early month February , month 8 time after 15-invade by country of Iraq .
+1	Muungano	muungano	NOUN	N	NounClass=Bantu3|Number=Sing	6	nsubj	_	@SUBJ
+2	ulioongozwa	ongozwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu11|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	1	acl	_	@FMAINVtr-OBJ>
+3	na	na	ADP	AG-PART	_	4	case	_	_
+4	Marekani	Marekani	PROPN	PROPNAME	_	2	obj	_	_
 5	,	,	PUNCT	COMMA	_	_	_	_	_
-6	ulifanikisha	fanikisha	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-7	kuipatia	patia	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu9|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Appl	_	_	_	@-FMAINV-n
-8	uhuru	uhuru	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
-9	nchi	nchi	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-10	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-11	Kuwait	Kuwait	PROPN	PROPNAME	_	_	_	_	_
-12	mapema	mapema	ADV	ADV	_	_	_	_	_
-13	mwezi	mwezi	NOUN	N	_	_	_	_	_
-14	Februari	Februari	PROPN	PROPNAME	_	_	_	_	_
-15	,	,	PUNCT	COMMA	_	_	_	_	_
-16	1991	1991	NUM	NUM	_	_	_	_	_
-17	,	,	PUNCT	COMMA	_	_	_	_	_
-18	miezi	mwezi	NOUN	N	NounClass=Bantu4|Number=Plur	_	_	_	@ADVL
-19	nane	nane	NUM	NUM	NounClass=Bantu10|NumType=Card|Number=Plur	_	_	_	@QN
-20	mara	mara	NOUN	ADV	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-21	baada	baada	ADV	ADV	_	_	_	_	_
-22	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	_	_	_	@GCON
-23	kuvamiwa	vamiwa	NOUN	V	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-24	na	na	ADP	AG-PART	_	_	_	_	_
-25	nchi	nchi	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@AG
-26	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-27	Iraq	Iraq	PROPN	PROPNAME	_	_	_	_	_
-28	.	.	PUNCT	_	_	_	_	_	_
+6	ulifanikisha	fanikisha	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	0	root	_	@FMAINVtr-OBJ>
+7	kuipatia	patia	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu9|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Appl	6	xcomp	_	@-FMAINV-n
+8	uhuru	uhuru	NOUN	N	NounClass=Bantu11|Number=Sing	7	obj	_	@OBJ
+9	nchi	nchi	NOUN	N	NounClass=Bantu9|Number=Sing	7	iobj	_	@OBJ
+10	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	11	case	_	@GCON
+11	Kuwait	Kuwait	PROPN	PROPNAME	_	9	nmod	_	_
+12	mapema	mapema	ADV	ADV	_	13	advmod	_	_
+13	mwezi	mwezi	NOUN	N	_	6	obl	_	_
+14	Februari	Februari	PROPN	PROPNAME	_	13	flat	_	_
+15	,	,	PUNCT	COMMA	_	16	punct	_	_
+16	1991	1991	NUM	NUM	_	13	flat	_	_
+17	,	,	PUNCT	COMMA	_	16	punct	_	_
+18	miezi	mwezi	NOUN	N	NounClass=Bantu4|Number=Plur	6	obl	_	@ADVL
+19	nane	nane	NUM	NUM	NounClass=Bantu10|NumType=Card|Number=Plur	18	nummod	_	@QN
+20	mara	mara	NOUN	ADV	NounClass=Bantu9|Number=Sing	18	nmod	_	@OBJ
+21	baada	baada	ADV	ADV	_	23	case	_	_
+22	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	21	fixed	_	@GCON
+23	kuvamiwa	vamiwa	NOUN	V	NounClass=Bantu15|Number=Sing	18	nmod	_	@<NH
+24	na	na	ADP	AG-PART	_	25	case	_	_
+25	nchi	nchi	NOUN	N	NounClass=Bantu9|Number=Sing	23	obl	_	@AG
+26	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	27	case	_	@GCON
+27	Iraq	Iraq	PROPN	PROPNAME	_	25	nmod	_	_
+28	.	.	PUNCT	_	_	6	punct	_	_
 
 # 18368
 1	Biti	biti	NOUN	PROPNAME	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
