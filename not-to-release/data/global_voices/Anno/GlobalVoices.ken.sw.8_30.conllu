@@ -2020,210 +2020,241 @@
 27	Iraq	Iraq	PROPN	PROPNAME	_	25	nmod	_	_
 28	.	.	PUNCT	_	_	6	punct	_	_
 
-# 18368
-1	Biti	biti	NOUN	PROPNAME	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-2	ni	ni	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	_	_	_	@FMAINVintr-def
-3	katibu	katibu	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-4	mkuu	kuu	ADJ	ADJ	NounClass=Bantu1|Number=Sing	_	_	_	@PCOMPL-S
-5	wa	wa	ADP	GEN-CON	NounClass=Bantu1|Number=Sing	_	_	_	@GCON
-6	MDC	M.C	PROPN	PROPNAME	_	_	_	_	_
-7	,	,	PUNCT	COMMA	_	_	_	_	_
-8	kinachoongozwa	ongozwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu7|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-9	na	na	ADP	AG-PART	_	_	_	_	_
-10	Waziri	waziri	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@AG
-11	Mkuu	kuu	ADJ	ADJ	NounClass=Bantu1|Number=Sing	_	_	_	@<NADJ
-12	wa	wa	ADP	GEN-CON	NounClass=Bantu1|Number=Sing	_	_	_	@GCON
-13	zamani	zamani	NOUN	ADV	_	_	_	_	_
-14	wa	wa	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-15	nchi	nchi	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-16	hiyo	hiyo	PRON	PRON	NounClass=Bantu9|Number=Sing	_	_	_	@<NDEM
-17	,	,	PUNCT	COMMA	_	_	_	_	_
-18	Morgan	morgan	NOUN	PROPNAME	_	_	_	_	_
-19	Tsvangirai	Tsvangirai	PROPN	PROPNAME	_	_	_	_	_
-20	.	.	PUNCT	_	_	_	_	_	_
+# 18368 
+# lit: Biti ni katibu mkuu wa MDC, kinachoongozwa na Waziri Mkuu wa zamani wa nchi hiyo, Morgan Tsvangirai.
+# trans: Biti is the secretary general for Movement for Democratic Change, led by former Prime Minister Morgan Tsvangirai. 
+# ilg: Biti is secretary major of MDC, 7-pres-7.rel-lead by minister major of age? of country this , Morgan Tsvangirai
+1	Biti	biti	NOUN	PROPNAME	NounClass=Bantu9|Number=Sing	3	nsubj	_	@SUBJ
+2	ni	ni	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	3	cop	_	@FMAINVintr-def
+3	katibu	katibu	NOUN	N	NounClass=Bantu9|Number=Sing	0	root	_	@<P
+4	mkuu	kuu	ADJ	ADJ	NounClass=Bantu1|Number=Sing	3	amod	_	@PCOMPL-S
+5	wa	wa	ADP	GEN-CON	NounClass=Bantu1|Number=Sing	6	case	_	@GCON
+6	MDC	M.C	PROPN	PROPNAME	_	3	nmod	_	_
+7	,	,	PUNCT	COMMA	_	8	punct	_	_
+8	kinachoongozwa	ongozwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu7|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	6	acl	_	@FMAINVtr-OBJ>
+9	na	na	ADP	AG-PART	_	10	case	_	_
+10	Waziri	waziri	NOUN	N	NounClass=Bantu9|Number=Sing	8	obl	_	@AG
+11	Mkuu	kuu	ADJ	ADJ	NounClass=Bantu1|Number=Sing	10	amod	_	@<NADJ
+12	wa	wa	ADP	GEN-CON	NounClass=Bantu1|Number=Sing	13	case	_	@GCON
+13	zamani	zamani	NOUN	ADV	_	10	nmod	_	_
+14	wa	wa	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	15	case	_	@GCON
+15	nchi	nchi	NOUN	N	NounClass=Bantu9|Number=Sing	10	nmod	_	@<NH
+16	hiyo	hiyo	DET	PRON	NounClass=Bantu9|Number=Sing	15	det	_	@<NDEM
+17	,	,	PUNCT	COMMA	_	18	punct	_	_
+18	Morgan	morgan	PROPN	PROPNAME	_	10	appos	_	_
+19	Tsvangirai	Tsvangirai	PROPN	PROPNAME	_	18	flat	_	_
+20	.	.	PUNCT	_	_	3	punct	_	_
 
-# 13147
-1	Wafuasi	mfuasi	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-2	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-3	Rais	rais	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@<NH
-4	Hugo	hugo	NOUN	N	_	_	_	_	_
-5	Chavez	Chavez	PROPN	PROPNAME	_	_	_	_	_
-6	wakati	wakati	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@ADVL
-7	uchaguzi	uchaguzi	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<P
-8	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-9	rais	rais	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@<NH
-10	tarehe	tarehe	ADP	PREP	_	_	_	_	_
-11	7	7	NUM	NUM	_	_	_	_	_
-12	Oktoba	Oktoba	PROPN	PROPNAME	_	_	_	_	_
-13	,	,	PUNCT	COMMA	_	_	_	_	_
-14	2012	2012	NOUN	NUM	_	_	_	_	_
-15	.	.	PUNCT	_	_	_	_	_	_
+# 13147 
+# lit: Wafuasi wa Rais Hugo Chavez wakati uchaguzi wa rais tarehe 7 Oktoba, 2012. 
+# trans: Supporters of President Hugo Chavez during the presidential elections on October 7, 2012. 
+# ilg: follower of Rais Hugo Chavez time election of president 
+1	Wafuasi	mfuasi	NOUN	N	NounClass=Bantu2|Number=Plur	0	root	_	@SUBJ
+2	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	3	case	_	@GCON
+3	Rais	rais	NOUN	N	NounClass=Bantu1|Number=Sing	1	nmod	_	@<NH
+4	Hugo	hugo	NOUN	N	_	3	fixed	_	_
+5	Chavez	Chavez	PROPN	PROPNAME	_	3	fixed	_	_
+6	wakati	wakati	NOUN	N	NounClass=Bantu11|Number=Sing	1	nmod	_	@ADVL
+7	uchaguzi	uchaguzi	NOUN	N	NounClass=Bantu11|Number=Sing	6	nmod	_	@<P
+8	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	9	case	_	@GCON
+9	rais	rais	NOUN	N	NounClass=Bantu1|Number=Sing	7	nmod	_	@<NH
+10	tarehe	tarehe	NOUN	PREP	_	1	obl	_	_
+11	7	7	NUM	NUM	_	10	flat	_	_
+12	Oktoba	Oktoba	PROPN	PROPNAME	_	10	flat	_	_
+13	,	,	PUNCT	COMMA	_	10	punct	_	_
+14	2012	2012	NOUN	NUM	_	10	flat	_	_
+15	.	.	PUNCT	_	_	1	punct	_	_
 
-# 26322
-1	Mwandishi	mwandishi	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@SUBJ
-2	huyo	huyo	PRON	PRON	NounClass=Bantu1|Number=Sing	_	_	_	@<NDEM
-3	amenyimwa	nyimwa	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|ObjNounClass=Bantu9|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-4	dhamana	dhamana	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-5	pamoja	pamoja	ADV	ADV	_	_	_	_	_
-6	na	na	CCONJ	CC	_	_	_	_	_
-7	kuzuiwa	zuiwa	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	_	_	_	@-FMAINV-n
-8	kukutana	kutana	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Rcp	_	_	_	@-FMAINV-n
-9	na	na	ADP	PREP	_	_	_	_	_
-10	mwanasheria	mwanasheria	NOUN	N	NounClass=Bantu1|Number=Sing	_	_	_	@<P
-11	.	.	PUNCT	_	_	_	_	_	_
 
-# 1161
-1	Kufungia	fungia	VERB	V	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV-n
-2	vyombo	chombo	NOUN	N	NounClass=Bantu8|Number=Plur	_	_	_	@OBJ
-3	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	_	_	_	@GCON
-4	habari	habari	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-5	katika	katika	ADP	PREP	_	_	_	_	_
-6	zama	zama	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-7	zile	zile	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@<NDEM
-8	kuliweza	weza	VERB	V	NounClass=Bantu15|Number=Sing	_	_	_	@-FMAINV-n
-9	kufanya	fanya	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-10	kazi	kazi	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-11	.	.	PUNCT	_	_	_	_	_	_
 
-# 6849
-1	Faheem	Faheem	PROPN	PROPNAME	_	_	_	_	_
-2	Haider	haider	NOUN	PROPNAME	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	_	_	_	@<P
-3	kupitia	pitia	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Appl	_	_	_	@-FMAINV-n
-4	blogu	blogu	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
-5	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	_	_	_	@GCON
-6	Bangladesh	Bangladesh	PROPN	PROPNAME	_	_	_	_	_
-7	Foreign	Foreinn	PROPN	PROPNAME	_	_	_	_	_
-8	Policy	Policy	PROPN	PROPNAME	_	_	_	_	_
-9	anajadili	jadili	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-10	kuhusu	kuhusu	ADP	PREP	_	_	_	_	_
-11	vitendo	kitendo	NOUN	N	NounClass=Bantu8|Number=Plur	_	_	_	@<P
-12	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	_	_	_	@GCON
-13	unyanyasaji	unyanyasaji	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<NH
-14	watoto	mtoto	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@OBJ
-15	na	na	CCONJ	CC	_	_	_	_	_
-16	watoto	mtoto	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-17	wanaotumikishwa	tumikishwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu16|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-18	katika	katika	ADP	PREP	_	_	_	_	_
-19	nchi	nchi	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-20	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-21	Pakistani	Pakistani	PROPN	PROPNAME	_	_	_	_	_
-22	na	na	CCONJ	CC	_	_	_	_	_
-23	Bangladeshi	Bangladeshi	PROPN	PROPNAME	Degree=Pos	_	_	_	@OBJ
-24	.	.	PUNCT	_	_	_	_	_	_
+# 26322 
+# lit: Mwandishi huyo amenyimwa dhamana pamoja na kuzuiwa kukutana na mwanasheria
+# trans: The journalist has since been denied bail as well as access to a lawyer. 
+# ilg: writer this 1-perf-kept.back bail together with 15-prevent 15-meeting with lawyer
+1	Mwandishi	mwandishi	NOUN	N	NounClass=Bantu1|Number=Sing	3	nsubj	_	@SUBJ
+2	huyo	huyo	DET	PRON	NounClass=Bantu1|Number=Sing	1	det	_	@<NDEM
+3	amenyimwa	nyimwa	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|ObjNounClass=Bantu9|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@FMAINVtr+OBJ>
+4	dhamana	dhamana	NOUN	N	NounClass=Bantu9|Number=Sing	3	obj	_	@OBJ
+5	pamoja	pamoja	ADV	ADV	_	7	cc	_	_
+6	na	na	CCONJ	CC	_	5	fixed	_	_
+7	kuzuiwa	zuiwa	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	4	conj	_	@-FMAINV-n
+8	kukutana	kutana	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Rcp	7	xcomp	_	@-FMAINV-n
+9	na	na	ADP	PREP	_	10	case	_	_
+10	mwanasheria	mwanasheria	NOUN	N	NounClass=Bantu1|Number=Sing	8	obl	_	@<P
+11	.	.	PUNCT	_	_	3	punct	_	_
 
-# 19984
-1	Wa	wa	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-2	-	-	PUNCT	HYPHEN	_	_	_	_	_
-3	Ethiopia	Ethiopia	PROPN	PROPNAME	_	_	_	_	_
-4	kwenye	kwenye	ADP	PREP	_	_	_	_	_
-5	mtandao	mtandao	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@P>
-6	wa	wa	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-7	twita	twita	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-8	wanasherehekea	sherehekea	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr+OBJ>
-9	siku	siku	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-10	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-11	wajinga	mjinga	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@<NH
-12	duniani	dunia	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-13	kwa	kwa	ADP	PREP	_	_	_	_	_
-14	kutangaza	tangaza	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<P
-15	habari	habari	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-16	bandia	bandia	ADJ	N	Degree=Pos	_	_	_	@<NADJ
-17	ambazo	amba	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@SUBJ
-18	zinaiga	iga	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu5|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-19	uongo	uongo	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@OBJ
-20	unaotangazwa	tangazwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu11|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	_	_	_	@FMAINVtr-OBJ>
-21	na	na	ADP	CC	_	_	_	_	_
-22	vyombo	chombo	NOUN	N	NounClass=Bantu8|Number=Plur	_	_	_	@<P
-23	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	_	_	_	@GCON
-24	habari	habari	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-25	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	_	_	_	@GCON
-26	serikali	serikali	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-27	.	.	PUNCT	_	_	_	_	_	_
+# 1161 
+# lit: Kufungia vyombo vya habari katika zama zile kuliweza kufanya kazi.
+# trans: Banning media at that age was quite effective 
+# ilg: 15-close tool of media in time that 15-past-able 15-do work
+1	Kufungia	fungia	VERB	V	NounClass=Bantu15|Number=Sing	9	csubj	_	@-FMAINV-n
+2	vyombo	chombo	NOUN	N	NounClass=Bantu8|Number=Plur	1	obj	_	@OBJ
+3	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	4	case	_	@GCON
+4	habari	habari	NOUN	N	NounClass=Bantu9|Number=Sing	2	nmod	_	@<NH
+5	katika	katika	ADP	PREP	_	6	case	_	_
+6	zama	zama	NOUN	N	NounClass=Bantu10|Number=Plur	1	obl	_	@<P
+7	zile	zile	DET	PRON	NounClass=Bantu10|Number=Plur	6	det	_	@<NDEM
+8	kuliweza	weza	AUX	V	NounClass=Bantu15|Number=Sing	9	aux	_	@-FMAINV-n
+9	kufanya	fanya	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@-FMAINV-n
+10	kazi	kazi	NOUN	N	NounClass=Bantu9|Number=Sing	9	obj	_	@OBJ
+11	.	.	PUNCT	_	_	9	punct	_	_
 
-# 15321
-1	Hao	hao	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-2	wanaotoa	toa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-3	maoni	oni	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-4	yao	ao	PRON	PRON	NounClass=Bantu6|Number=Plur	_	_	_	@GCON
-5	hapa	hapa	ADV	ADV	_	_	_	_	_
-6	,	,	PUNCT	COMMA	_	_	_	_	_
-7	kwa	kwa	ADP	PREP	_	_	_	_	_
-8	bahati	bahati	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-9	mbaya	baya	ADJ	ADJ	Degree=Pos|NounClass=Bantu9|Number=Sing	_	_	_	@<NADJ
-10	,	,	PUNCT	COMMA	_	_	_	_	_
-11	hawajaweza	weza	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-12	kubadilisha	badilisha	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	_	_	_	@-FMAINV-n
-13	mtizamo	tizamo	VERB	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
-14	wangu	angu	PRON	PRON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-15	,	,	PUNCT	COMMA	_	_	_	_	_
-16	bali	bali	SCONJ	CONJ	_	_	_	_	_
-17	wameendelea	endelea	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVintr
-18	kuimarisha	imarisha	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@-FMAINV-n
-19	msimamo	msimamo	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
-20	wangu	angu	PRON	PRON	NounClass=Bantu3|Number=Sing	_	_	_	@GCON
-21	niliokuwa	wa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVintr
-22	nao	nao	CCONJ	CC	NounClass=Bantu3|Number=Sing	_	_	_	@ADVL
-23	toka	toka	ADP	PREP	_	_	_	_	_
-24	awali	awali	ADV	ADV	_	_	_	_	_
-25	.	.	PUNCT	_	_	_	_	_	_
+# 6849 
+# lit: Faheem Haider kupitia blogu ya Bangladesh Foreign Policy anajadili kuhusu vitendo vya unyanyasaji watoto na watoto wanaotumikishwa katika nchi za Pakistani na Bangladeshi 
+# trans: Faheem Haider at Bangladesh Foreign Policy Blog discusses about the abuse of children and child workers in Pakistan and Bangladesh. 
+# ilg: Faheem Haider via blog of Bangladesh Foreign Policy 1-pres-discuss about actions of abuse children and children 2-pres 2-pres-2.rel-serve-cause in countries of Pakistan and Bangladesh .
+1	Faheem	Faheem	PROPN	PROPNAME	_	9	nsubj	_	_
+2	Haider	haider	PROPN	PROPNAME	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	1	flat	_	@<P
+3	kupitia	pitia	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Intr|Voice=Act|Voice=Appl	1	acl	_	@-FMAINV-n
+4	blogu	blogu	NOUN	N	NounClass=Bantu9|Number=Sing	3	obj	_	@<P
+5	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	6	case	_	@GCON
+6	Bangladesh	Bangladesh	PROPN	PROPNAME	_	4	nmod	_	_
+7	Foreign	Foreinn	PROPN	PROPNAME	_	6	flat	_	_
+8	Policy	Policy	PROPN	PROPNAME	_	6	flat	_	_
+9	anajadili	jadili	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	0	root	_	@FMAINVtr+OBJ>
+10	kuhusu	kuhusu	ADP	PREP	_	11	case	_	_
+11	vitendo	kitendo	NOUN	N	NounClass=Bantu8|Number=Plur	9	obl	_	@<P
+12	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	13	case	_	@GCON
+13	unyanyasaji	unyanyasaji	NOUN	N	NounClass=Bantu11|Number=Sing	11	nmod	_	@<NH
+14	watoto	mtoto	NOUN	N	NounClass=Bantu2|Number=Plur	13	nmod	_	@OBJ
+15	na	na	CCONJ	CC	_	16	cc	_	_
+16	watoto	mtoto	NOUN	N	NounClass=Bantu2|Number=Plur	11	conj	_	@SUBJ
+17	wanaotumikishwa	tumikishwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu16|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act	16	acl	_	@FMAINVtr-OBJ>
+18	katika	katika	ADP	PREP	_	19	case	_	_
+19	nchi	nchi	NOUN	N	NounClass=Bantu10|Number=Plur	11	nmod	_	@<P
+20	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	21	case	_	@GCON
+21	Pakistani	Pakistani	PROPN	PROPNAME	_	19	nmod	_	_
+22	na	na	CCONJ	CC	_	23	cc	_	_
+23	Bangladeshi	Bangladeshi	PROPN	PROPNAME	Degree=Pos	21	conj	_	@OBJ
+24	.	.	PUNCT	_	_	9	punct	_	_
 
-# 16972
-1	Hujichimbia	chimbia	VERB	_	Aspect=Hab|Aspect=Imp|Mood=Ind|Number=Sing|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=1|Polarity=Pos|Subcat=Tran|Voice=Act	_	_	_	@FMAINVtr+OBJ>
-2	makaburi	kaburi	NOUN	N	NounClass=Bantu6|Number=Plur	_	_	_	@OBJ
-3	yao	ao	PRON	PRON	NounClass=Bantu6|Number=Plur	_	_	_	@GCON
-4	wenyewe	enyewe	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@ADVL
-5	katika	katika	ADP	PREP	_	_	_	_	_
-6	harakati	harakati	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<P
-7	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-8	kuimarisha	imarisha	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<NH
-9	tawala	ttawala	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-10	zao	ao	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-11	na	na	CCONJ	CC	_	_	_	_	_
-12	kujididimiza	didimiza	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Rcp	_	_	_	@-FMAINV-n
-13	ndani	ndani	ADV	ADV	_	_	_	_	_
-14	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	_	_	_	@GCON
-15	tawala	ttawala	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@<NH
-16	zao	ao	PRON	PRON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-17	zinazoharibikiwa	haribikiwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act|Voice=Rcp	_	_	_	@FMAINVtr-OBJ>
-18	.	.	PUNCT	_	_	_	_	_	_
+# 19984 
+# lit: Wa-Ethiopia kwenye mtandao wa twita wanasherehekea siku ya wajinga duniani kwa kutangaza habari bandia ambazo zinaiga uongo unaotangazwa na vyombo vya habari vya serikali.
+# trans: Ethiopians on Twitter are celebrating April Fool's day with fake news headlines that imitate the lies of state owned media. 
+# ilg: Ethiopians in network of twitter 2-pres-celebrate day of fools world.loc for 15-announce news artificial which 10-pres-immitate lie 11-pres-11.rel-announce by tools of media of government .
+1	Wa-Ethiopia	wa	PROPN	GEN-CON	NounClass=Bantu3|Number=Sing	6	nsubj	_	@GCON
+2	kwenye	kwenye	ADP	PREP	_	3	case	_	_
+3	mtandao	mtandao	NOUN	N	NounClass=Bantu3|Number=Sing	1	nmod	_	@P>
+4	wa	wa	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	5	case	_	@GCON
+5	twita	twita	NOUN	N	NounClass=Bantu15|Number=Sing	3	nmod	_	@<NH
+6	wanasherehekea	sherehekea	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	0	root	_	@FMAINVtr+OBJ>
+7	siku	siku	NOUN	N	NounClass=Bantu9|Number=Sing	6	obj	_	@OBJ
+8	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	9	case	_	@GCON
+9	wajinga	mjinga	NOUN	N	NounClass=Bantu2|Number=Plur	7	nmod	_	@<NH
+10	duniani	dunia	NOUN	N	NounClass=Bantu9|Number=Sing	9	nmod	_	@OBJ
+11	kwa	kwa	ADP	PREP	_	12	case	_	_
+12	kutangaza	tangaza	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<P
+13	habari	habari	NOUN	N	NounClass=Bantu10|Number=Plur	12	obj	_	@OBJ
+14	bandia	bandia	ADJ	N	Degree=Pos	13	amod	_	@<NADJ
+15	ambazo	amba	PRON	PRON	NounClass=Bantu10|Number=Plur	16	nsubj	_	@SUBJ
+16	zinaiga	iga	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu5|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act	13	acl	_	@FMAINVtr+OBJ>
+17	uongo	uongo	NOUN	N	NounClass=Bantu11|Number=Sing	16	obj	_	@OBJ
+18	unaotangazwa	tangazwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu11|RelNumber=Sing|RelPerson=3|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	17	acl	_	@FMAINVtr-OBJ>
+19	na	na	ADP	CC	_	20	case	_	_
+20	vyombo	chombo	NOUN	N	NounClass=Bantu8|Number=Plur	18	obl	_	@<P
+21	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	22	case	_	@GCON
+22	habari	habari	NOUN	N	NounClass=Bantu9|Number=Sing	20	nmod	_	@<NH
+23	vya	vya	ADP	GEN-CON	NounClass=Bantu8|Number=Plur	24	case	_	@GCON
+24	serikali	serikali	NOUN	N	NounClass=Bantu9|Number=Sing	20	nmod	_	@<NH
+25	.	.	PUNCT	_	_	6	punct	_	_
 
-# 893
-1	Meksiko	meksiko	NOUN	PROPNAME	_	_	_	_	_
-2	inakabiliwa	kabiliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-3	na	na	ADP	AG-PART	_	_	_	_	_
-4	wimbi	wimbi	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@AG
-5	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-6	uhalifu	uhalifu	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@<NH
-7	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-8	jinai	jinai	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
-9	,	,	PUNCT	COMMA	_	_	_	_	_
-10	ambamo	amba	PRON	PRON	NounClass=Bantu18|Number=Sing	_	_	_	@ADVL
-11	wote	ote	PRON	PRON	NounClass=Bantu2|Number=Plur	_	_	_	@PAT
-12	raia	raia	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@OBJ
-13	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	_	_	_	@GCON
-14	ndani	ndani	ADV	ADV	_	_	_	_	_
-15	na	na	CCONJ	CC	_	_	_	_	_
-16	wageni	mgeni	NOUN	N	NounClass=Bantu2|Number=Plur	_	_	_	@SUBJ
-17	wanaviziwa	viza	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
-18	kutekwa	tekwa	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	_	_	_	@-FMAINV-n
-19	nyara	nyara	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-20	.	.	PUNCT	_	_	_	_	_	_
+# 15321 
+# lit: Hao wanaotoa maoni yao hapa, kwa bahati mbaya, hawajaweza kubadilisha mtizamo wangu, bali wameendelea kuimarisha msimamo wangu niliokuwa nao toka awali. 
+# trans: Those commenting here, unfortunately, have not convinced me otherwise, but only strengthened my previously held convictions.
+# ilg: those 2-pres-2.rel-give views their here , for luck bad , 2.neg-perf-can 15-change attitude my , but 2-perf-develop 15-strenghten position my 1S-past-3.rel-be with 3pron from start.
+1	Hao	hao	PRON	PRON	NounClass=Bantu2|Number=Plur	12	nsubj	_	@SUBJ
+2	wanaotoa	toa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Act	1	acl	_	@FMAINVtr+OBJ>
+3	maoni	oni	NOUN	N	NounClass=Bantu6|Number=Plur	2	obj	_	@OBJ
+4	yao	ao	DET	PRON	NounClass=Bantu6|Number=Plur	3	nmod	_	@GCON
+5	hapa	hapa	ADV	ADV	_	2	advmod	_	_
+6	,	,	PUNCT	COMMA	_	8	punct	_	_
+7	kwa	kwa	ADP	PREP	_	8	case	_	_
+8	bahati	bahati	NOUN	N	NounClass=Bantu9|Number=Sing	12	obl	_	@SUBJ
+9	mbaya	baya	ADJ	ADJ	Degree=Pos|NounClass=Bantu9|Number=Sing	8	amod	_	@<NADJ
+10	,	,	PUNCT	COMMA	_	8	punct	_	_
+11	hawajaweza	weza	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	12	aux	_	@FMAINVtr-OBJ>
+12	kubadilisha	badilisha	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	0	root	_	@-FMAINV-n
+13	mtizamo	tizamo	VERB	N	NounClass=Bantu3|Number=Sing	12	obj	_	@OBJ
+14	wangu	angu	DET	PRON	NounClass=Bantu3|Number=Sing	13	nmod	_	@GCON
+15	,	,	PUNCT	COMMA	_	17	punct	_	_
+16	bali	bali	SCONJ	CONJ	_	17	cc	_	_
+17	wameendelea	endelea	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	12	conj	_	@FMAINVintr
+18	kuimarisha	imarisha	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	17	xcomp	_	@-FMAINV-n
+19	msimamo	msimamo	NOUN	N	NounClass=Bantu3|Number=Sing	18	obj	_	@OBJ
+20	wangu	angu	DET	PRON	NounClass=Bantu3|Number=Sing	19	nmod	_	@GCON
+21	niliokuwa	wa	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Intr|Tense=Past|Tense=Past|Voice=Act	23	cop	_	@FMAINVintr
+22	na	na	ADP	CC	_	23	case	_	@ADVL
+23	wao	wao	PRON	CC	NounClass=Bantu3|Number=Sing	19	acl	_	@ADVL
+24	toka	toka	ADP	PREP	_	25	case	_	_
+25	awali	awali	NOUN	ADV	NounClass=Bantu9|Number=Sing	23	nmod	_	_
+26	.	.	PUNCT	_	_	12	punct	_	_
 
-# 20644
-1	Pamoja	pamoja	ADV	ADV	_	_	_	_	_
-2	na	na	ADP	CC	_	_	_	_	_
-3	ushindi	ushindi	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@SUBJ
-4	huo	huo	PRON	PRON	NounClass=Bantu11|Number=Sing	_	_	_	@<NDEM
-5	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-6	kishindo	kishindo	NOUN	N	NounClass=Bantu7|Number=Sing	_	_	_	@<NH
-7	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-8	Sisi	sisi	PRON	PRON	_	_	_	_	_
-9	,	,	PUNCT	COMMA	_	_	_	_	_
-10	Amro	Amro	PROPN	PROPNAME	NounClass=Bantu5|Number=Sing	_	_	_	@SUBJ
-11	Ali	Ali	PROPN	PROPNAME	NounClass=Bantu9|Number=Sing	_	_	_	@SUBJ
-12	anaonyesha	onyesha	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr+OBJ>
-13	changamoto	changamoto	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-14	:	:	PUNCT	COLON	_	_	_	_	_
+# 16972 
+# lit: Hujichimbia makaburi yao wenyewe katika harakati za kuimarisha tawala zao na kujididimiza ndani ya tawala zao zinazoharibikiwa
+# trans: They create their own downfalls as they attempt to solidify their rules and barricade themselves within their crumbling worlds. 
+# ilg: ? graves their themselves in struggle of strenghtening administration their and weakening inside of administration their 10-pres-10.rel-be.vulnerable
+1	Hujichimbia	chimbia	VERB	_	Aspect=Hab|Aspect=Imp|Mood=Ind|Number=Sing|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=1|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@FMAINVtr+OBJ>
+2	makaburi	kaburi	NOUN	N	NounClass=Bantu6|Number=Plur	1	obj	_	@OBJ
+3	yao	ao	DET	PRON	NounClass=Bantu6|Number=Plur	2	nmod	_	@GCON
+4	wenyewe	enyewe	PRON	PRON	NounClass=Bantu2|Number=Plur	1	obl	_	@ADVL
+5	katika	katika	ADP	PREP	_	6	case	_	_
+6	harakati	harakati	NOUN	N	NounClass=Bantu10|Number=Plur	1	obl	_	@<P
+7	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	8	case	_	@GCON
+8	kuimarisha	imarisha	NOUN	N	NounClass=Bantu15|Number=Sing	6	nmod	_	@<NH
+9	tawala	ttawala	NOUN	N	NounClass=Bantu10|Number=Plur	8	obj	_	@OBJ
+10	zao	ao	PRON	PRON	NounClass=Bantu10|Number=Plur	9	nmod	_	@GCON
+11	na	na	CCONJ	CC	_	12	cc	_	_
+12	kujididimiza	didimiza	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Rcp	8	conj	_	@-FMAINV-n
+13	ndani	ndani	ADV	ADV	_	15	case	_	_
+14	ya	ya	ADP	GEN-CON	NounClass=Bantu4|Number=Plur	13	fixed	_	@GCON
+15	tawala	ttawala	NOUN	N	NounClass=Bantu10|Number=Plur	12	obl	_	@<NH
+16	zao	ao	DET	PRON	NounClass=Bantu10|Number=Plur	15	nmod	_	@GCON
+17	zinazoharibikiwa	haribikiwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act|Voice=Rcp	15	acl	_	@FMAINVtr-OBJ>
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# 893 
+# lit: Meksiko inakabiliwa na wimbi la uhalifu wa jinai, ambamo wote raia wa ndani na wageni wanaviziwa kutekwa nyara. 
+# trans: Mexico is facing a crime wave, in which both national and foreign citizens are being targeted for kidnappings 
+# ilg: Mexico 9-pres-faced with wave of lawlessness of crime, which all citizens of inside and guests abstain scoop.up captive .
+1	Meksiko	meksiko	NOUN	PROPNAME	_	2	nsubj	_	_
+2	inakabiliwa	kabiliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Pass	0	root	_	@FMAINVtr-OBJ>
+3	na	na	ADP	AG-PART	_	4	case	_	_
+4	wimbi	wimbi	NOUN	N	NounClass=Bantu5|Number=Sing	2	obl	_	@AG
+5	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	6	case	_	@GCON
+6	uhalifu	uhalifu	NOUN	N	NounClass=Bantu11|Number=Sing	4	nmod	_	@<NH
+7	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	8	case	_	@GCON
+8	jinai	jinai	NOUN	N	NounClass=Bantu9|Number=Sing	6	nmod	_	@<NH
+9	,	,	PUNCT	COMMA	_	17	punct	_	_
+10	ambamo	amba	PRON	PRON	NounClass=Bantu18|Number=Sing	17	obl	_	@ADVL
+11	wote	ote	PRON	PRON	NounClass=Bantu2|Number=Plur	12	det	_	@PAT
+12	raia	raia	NOUN	N	NounClass=Bantu10|Number=Plur	17	nsubj	_	@OBJ
+13	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	14	case	_	@GCON
+14	ndani	ndani	NOUN	ADV	_	12	nmod	_	_
+15	na	na	CCONJ	CC	_	16	cc	_	_
+16	wageni	mgeni	NOUN	N	NounClass=Bantu2|Number=Plur	12	conj	_	@SUBJ
+17	wanaviziwa	viza	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	4	acl	_	@FMAINVtr-OBJ>
+18	kutekwa	tekwa	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	17	xcomp	_	@-FMAINV-n
+19	nyara	nyara	NOUN	N	NounClass=Bantu9|Number=Sing	18	obj	_	@OBJ
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# 20644 
+# lit: Pamoja na ushindi huo wa kishindo wa Sisi, Amro Ali anaonyesha changamoto:
+# trans: Despite Sisi's landslide win, Amro Ali sets a challenge.
+# ilg: together with victory this blatant _ of Sisi, Amro Ali 1-pres-show challgnege :
+1	Pamoja	pamoja	ADV	ADV	_	3	case	_	_
+2	na	na	ADP	CC	_	1	flat	_	_
+3	ushindi	ushindi	NOUN	N	NounClass=Bantu11|Number=Sing	12	obl	_	@SUBJ
+4	huo	huo	DET	PRON	NounClass=Bantu11|Number=Sing	3	det	_	@<NDEM
+5	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	6	case	_	@GCON
+6	kishindo	kishindo	NOUN	N	NounClass=Bantu7|Number=Sing	3	nmod	_	@<NH
+7	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	8	case	_	@GCON
+8	Sisi	sisi	PROPN	PRON	_	3	nmod	_	_
+9	,	,	PUNCT	COMMA	_	3	punct	_	_
+10	Amro	Amro	PROPN	PROPNAME	NounClass=Bantu5|Number=Sing	12	nsubj	_	@SUBJ
+11	Ali	Ali	PROPN	PROPNAME	NounClass=Bantu9|Number=Sing	10	flat	_	@SUBJ
+12	anaonyesha	onyesha	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Act|Voice=Cau	0	root	_	@FMAINVtr+OBJ>
+13	changamoto	changamoto	NOUN	N	NounClass=Bantu9|Number=Sing	12	obj	_	@OBJ
+14	:	:	PUNCT	COLON	_	12	punct	_	_
 
 # 21009
 1	Kupitia	pitia	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@SUBJ
