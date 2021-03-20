@@ -1,0 +1,67 @@
+{
+    "train_data_path": "../data/allennlp-helsinki-lemma/train.txt",
+    "validation_data_path": "../data/allennlp-helsinki-lemma/val.txt",
+    "test_data_path": "../data/allennlp-helsinki-lemma/test.txt",
+    "evaluate_on_test": true,
+    "dataset_reader": {
+        "type": "seq2seq",
+	"source_tokenizer" : {
+		"type" : "character"
+	},
+	"target_tokenizer" : {
+		"type" : "character"
+	},
+	"source_add_start_token" : false,
+        "source_token_indexers": {
+		"tokens" : {
+			"type" : "single_id" ,
+			"lowercase_tokens" : false
+		}
+        }
+    },
+  "model": {
+    "type": "simple_seq2seq",
+    "encoder" : {
+        "type" : "gru",
+        "input_size" : 32,
+        "hidden_size" : 64,
+        "bidirectional" : true,
+        "num_layers" : 3
+    },
+    "scheduled_sampling_ratio" : 0.4,
+    "beam_size" : 16,
+    "max_decoding_steps" : 75,
+    "attention" : {
+	"type" : "additive",
+        "vector_dim" : 128,
+	"matrix_dim" : 128
+    },
+    "target_embedding_dim" : 32,
+    "source_embedder": {
+        "allow_unmatched_keys": true,
+        "token_embedders": {
+            "tokens": {
+	        "type": "embedding",
+		"embedding_dim": 32
+             }
+            }
+        }
+    },
+ 
+  "iterator": {
+    "type": "bucket",
+    "batch_size": 4096,
+    "sorting_keys" : [["source_tokens", "num_tokens"]]
+  },
+  "trainer": {
+    "num_epochs": 100,
+    "patience": 2,
+    "cuda_device": [0],
+    "grad_clipping": 5.0,
+    "validation_metric": "-loss",
+    "optimizer": {
+      "type": "adagrad",
+      "lr": 0.01
+    }
+  }
+}
