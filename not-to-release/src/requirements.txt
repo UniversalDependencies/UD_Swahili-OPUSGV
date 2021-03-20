@@ -1,0 +1,2 @@
+# This is the requirements file for the lemmatizer config and the multilabel morph tagger config.
+allennlp==2.1

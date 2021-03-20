@@ -1,0 +1,3 @@
+# This is the version of allennlp required for running all models except the
+# lemmatizer and the multilabel morph tagging model.
+allennlp==0.9
