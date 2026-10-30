@@ -31,14 +31,13 @@
     <tag name="VERB">256</tag><!-- wa, fanya, toa, pitia, eleza, sema, weza, endelea, ongozwa, onyesha -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="70">
+  <feats unique="69">
     <feat name="Aspect" value="Imp" upos="AUX,NOUN,PROPN,VERB">257</feat><!-- ni, kuna, kupitia, hakuna, kuwa, anaeleza, kufanya, nina, si, #NairobiBlast -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">21</feat><!-- MelesZenawi, Nimefanya, Nimekuwa, amefariki, amenyimwa, ametumikia, anakumbushia, imefungamanishwa, imegundulika, imetangaza -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">7</feat><!-- zaidi -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV,CCONJ,DET,NOUN,PROPN,VERB">59</feat><!-- kadhaa, bora, kila, maarufu, mbalimbali, mwingine, nyingine, sana, wengine, #RightToReport -->
     <feat name="Mood" value="Ind" upos="AUX,NOUN,PROPN,VERB">263</feat><!-- ni, kuna, kupitia, hakuna, kuwa, anaeleza, kufanya, nina, si, #NairobiBlast -->
     <feat name="Mood" value="Sub" upos="AUX,NOUN,PROPN,VERB">15</feat><!-- @zittokabwe, Leogane, Manthethe, Ukraine, Valentine, afike, agombee, isimsaidie, iwe, tuandikie -->
-    <feat name="NounClass" value="9" upos="NOUN">1</feat><!-- hakika -->
     <feat name="NounClass" value="Bantu1" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">114</feat><!-- mkuu, wa, mmoja, huyo, mwanaharakati, mwanamke, mwandishi, anaeleza, mtu, mwanasheria -->
     <feat name="NounClass" value="Bantu10" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">116</feat><!-- za, zao, zile, nchi, raia, tawala, haki, harakati, hizi, mbili -->
     <feat name="NounClass" value="Bantu11" upos="ADJ,ADP,AUX,DET,NOUN,VERB">72</feat><!-- wa, wakati, uhuru, huo, huu, uchaguzi, umeme, umri, utamaduni, Ukraine -->
@@ -53,7 +52,7 @@
     <feat name="NounClass" value="Bantu6" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">56</feat><!-- maandamano, ya, maisha, yao, haya, hayo, maoni, Magazeti, Manaibu, Shahbag -->
     <feat name="NounClass" value="Bantu7" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">63</feat><!-- cha, chake, chama, hiki, kiasi, kiongozi, kisiasa, @Kevin2Tek, Bulgaria, Chanzo -->
     <feat name="NounClass" value="Bantu8" upos="ADP,DET,NOUN,PRON,PROPN,VERB">29</feat><!-- vya, vyombo, ambavyo, vituo, Vikwazo, Vitu, Vyakula, Zoweil, hivyo, isimsaidie -->
-    <feat name="NounClass" value="Bantu9" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,PUNCT,VERB">251</feat><!-- ya, habari, nchi, hiyo, serikali, baadhi, hali, kati, kazi, yake -->
+    <feat name="NounClass" value="Bantu9" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,PUNCT,VERB">252</feat><!-- ya, habari, nchi, hiyo, serikali, baadhi, hali, kati, kazi, yake -->
     <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">377</feat><!-- wa, ya, za, watu, vya, maandamano, miaka, ambao, vyombo, yao -->
     <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,SCONJ,VERB">714</feat><!-- ya, wa, la, cha, habari, nchi, hilo, hiyo, serikali, baadhi -->
     <feat name="NumType" value="Card" upos="NOUN,NUM">18</feat><!-- mmoja, mbili, mitano, miwili, tatu, manane, moja, nane, sita, tisa -->

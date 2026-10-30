@@ -1115,7 +1115,7 @@
 # trans: In fact, people as famous as Khabensky are far likelier to laud the President in times of international crisis.
 # ilg: for truth, people distinguished like Khabensky 2-pres-be.likely largeness? of praising president time of dispute of nations.
 1	Kwa	kwa	ADP	PREP	_	2	case	_	_
-2	hakika	hakika	NOUN	N	NounClass=9|Number=Sing	8	obl	_	_
+2	hakika	hakika	NOUN	N	NounClass=Bantu9|Number=Sing	8	obl	_	_
 3	,	,	PUNCT	COMMA	_	8	punct	_	_
 4	watu	mtu	NOUN	N	NounClass=Bantu2|Number=Plur	8	nsubj	_	@SUBJ
 5	maarufu	maarufu	ADJ	ADJ	Degree=Pos	4	amod	_	@<NADJ
