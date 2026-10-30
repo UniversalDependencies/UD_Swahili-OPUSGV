@@ -1875,7 +1875,7 @@
 9	sheria	sheria	NOUN	N	NounClass=Bantu9|Number=Sing	6	nmod	_	@<NH
 10	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	11	case	_	@GCON
 11	haki	haki	NOUN	N	NounClass=Bantu9|Number=Sing	9	nmod	_	@<NH
-12	miliki	miliki	NOUN	N	NounClass=Bantu9|Number=Sing	11	_	_	@<P
+12	miliki	miliki	NOUN	N	NounClass=Bantu9|Number=Sing	11	nmod	_	@<P
 13	,	,	PUNCT	COMMA	_	27	punct	_	_
 14	na	na	CCONJ	CC	_	27	cc	_	_
 15	njia	njia	NOUN	N	NounClass=Bantu9|Number=Sing	27	nsubj	_	@SUBJ
