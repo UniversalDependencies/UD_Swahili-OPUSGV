@@ -1593,8 +1593,8 @@
 17	yetu	yetu	DET	PRON	NounClass=Bantu4|Number=Plur	16	nmod	_	@GCON
 18	katika	katika	ADP	PREP	_	19	case	_	_
 19	mwaka	mwaka	NOUN	N	NounClass=Bantu3|Number=Sing	12	obl	_	@<P
-20	2009 	2009	NUM	NUM	_	19	nummod	_	_
-21	 ,	 ,	PUNCT	_	_	23	punct	_	_
+20	2009	2009	NUM	NUM	_	19	nummod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	SpaceAfter=No
 22	lakini	lakini	CCONJ	ADJ	Degree=Pos	23	cc	_	@<P
 23	Amr	Amr	PROPN	PROPNAME	_	12	dep	_	_
 24	Khalid	Khalid	PROPN	PROPNAME	_	23	flat	_	_
@@ -1651,8 +1651,8 @@
 6	ni	ni	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	8	cop	_	@FMAINVintr-def
 7	kama	kama	ADV	ADV	_	8	advmod	_	_
 8	harakazi	harakazi	NOUN	N	NounClass=Bantu10|Number=Sing	_	_	_	@FMAINVtr-OBJ>
-9	za 	zam	ADP	GEN-CON	NounClass=Bantu10|Number=Sing	10	case	_	_
-10	 Shahbag	Mshahbag	PROPN	V	Aspect=Imp|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	8	nmod	_	@OBJ
+9	za	zam	ADP	GEN-CON	NounClass=Bantu10|Number=Sing	10	case	_	SpaceAfter=No
+10	Shahbag	Mshahbag	PROPN	V	Aspect=Imp|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	8	nmod	_	@OBJ
 11	na	na	CCONJ	CC	_	12	cc	_	_
 12	Eneo	mneo	NOUN	N	NounClass=Bantu5|Number=Sing	8	conj	_	@SUBJ
 13	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	14	case	_	@GCON
