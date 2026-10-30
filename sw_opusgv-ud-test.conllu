@@ -821,7 +821,7 @@
 8	wangu	wangu	DET	PRON	NounClass=Bantu3|Number=Sing	7	nmod	_	@GCON
 9	haujawahi	wahi	VERB	V	NounClass=Bantu9|Number=Sing	1	conj	_	@FMAINVintr
 10	kusimamishwa	simamishwa	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	9	xcomp	_	@-FMAINV-n
-11	isipokuwa	wa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=9|Number=Sing|RelNounClass=16|Polarity=Neg|Subcat=Trans	9	advcl	_	_
+11	isipokuwa	wa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|RelNounClass=16|Polarity=Neg|Subcat=Trans	9	advcl	_	_
 12	wakati	wakati	NOUN	N	NounClass=Bantu11|Number=Sing	11	obj	_	@ADVL
 13	huu	huu	DET	PRON	NounClass=Bantu11|Number=Sing	12	det	_	@<NDEM
 14	kwa	kwa	ADP	PREP	_	15	case	_	_
@@ -1730,7 +1730,7 @@
 
 # 19369
 # Hivyo kama umechukizwa au unasumbuliwa inaelekezwa kwa mwanamke unayemjali, jinsi gani baadhi yenu mna ujasiri kuuliza swali kama mwanamke anahisi kunyanyaswa?
-# trans: So if it offends or bothers you went it is directed at a woman you care about, how can some of you actually have the nerve to question whether the woman feels harassed? 
+# trans: So if it offends or bothers you went it is directed at a woman you care about, how can some of you actually have the nerve to question whether the woman feels harassed?
 # ilg: like so 2SG-perf-hate-cause or 2SG-pres-bother 9-pres-direct for woman 2SG-pres-1.rel-1-care how type some yours have nerve 15-ask questions like woman 1-pres-feel inf-harrass-pass ?
 1	Hivyo	hivyo	ADV	ADV	_	3	advmod	_	_
 2	kama	kama	ADV	ADV	_	3	advmod	_	_
@@ -1756,10 +1756,10 @@
 22	kunyanyaswa	nyanyaswa	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Pass	21	xcomp	_	@-FMAINV-n
 23	?	?	PUNCT	QUESTION-MARK	_	16	punct	_	_
 
-# 2205 
+# 2205
 # Wakati kuna chereko chereko sehemu mbalimbali, pia kuna masikitiko kati ya wanaokiunga mkono chama cha BJP.
-# trans: While there is jubilation in many quarters, there is gloom among the supporters of the BJP 
-# ilg: time there.is excitement area various, also there.is sadness ceter of 
+# trans: While there is jubilation in many quarters, there is gloom among the supporters of the BJP
+# ilg: time there.is excitement area various, also there.is sadness ceter of
 1	Wakati	wakati	NOUN	ADV	_	3	nsubj	_	_
 2	kuna	kuna	AUX	V	Aspect=Imp|Mood=Ind|NounClass=Bantu17|Number=Sing|Person=3|Polarity=Pos|Voice=Act	3	cop	_	@FMAINVintr
 3	cherekochereko	chereko	NOUN	N	NounClass=Bantu9|Number=Sing|NounClass=Bantu9|Number=Sing	9	advcl	_	@SUBJ+rel|@FMAINVintr
@@ -1778,9 +1778,9 @@
 16	BJP	B_P	PROPN	PROPNAME	_	14	nmod	_	_
 17	.	.	PUNCT	_	_	9	punct	_	_
 
-# 6183 
-# Kwa hakika tutageuka kuwa mashabiki wakubwa wa mstari wa mbele. 
-# trans: In fact, we will turn into their biggest cheerleaders 
+# 6183
+# Kwa hakika tutageuka kuwa mashabiki wakubwa wa mstari wa mbele.
+# trans: In fact, we will turn into their biggest cheerleaders
 # ilg: for certainty 2PL-fut-turn being fans major of line of front.
 # note: case where kuwa is 'become'.
 1	Kwa	kwa	ADP	PREP	_	2	case	_	_
@@ -1795,9 +1795,9 @@
 10	mbele	mbele	ADV	N	_	8	nmod	_	_
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-# 5151 
+# 5151
 # lit: Kinachoonyeshwa kwenye Imedi TV, jina la kipindi hicho linatafsirika kama Usiku pamoja na Shorena na kinaongelea mada zinazohusu tendo la ngono.
-# trans: Shown on Imedi TV, the title translates as Night with Shorena and covers topics about sex. 
+# trans: Shown on Imedi TV, the title translates as Night with Shorena and covers topics about sex.
 # ilg: 7-pres-7.rel-show in Imedi TV, name of block/period 5-pres-?-translate-able like night together with Shorena and 7-pres-talk topic 10-pres-10.rel-about action of sex
 # note: this is odd because the subject of kinachoonyeshwa and kinaongelea is like an implied kipindi? while the central verb linatafsirika (think this is a typo and it should be linafasirika?) is agreeing with jina.
 1	Kinachoonyeshwa	onyeshwa	VERB	_	Aspect=Imp|Mood=Ind|NounClass=Bantu7|Number=Sing|Person=3|Polarity=Pos	10	dislocated	_	@FMAINVtr-OBJ>
@@ -1824,9 +1824,9 @@
 22	ngono	ngono	NOUN	N	NounClass=Bantu9|Number=Sing	20	nmod	_	@<NH
 23	.	.	PUNCT	_	_	10	punct	_	_
 
-# 5679 
+# 5679
 # lit: Tanataka kufanya kazi kwa ufanisi zaidi, na kutenda kwa nguvu zaidi.
-# trans: We seek to work together more effectively, and act more powerfully. 
+# trans: We seek to work together more effectively, and act more powerfully.
 # ilg: 2PL-pres-want 15-do work for efficiency more , and do for strength more .
 1	Tanataka	tataka	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@NH
 2	kufanya	fanya	VERB	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	1	xcomp	_	@-FMAINV-n
@@ -1842,9 +1842,9 @@
 12	zaidi	zaidi	ADJ	ADJ	Degree=Cmp	11	amod	_	@AD-A>
 13	.	.	PUNCT	_	_	1	punct	_	_
 
-# 12132 
+# 12132
 # lit: Wakati mwingine wagojwa wanaweza kuwa wadhaifu sana kiasi cha kushindwa hata kulia.
-# trans: It so happens that the victims can be too weak to even cry. 
+# trans: It so happens that the victims can be too weak to even cry.
 # ilg: time another 2-victims 2-pres-can 15-be weak very amount of 15-being.unable even 15-crying.
 1	Wakati	wakati	NOUN	N	NounClass=Bantu11|Number=Sing	6	obl	_	@ADVL
 2	mwingine	ingine	ADJ	ADJ	Degree=Pos|NounClass=Bantu11|Number=Sing	1	amod	_	@<DN
@@ -1860,9 +1860,9 @@
 12	kulia	lia	VERB	N	NounClass=Bantu9|Number=Sing	10	xcomp	_	@-FMAINV-n
 13	.	.	PUNCT	_	_	6	punct	_	_
 
-# 3854 
-# lit: Nami ninashiriki katika kuchefuka na uvunjifu huu wa sheria ya haki miliki, na njia iliyozoeleka ya kutafsiri na ‘kuiba’ kazi za wengine si nafuu. 
-# trans:  I share in the revulsion for plagiarism, and the common tactic of translating and plariagizing is no better. 
+# 3854
+# lit: Nami ninashiriki katika kuchefuka na uvunjifu huu wa sheria ya haki miliki, na njia iliyozoeleka ya kutafsiri na ‘kuiba’ kazi za wengine si nafuu.
+# trans:  I share in the revulsion for plagiarism, and the common tactic of translating and plariagizing is no better.
 # ilg: and.me 1S-pres-participate in revulsion? with breaking this of law of fair law and way 9-past-9.rel-be.used of translating and ' stealing ' work of otheres is.not improvement.
 1	Nami	nami	PRON	CC	NounClass=Bantu1|Number=Sing	2	nsubj	_	@SUBJ
 2	ninashiriki	shiriki	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=1|Polarity=Pos|Subcat=Intr|Tense=Pres|Voice=Act	0	root	_	@FMAINVtr-OBJ>
@@ -1893,9 +1893,9 @@
 27	nafuu	nafuu	ADJ	N	NounClass=Bantu9|Number=Sing	2	parataxis	_	@<P
 28	.	.	PUNCT	_	_	2	punct	_	_
 
-# 25765 
+# 25765
 # lit: "Ardhi zetu za urithi zinachukuliwa kwa nguvu.
-# trans: "Our ancestral lands are being forcibly taken from us. 
+# trans: "Our ancestral lands are being forcibly taken from us.
 # ilg: " lands ours of inheritancve 10-pres-take-pass for strength.
 1	"	"	PUNCT	DOUBLE-QUOTE-OPENING	_	6	punct	_	_
 2	Ardhi	ardhi	NOUN	N	NounClass=Bantu10|Number=Plur	6	nsubj	_	@PAT
@@ -1907,9 +1907,9 @@
 8	nguvu	nguvu	NOUN	N	NounClass=Bantu9|Number=Sing	6	obl	_	@<P
 9	.	.	PUNCT	_	_	6	punct	_	_
 
-# 341 
-# lit: Tunayo programu inayolenga kuwapata mabloga wazuri walioko mikoani na kuwakuza kwa kuwanukuu au kwa kuongea nao. 
-# trans: We have a program designed to find good provincial blogs and promote them by quoting from them and talking to them. 
+# 341
+# lit: Tunayo programu inayolenga kuwapata mabloga wazuri walioko mikoani na kuwakuza kwa kuwanukuu au kwa kuongea nao.
+# trans: We have a program designed to find good provincial blogs and promote them by quoting from them and talking to them.
 # ilg: 2PL-have-9 program 9-pres-9.rel-aim 15-get blogs good 2-rel-be.there? region and 15-2-grow for 15-2-quote of for 15-talk with them.
 1	Tunayo	tuna	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|ObjNounClass=9|ObjNumber=Sing|Person=1|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@FMAINVtr+OBJ>
 2	programu	programu	NOUN	N	NounClass=Bantu9|Number=Plur	1	obj	_	@OBJ
@@ -1930,9 +1930,9 @@
 17	wao	wao	PRON	CC	NounClass=Bantu2|Number=Plur	15	obl	_	@OBJ
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# 20121 
+# 20121
 # lit: Kutokana na harakati zake za kisiasa, serikali ya zamani ilimfunga jela kwa karibu miongo miwili, walimtesa, kumnyima matibabu na kumpokonya nyumbani kwake.
-# trans: Due to his political activities, the former regime put him in jail for nearly two decades, tortured him, withheld medical treatment and confiscated his home. 
+# trans: Due to his political activities, the former regime put him in jail for nearly two decades, tortured him, withheld medical treatment and confiscated his home.
 # ilg: originating with movement his of politics, government of past 9-past-1-bind jail for nearly decade two, 2-past-1-torture , 15-1-kept.back cure and stole home his
 1	Kutokana	tokana	NOUN	N	NounClass=Bantu15|Number=Sing	11	obl	_	@SUBJ
 2	na	na	ADP	CC	_	3	case	_	_
@@ -1961,9 +1961,9 @@
 25	kwake	ake	DET	PRON	NounClass=Bantu15|Number=Sing	24	nmod	_	@ADVL
 26	.	.	PUNCT	_	_	11	punct	_	_
 
-# 20564 
-# lit. Kuvunja haki za waandishi ni wazi ni uvunjaji wa haki ya uhuru wa vyombo vya habari na hali hiyo haitavuliwa. 
-# trans: Any violation of the rights of journalists is a clear violation of the right to freedom of the media and can not be tolerated. 
+# 20564
+# lit. Kuvunja haki za waandishi ni wazi ni uvunjaji wa haki ya uhuru wa vyombo vya habari na hali hiyo haitavuliwa.
+# trans: Any violation of the rights of journalists is a clear violation of the right to freedom of the media and can not be tolerated.
 # ilg: breaking right of writers is clearly is breaking of right of freedom of vessel? of media and situation this tolerated?
 1	Kuvunja	vunja	NOUN	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Ditran|Voice=Act	8	nsubj	_	@-FMAINV-n
 2	haki	haki	NOUN	N	NounClass=Bantu10|Number=Plur	1	obj	_	@OBJ
@@ -1987,9 +1987,9 @@
 20	haitavuliwa	vuliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Fut|Voice=Pass	8	conj	_	@FMAINVtr-OBJ>
 21	.	.	PUNCT	_	_	8	punct	_	_
 
-# 18864 
+# 18864
 # lit: Muungano ulioongozwa na Marekani, ulifanikisha kuipatia uhuru nchi ya Kuwait mapema mwezi Februari, 1991, miezi nane mara baada ya kuvamiwa na nchi ya Iraq.
-# trans: A US-led coalition liberated Kuwait in February 1991, after an eight-month Iraqi invasion 
+# trans: A US-led coalition liberated Kuwait in February 1991, after an eight-month Iraqi invasion
 # ilg: coalition 3-past-3.rel-lead by America, 3-past-accomplish 15-9-obtain-appl freedom countryof Kuwait early month February , month 8 time after 15-invade by country of Iraq .
 1	Muungano	muungano	NOUN	N	NounClass=Bantu3|Number=Sing	6	nsubj	_	@SUBJ
 2	ulioongozwa	ongozwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu11|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	1	acl	_	@FMAINVtr-OBJ>
@@ -2020,9 +2020,9 @@
 27	Iraq	Iraq	PROPN	PROPNAME	_	25	nmod	_	_
 28	.	.	PUNCT	_	_	6	punct	_	_
 
-# 18368 
+# 18368
 # lit: Biti ni katibu mkuu wa MDC, kinachoongozwa na Waziri Mkuu wa zamani wa nchi hiyo, Morgan Tsvangirai.
-# trans: Biti is the secretary general for Movement for Democratic Change, led by former Prime Minister Morgan Tsvangirai. 
+# trans: Biti is the secretary general for Movement for Democratic Change, led by former Prime Minister Morgan Tsvangirai.
 # ilg: Biti is secretary major of MDC, 7-pres-7.rel-lead by minister major of age? of country this , Morgan Tsvangirai
 1	Biti	biti	NOUN	PROPNAME	NounClass=Bantu9|Number=Sing	3	nsubj	_	@SUBJ
 2	ni	ni	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	3	cop	_	@FMAINVintr-def
@@ -2045,10 +2045,10 @@
 19	Tsvangirai	Tsvangirai	PROPN	PROPNAME	_	18	flat	_	_
 20	.	.	PUNCT	_	_	3	punct	_	_
 
-# 13147 
-# lit: Wafuasi wa Rais Hugo Chavez wakati uchaguzi wa rais tarehe 7 Oktoba, 2012. 
-# trans: Supporters of President Hugo Chavez during the presidential elections on October 7, 2012. 
-# ilg: follower of Rais Hugo Chavez time election of president 
+# 13147
+# lit: Wafuasi wa Rais Hugo Chavez wakati uchaguzi wa rais tarehe 7 Oktoba, 2012.
+# trans: Supporters of President Hugo Chavez during the presidential elections on October 7, 2012.
+# ilg: follower of Rais Hugo Chavez time election of president
 1	Wafuasi	mfuasi	NOUN	N	NounClass=Bantu2|Number=Plur	0	root	_	@SUBJ
 2	wa	wa	ADP	GEN-CON	NounClass=Bantu2|Number=Plur	3	case	_	@GCON
 3	Rais	rais	NOUN	N	NounClass=Bantu1|Number=Sing	1	nmod	_	@<NH
@@ -2067,9 +2067,9 @@
 
 
 
-# 26322 
+# 26322
 # lit: Mwandishi huyo amenyimwa dhamana pamoja na kuzuiwa kukutana na mwanasheria
-# trans: The journalist has since been denied bail as well as access to a lawyer. 
+# trans: The journalist has since been denied bail as well as access to a lawyer.
 # ilg: writer this 1-perf-kept.back bail together with 15-prevent 15-meeting with lawyer
 1	Mwandishi	mwandishi	NOUN	N	NounClass=Bantu1|Number=Sing	3	nsubj	_	@SUBJ
 2	huyo	huyo	DET	PRON	NounClass=Bantu1|Number=Sing	1	det	_	@<NDEM
@@ -2083,9 +2083,9 @@
 10	mwanasheria	mwanasheria	NOUN	N	NounClass=Bantu1|Number=Sing	8	obl	_	@<P
 11	.	.	PUNCT	_	_	3	punct	_	_
 
-# 1161 
+# 1161
 # lit: Kufungia vyombo vya habari katika zama zile kuliweza kufanya kazi.
-# trans: Banning media at that age was quite effective 
+# trans: Banning media at that age was quite effective
 # ilg: 15-close tool of media in time that 15-past-able 15-do work
 1	Kufungia	fungia	VERB	V	NounClass=Bantu15|Number=Sing	9	csubj	_	@-FMAINV-n
 2	vyombo	chombo	NOUN	N	NounClass=Bantu8|Number=Plur	1	obj	_	@OBJ
@@ -2099,9 +2099,9 @@
 10	kazi	kazi	NOUN	N	NounClass=Bantu9|Number=Sing	9	obj	_	@OBJ
 11	.	.	PUNCT	_	_	9	punct	_	_
 
-# 6849 
-# lit: Faheem Haider kupitia blogu ya Bangladesh Foreign Policy anajadili kuhusu vitendo vya unyanyasaji watoto na watoto wanaotumikishwa katika nchi za Pakistani na Bangladeshi 
-# trans: Faheem Haider at Bangladesh Foreign Policy Blog discusses about the abuse of children and child workers in Pakistan and Bangladesh. 
+# 6849
+# lit: Faheem Haider kupitia blogu ya Bangladesh Foreign Policy anajadili kuhusu vitendo vya unyanyasaji watoto na watoto wanaotumikishwa katika nchi za Pakistani na Bangladeshi
+# trans: Faheem Haider at Bangladesh Foreign Policy Blog discusses about the abuse of children and child workers in Pakistan and Bangladesh.
 # ilg: Faheem Haider via blog of Bangladesh Foreign Policy 1-pres-discuss about actions of abuse children and children 2-pres 2-pres-2.rel-serve-cause in countries of Pakistan and Bangladesh .
 1	Faheem	Faheem	PROPN	PROPNAME	_	9	nsubj	_	_
 2	Haider	haider	PROPN	PROPNAME	Aspect=Imp|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	1	flat	_	@<P
@@ -2128,9 +2128,9 @@
 23	Bangladeshi	Bangladeshi	PROPN	PROPNAME	Degree=Pos	21	conj	_	@OBJ
 24	.	.	PUNCT	_	_	9	punct	_	_
 
-# 19984 
+# 19984
 # lit: Wa-Ethiopia kwenye mtandao wa twita wanasherehekea siku ya wajinga duniani kwa kutangaza habari bandia ambazo zinaiga uongo unaotangazwa na vyombo vya habari vya serikali.
-# trans: Ethiopians on Twitter are celebrating April Fool's day with fake news headlines that imitate the lies of state owned media. 
+# trans: Ethiopians on Twitter are celebrating April Fool's day with fake news headlines that imitate the lies of state owned media.
 # ilg: Ethiopians in network of twitter 2-pres-celebrate day of fools world.loc for 15-announce news artificial which 10-pres-immitate lie 11-pres-11.rel-announce by tools of media of government .
 1	Wa-Ethiopia	wa	PROPN	GEN-CON	NounClass=Bantu3|Number=Sing	6	nsubj	_	@GCON
 2	kwenye	kwenye	ADP	PREP	_	3	case	_	_
@@ -2158,8 +2158,8 @@
 24	serikali	serikali	NOUN	N	NounClass=Bantu9|Number=Sing	20	nmod	_	@<NH
 25	.	.	PUNCT	_	_	6	punct	_	_
 
-# 15321 
-# lit: Hao wanaotoa maoni yao hapa, kwa bahati mbaya, hawajaweza kubadilisha mtizamo wangu, bali wameendelea kuimarisha msimamo wangu niliokuwa nao toka awali. 
+# 15321
+# lit: Hao wanaotoa maoni yao hapa, kwa bahati mbaya, hawajaweza kubadilisha mtizamo wangu, bali wameendelea kuimarisha msimamo wangu niliokuwa nao toka awali.
 # trans: Those commenting here, unfortunately, have not convinced me otherwise, but only strengthened my previously held convictions.
 # ilg: those 2-pres-2.rel-give views their here , for luck bad , 2.neg-perf-can 15-change attitude my , but 2-perf-develop 15-strenghten position my 1S-past-3.rel-be with 3pron from start.
 1	Hao	hao	PRON	PRON	NounClass=Bantu2|Number=Plur	12	nsubj	_	@SUBJ
@@ -2189,9 +2189,9 @@
 25	awali	awali	NOUN	ADV	NounClass=Bantu9|Number=Sing	23	nmod	_	_
 26	.	.	PUNCT	_	_	12	punct	_	_
 
-# 16972 
+# 16972
 # lit: Hujichimbia makaburi yao wenyewe katika harakati za kuimarisha tawala zao na kujididimiza ndani ya tawala zao zinazoharibikiwa
-# trans: They create their own downfalls as they attempt to solidify their rules and barricade themselves within their crumbling worlds. 
+# trans: They create their own downfalls as they attempt to solidify their rules and barricade themselves within their crumbling worlds.
 # ilg: ? graves their themselves in struggle of strenghtening administration their and weakening inside of administration their 10-pres-10.rel-be.vulnerable
 1	Hujichimbia	chimbia	VERB	_	Aspect=Hab|Aspect=Imp|Mood=Ind|Number=Sing|ObjNounClass=Bantu2|ObjNumber=Plur|ObjPerson=1|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@FMAINVtr+OBJ>
 2	makaburi	kaburi	NOUN	N	NounClass=Bantu6|Number=Plur	1	obj	_	@OBJ
@@ -2212,9 +2212,9 @@
 17	zinazoharibikiwa	haribikiwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu10|Number=Plur|Person=3|Polarity=Pos|RelNounClass=Bantu10|RelNumber=Plur|RelPerson=3|Subcat=Intr|Tense=Pres|Voice=Act|Voice=Rcp	15	acl	_	@FMAINVtr-OBJ>
 18	.	.	PUNCT	_	_	1	punct	_	_
 
-# 893 
-# lit: Meksiko inakabiliwa na wimbi la uhalifu wa jinai, ambamo wote raia wa ndani na wageni wanaviziwa kutekwa nyara. 
-# trans: Mexico is facing a crime wave, in which both national and foreign citizens are being targeted for kidnappings 
+# 893
+# lit: Meksiko inakabiliwa na wimbi la uhalifu wa jinai, ambamo wote raia wa ndani na wageni wanaviziwa kutekwa nyara.
+# trans: Mexico is facing a crime wave, in which both national and foreign citizens are being targeted for kidnappings
 # ilg: Mexico 9-pres-faced with wave of lawlessness of crime, which all citizens of inside and guests abstain scoop.up captive .
 1	Meksiko	meksiko	NOUN	PROPNAME	_	2	nsubj	_	_
 2	inakabiliwa	kabiliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Pres|Voice=Pass	0	root	_	@FMAINVtr-OBJ>
@@ -2237,7 +2237,7 @@
 19	nyara	nyara	NOUN	N	NounClass=Bantu9|Number=Sing	18	obj	_	@OBJ
 20	.	.	PUNCT	_	_	2	punct	_	_
 
-# 20644 
+# 20644
 # lit: Pamoja na ushindi huo wa kishindo wa Sisi, Amro Ali anaonyesha changamoto:
 # trans: Despite Sisi's landslide win, Amro Ali sets a challenge.
 # ilg: together with victory this blatant _ of Sisi, Amro Ali 1-pres-show challgnege :
@@ -10330,7 +10330,7 @@
 
 # 7709
 # Trans: Things they couldn't provide while they had access to the resources to do so!
-# 
+#
 1	Vitu	kitu	NOUN	N	NounClass=Bantu8|Number=Plur	0	root	_	@SUBJ
 2	ambavyo	amba	PRON	PRON	NounClass=Bantu8|Number=Plur	4	obj	_	@ADVL
 3	hawakuweza	weza	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Neg|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	4	aux	_	@FMAINVtr-OBJ>
