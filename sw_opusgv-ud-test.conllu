@@ -1626,7 +1626,7 @@
 5	haya	haya	DET	PRON	NounClass=Bantu6|Number=Plur	4	det	_	@<NDEM
 6	ni	ni	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	8	cop	_	@FMAINVintr-def
 7	kama	kama	ADV	ADV	_	8	advmod	_	_
-8	harakazi	harakazi	NOUN	N	NounClass=Bantu10|Number=Sing	8	obl	_	@FMAINVtr-OBJ>
+8	harakazi	harakazi	NOUN	N	NounClass=Bantu10|Number=Sing	0	root	_	@FMAINVtr-OBJ>
 9	za	zam	ADP	GEN-CON	NounClass=Bantu10|Number=Sing	10	case	_	SpaceAfter=No
 10	Shahbag	Mshahbag	PROPN	V	Aspect=Imp|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	8	nmod	_	@OBJ
 11	na	na	CCONJ	CC	_	12	cc	_	_
