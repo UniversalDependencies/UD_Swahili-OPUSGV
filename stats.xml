@@ -5,124 +5,109 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>502</sentences><tokens>9113</tokens><words>9113</words><fused>0</fused></total>
+    <total><sentences>101</sentences><tokens>1844</tokens><words>1844</words><fused>0</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>502</sentences><tokens>9113</tokens><words>9113</words><fused>0</fused></test>
+    <test><sentences>101</sentences><tokens>1844</tokens><words>1844</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2543" /><!-- wa, ., ya, na, ,, kwa, :, za, katika, ni, la, kwenye, mtu, amba, nchi -->
-  <forms unique="3276" /><!-- ., ya, na, ,, wa, kwa, :, za, katika, ni, la, kwenye, kuwa, watu, habari -->
+  <lemmas unique="852" /><!-- ., na, wa, ,, ya, kwa, za, :, katika, mtu, la, ", amba, kwenye, au -->
+  <forms unique="948" /><!-- ., na, ,, ya, wa, kwa, za, :, katika, ", kwenye, la, watu, au, kama -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="14">
-    <tag name="ADJ">287</tag><!-- ingine, zaidi, kubwa, kuu, sana, kadhaa, baya, chache, pita, jamii -->
-    <tag name="ADP">1485</tag><!-- ya, wa, kwa, na, za, katika, la, kwenye, cha, vya -->
-    <tag name="ADV">438</tag><!-- kama, baada, pia, pamoja, hivyo, hata, hivi, sasa, bado, hapa -->
-    <tag name="AUX">73</tag><!-- ni, kuna, ndio, ndiyo, sio, weza, hakuna, hayupo, tu, tupo -->
-    <tag name="CCONJ">313</tag><!-- na, t, au, nao, lakini, naye, ama, nazo, CC, nayo -->
+    <tag name="ADJ">44</tag><!-- zaidi, kuu, kubwa, bora, kadhaa, maarufu, mbalimbali, nafuu, bandia, baya -->
+    <tag name="ADP">306</tag><!-- ya, wa, kwa, na, za, katika, kwenye, la, cha, vya -->
+    <tag name="ADV">87</tag><!-- hivyo, kama, hata, pamoja, pia, baada, hapa, tu, hivi, karibuni -->
+    <tag name="AUX">47</tag><!-- ni, kuna, weza, hakuna, tupo, wa, aliyekuwa, angeweza, haiwezi, hawana -->
+    <tag name="CCONJ">64</tag><!-- na, au, lakini, ama, nao, t, wala -->
     <tag name="DET">86</tag><!-- hilo, yake, chake, hiyo, ingine, wae, ao, hili, huo, huu -->
-    <tag name="INTJ">4</tag><!-- CC, hebu, la, tt -->
-    <tag name="NOUN">2613</tag><!-- mtu, nchi, habari, mwaka, mtandao, picha, serikali, wakati, mwandishi, hali -->
-    <tag name="NUM">183</tag><!-- moja, t, wili, mbili, tano, tatu, 10, 2016, kumi, nane -->
-    <tag name="PRON">460</tag><!-- amba, ake, ao, ingi, hiyo, hii, etu, huo, angu, hilo -->
-    <tag name="PROPN">615</tag><!-- Afrika, Uganda, Kusini, Misri, Facebook, Marekani, Oktoba, Gaza, Global, Japan -->
-    <tag name="PUNCT">1022</tag><!-- ., ,, :, ", (, ), !, -, ?, ... -->
-    <tag name="SCONJ">121</tag><!-- kuwa, kwamba, lakini, kama, enye, ili, kwani, bali, gabon, ikiwa -->
-    <tag name="VERB">1413</tag><!-- wa, ni, weza, fanya, toa, pata, sema, eleza, onyesha, kuna -->
+    <tag name="INTJ">1</tag><!-- hebu -->
+    <tag name="NOUN">537</tag><!-- mtu, nchi, habari, serikali, wakati, mwaka, andamano, baadhi, chombo, hali -->
+    <tag name="NUM">36</tag><!-- moja, wili, mbili, nane, tano, tatu, 1,000, 10, 110, 18 -->
+    <tag name="PRON">41</tag><!-- amba, ingi, zile, enyewe, hiyo, wao, angu, ao, cho, hao -->
+    <tag name="PROPN">115</tag><!-- Oktoba, Ahmed, Meena, Misri, Pakistan, Pakistani, Adelina, Afrika, Al-jamri, Al-khaled -->
+    <tag name="PUNCT">209</tag><!-- ., ,, :, ", !, ?, (, ), “, - -->
+    <tag name="SCONJ">15</tag><!-- kwamba, ili, kama, kuwa, bali, enye, lakini, tangu -->
+    <tag name="VERB">256</tag><!-- wa, fanya, toa, pitia, eleza, sema, weza, endelea, ongozwa, onyesha -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="84">
-    <feat name="Aspect" value="Hab" upos="NOUN,PROPN,VERB">15</feat><!-- huwa, Hujichimbia, Luangwa, Ungereza, huchujwa, huhitaji, hujazana, hujazoea, hunitia, husikika -->
-    <feat name="Aspect" value="Imp" upos="ADJ,ADP,AUX,NOUN,PROPN,SCONJ,VERB">1296</feat><!-- ni, kuwa, kuna, kupitia, hakuna, si, alisema, walikuwa, akiwa, alitwiti -->
-    <feat name="Aspect" value="Perf" upos="AUX,NOUN,VERB">107</feat><!-- wamekuwa, imekuwa, Nimekuwa, imetangaza, imetolewa, imetumiwa, Autopista, MelesZenawi, Mouzalas, Nimefanya -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV">22</feat><!-- zaidi -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,CCONJ,DET,NOUN,PROPN,VERB">342</feat><!-- sana, kadhaa, kila, nyingine, mbaya, kubwa, gani, mwingine, bora, chache -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">22</feat><!-- ningependa, nikiwa, zikiwa, akilitafuta, akiwa, angekuwa, angepata, angeweza, atamjibu, ingeweza -->
-    <feat name="Mood" value="Ind" upos="ADJ,ADP,AUX,NOUN,PROPN,SCONJ,VERB">1336</feat><!-- ni, kuwa, kuna, kupitia, hakuna, si, alisema, walikuwa, akiwa, alitwiti -->
-    <feat name="Mood" value="Sub" upos="AUX,NOUN,PROPN,VERB">67</feat><!-- Ukraine, YouTube, iwe, @zittokabwe, Ahishakiye, Alawite, Asiimwe, Igundue, Ivanov, Leogane -->
+  <feats unique="70">
+    <feat name="Aspect" value="Imp" upos="AUX,NOUN,PROPN,VERB">257</feat><!-- ni, kuna, kupitia, hakuna, kuwa, anaeleza, kufanya, nina, si, #NairobiBlast -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">21</feat><!-- MelesZenawi, Nimefanya, Nimekuwa, amefariki, amenyimwa, ametumikia, anakumbushia, imefungamanishwa, imegundulika, imetangaza -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">7</feat><!-- zaidi -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,CCONJ,DET,NOUN,PROPN,VERB">59</feat><!-- kadhaa, bora, kila, maarufu, mbalimbali, mwingine, nyingine, sana, wengine, #RightToReport -->
+    <feat name="Mood" value="Ind" upos="AUX,NOUN,PROPN,VERB">263</feat><!-- ni, kuna, kupitia, hakuna, kuwa, anaeleza, kufanya, nina, si, #NairobiBlast -->
+    <feat name="Mood" value="Sub" upos="AUX,NOUN,PROPN,VERB">15</feat><!-- @zittokabwe, Leogane, Manthethe, Ukraine, Valentine, afike, agombee, isimsaidie, iwe, tuandikie -->
     <feat name="NounClass" value="9" upos="NOUN">1</feat><!-- hakika -->
-    <feat name="NounClass" value="Bantu1" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">490</feat><!-- wa, mmoja, mwandishi, mtu, wake, alisema, mkuu, mwenyewe, rais, akiwa -->
-    <feat name="NounClass" value="Bantu10" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">546</feat><!-- za, habari, hizo, hizi, zao, nchi, haki, nyingine, siku, ambazo -->
-    <feat name="NounClass" value="Bantu11" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,VERB">368</feat><!-- wa, wakati, huo, uchaguzi, uhuru, ukurasa, ulimwengu, upinzani, usalama, uhalifu -->
-    <feat name="NounClass" value="Bantu15" upos="ADP,ADV,AUX,DET,NOUN,PRON,PROPN,SCONJ,VERB">204</feat><!-- kwa, twita, kujieleza, kujifunza, kupitia, kusikitisha, kuwa, kwake, kwao, kuchunguza -->
-    <feat name="NounClass" value="Bantu16" upos="ADJ,ADP,AUX,NOUN,PRON,VERB">14</feat><!-- hapo, ambapo, mahali, Hapana, ndipo, pa, pema -->
-    <feat name="NounClass" value="Bantu17" upos="AUX,NOUN,PRON,VERB">31</feat><!-- kuna, hakuna, kwao, Eugnene, Tunawataka, hakuwahi, kulikuwa, kulizuka, kwake -->
-    <feat name="NounClass" value="Bantu18" upos="ADP,AUX,DET,PRON,PROPN">12</feat><!-- mwa, mwangu, mwao, Tea, ambamo, mna -->
-    <feat name="NounClass" value="Bantu2" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">656</feat><!-- wa, watu, ambao, wengi, wale, wanawake, wengine, hao, wake, waandishi -->
-    <feat name="NounClass" value="Bantu3" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">332</feat><!-- wa, mtandao, huo, huu, mkono, mwaka, mradi, muda, mwezi, wao -->
-    <feat name="NounClass" value="Bantu4" upos="ADJ,ADP,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">173</feat><!-- ya, miaka, miezi, mitandao, mitano, ambayo, mitaani, miwili, yetu, Guantanamo -->
-    <feat name="NounClass" value="Bantu5" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">337</feat><!-- la, hilo, hili, eneo, jambo, jina, suala, moja, taifa, tukio -->
-    <feat name="NounClass" value="Bantu6" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">384</feat><!-- ya, maandamano, maisha, haya, mauaji, hayo, yake, mapinduzi, yao, maeneo -->
-    <feat name="NounClass" value="Bantu7" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">243</feat><!-- cha, kiasi, kiongozi, kituo, chama, chuo, kipindi, chake, chakula, kifungo -->
-    <feat name="NounClass" value="Bantu8" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">117</feat><!-- vya, vyombo, vijana, Voices, ambavyo, vikwazo, vituo, vifo, vijiji, vyama -->
-    <feat name="NounClass" value="Bantu9" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,PUNCT,SCONJ,VERB">1376</feat><!-- ya, habari, hiyo, nchini, nchi, hii, serikali, yake, picha, hali -->
-    <feat name="Number" value="Coll" upos="NOUN,PROPN">25</feat><!-- chakula, fedha, maji, Gaza, theluji, Dhaka, Vyakula, Xela, kimbari, mafuta -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">1874</feat><!-- ya, wa, za, watu, vya, miaka, ambao, wengi, habari, vyombo -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,PUNCT,SCONJ,VERB">3419</feat><!-- ya, wa, la, cha, habari, hiyo, nchini, nchi, hii, huo -->
-    <feat name="NumType" value="Card" upos="NOUN,NUM,PROPN">80</feat><!-- moja, mmoja, mbili, kumi, mitano, tatu, wawili, miwili, nane, milioni -->
-    <feat name="NumType" value="Ord" upos="NUM">1</feat><!-- pili -->
+    <feat name="NounClass" value="Bantu1" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">114</feat><!-- mkuu, wa, mmoja, huyo, mwanaharakati, mwanamke, mwandishi, anaeleza, mtu, mwanasheria -->
+    <feat name="NounClass" value="Bantu10" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">116</feat><!-- za, zao, zile, nchi, raia, tawala, haki, harakati, hizi, mbili -->
+    <feat name="NounClass" value="Bantu11" upos="ADJ,ADP,AUX,DET,NOUN,VERB">72</feat><!-- wa, wakati, uhuru, huo, huu, uchaguzi, umeme, umri, utamaduni, Ukraine -->
+    <feat name="NounClass" value="Bantu15" upos="ADP,AUX,DET,NOUN,PROPN,VERB">60</feat><!-- kwa, kufanya, twita, Kudai, Kufungia, Kukosekana, Kutokana, Twakumbuka, kuacha, kuchapisha -->
+    <feat name="NounClass" value="Bantu16" upos="ADJ,NOUN,PRON">6</feat><!-- ambapo, mahali, hapo, pema -->
+    <feat name="NounClass" value="Bantu17" upos="AUX,VERB">7</feat><!-- kuna, hakuna -->
+    <feat name="NounClass" value="Bantu18" upos="AUX,DET,PRON">3</feat><!-- ambamo, mna, mwangu -->
+    <feat name="NounClass" value="Bantu2" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">135</feat><!-- wa, watu, ambao, watoto, wengine, hao, waandishi, wake, wamiliki, wanaharakati -->
+    <feat name="NounClass" value="Bantu3" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">68</feat><!-- wa, mkono, mtandao, wangu, muhula, Meena, Mfumo, Montserrat, Muungano, Tymoshenko -->
+    <feat name="NounClass" value="Bantu4" upos="ADJ,ADP,DET,NOUN,NUM,PRON">42</feat><!-- ya, miaka, miezi, mipango, mitano, miwili, Mitizamo, mifugo, migogoro, mijini -->
+    <feat name="NounClass" value="Bantu5" upos="ADP,DET,NOUN,NUM,PROPN,SCONJ,VERB">67</feat><!-- la, hilo, eneo, hili, tukio, jeshi, jina, soga, suala, Amro -->
+    <feat name="NounClass" value="Bantu6" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">56</feat><!-- maandamano, ya, maisha, yao, haya, hayo, maoni, Magazeti, Manaibu, Shahbag -->
+    <feat name="NounClass" value="Bantu7" upos="ADJ,ADP,ADV,DET,NOUN,PRON,PROPN,VERB">63</feat><!-- cha, chake, chama, hiki, kiasi, kiongozi, kisiasa, @Kevin2Tek, Bulgaria, Chanzo -->
+    <feat name="NounClass" value="Bantu8" upos="ADP,DET,NOUN,PRON,PROPN,VERB">29</feat><!-- vya, vyombo, ambavyo, vituo, Vikwazo, Vitu, Vyakula, Zoweil, hivyo, isimsaidie -->
+    <feat name="NounClass" value="Bantu9" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,PUNCT,VERB">251</feat><!-- ya, habari, nchi, hiyo, serikali, baadhi, hali, kati, kazi, yake -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,VERB">377</feat><!-- wa, ya, za, watu, vya, maandamano, miaka, ambao, vyombo, yao -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,SCONJ,VERB">714</feat><!-- ya, wa, la, cha, habari, nchi, hilo, hiyo, serikali, baadhi -->
+    <feat name="NumType" value="Card" upos="NOUN,NUM">18</feat><!-- mmoja, mbili, mitano, miwili, tatu, manane, moja, nane, sita, tisa -->
     <feat name="ObjNounClass" value="1" upos="VERB">1</feat><!-- zilizonisaidia -->
     <feat name="ObjNounClass" value="9" upos="VERB">1</feat><!-- Tunayo -->
-    <feat name="ObjNounClass" value="Bantu1" upos="NOUN,PROPN,VERB">58</feat><!-- Milocas, kumridhisha, kumwambia, Alimtaja, Manthethe, Mousavi, Tulipeleka, Tunawaombea, Wangemwita, Wavenezuela -->
-    <feat name="ObjNounClass" value="Bantu10" upos="NOUN,VERB">7</feat><!-- Nilifuatilia, aliwashambulia, kuzichukua, kuzifanya, kuzileta, kuzisaidia, ya#ShindanolaM7 -->
-    <feat name="ObjNounClass" value="Bantu11" upos="VERB">3</feat><!-- Kuuchunguza, kuutawala, wanaoufahamu -->
-    <feat name="ObjNounClass" value="Bantu2" upos="NOUN,PROPN,VERB">30</feat><!-- alitwiti, Awakumbuka, Hujichimbia, Waghana, huchujwa, hujazana, imekwishaahirishwa, imethibitisha, inatubidi, inayowazunguka -->
-    <feat name="ObjNounClass" value="Bantu3" upos="VERB">4</feat><!-- Nilikutana, alivitishia, hawajafungwa, tunawadai -->
-    <feat name="ObjNounClass" value="Bantu4" upos="VERB">2</feat><!-- kuipata, kuvivuka -->
-    <feat name="ObjNounClass" value="Bantu5" upos="PROPN,VERB">8</feat><!-- Ivanov, alipe, anaomba, anasema, ilijaribu, imeshatimu, inayolenga, kulifanya -->
-    <feat name="ObjNounClass" value="Bantu6" upos="VERB">6</feat><!-- aliavyouliza, alithibitisha, aliyoichukua, imetumwa, wameonesha, wameshaonesha -->
-    <feat name="ObjNounClass" value="Bantu7" upos="NOUN,VERB">7</feat><!-- Akijadili, akizuru, alichokiita, azirehemu, tetemeko, wakijaribu, wakishiriki -->
-    <feat name="ObjNounClass" value="Bantu8" upos="VERB">1</feat><!-- alizozielekeza -->
-    <feat name="ObjNounClass" value="Bantu9" upos="NOUN,VERB">14</feat><!-- Aliijenga, Autopista, aliitaja, ameitoa, amenyimwa, anavyotwiti, kuifanya, kuiona, kuipatia, kuirudisha -->
-    <feat name="ObjNounClass" value="BantuPL" upos="VERB">2</feat><!-- wameingiwa, wamejitolea -->
-    <feat name="ObjNounClass" value="BantuSG" upos="VERB">9</feat><!-- Alijiuliza, alijikuta, alimdanganya, alipopatwa, anayesaidia, kujisomea, kulifuatilia, kutaasisisha, kutochukulia -->
-    <feat name="ObjNumber" value="Plur" upos="NOUN,PROPN,VERB">46</feat><!-- alitwiti, Awakumbuka, Hujichimbia, Nilifuatilia, Waghana, aliavyouliza, alithibitisha, aliwashambulia, aliyoichukua, alizozielekeza -->
-    <feat name="ObjNumber" value="Sing" upos="NOUN,PROPN,VERB">96</feat><!-- Milocas, kumridhisha, kumwambia, Akijadili, Aliijenga, Alimtaja, Autopista, Ivanov, Kuuchunguza, Manthethe -->
-    <feat name="ObjPerson" value="1" upos="VERB">13</feat><!-- Hujichimbia, Wikipedia, alichapwa, alihunduria, alinifuata, huchujwa, iFalasteen, imekwishaahirishwa, imethibitisha, inajirudia -->
-    <feat name="ObjPerson" value="2" upos="VERB">2</feat><!-- anayezungukia, tunawaonea -->
-    <feat name="ObjPerson" value="3" upos="NOUN,PROPN,VERB">137</feat><!-- Milocas, alitwiti, kumridhisha, kumwambia, Akijadili, Aliijenga, Alijiuliza, Alimtaja, Autopista, Awakumbuka -->
-    <feat name="Person" value="1" upos="AUX,NOUN,PROPN,VERB">90</feat><!-- nikiwa, nilikuwa, nina, ningependa, Nimekuwa, YouTube, tunazungumzia, @elijahzarwan, @zittokabwe, Ikikabilia -->
-    <feat name="Person" value="2" upos="AUX,NOUN,PROPN,VERB">33</feat><!-- @PMMelesZenawi, Iwacu, Meena, MelesZenawi, Mmisri, Mostafa, Mouzalas, Mubarak, Musleh, Mutalama -->
-    <feat name="Person" value="3" upos="ADJ,AUX,NOUN,PROPN,VERB">874</feat><!-- kuna, hakuna, alisema, walikuwa, akiwa, alitwiti, anasema, ilikuwa, ulikuwa, unaweza -->
+    <feat name="ObjNounClass" value="Bantu1" upos="VERB">10</feat><!-- Manthethe, alichapwa, kumnyima, kumpokonya, kumtangaza, kumtia, uliofadhiliwa, walimfukuza, walithibitisha, wanaviziwa -->
+    <feat name="ObjNounClass" value="Bantu11" upos="VERB">1</feat><!-- Kuuchunguza -->
+    <feat name="ObjNounClass" value="Bantu2" upos="VERB">8</feat><!-- Hujichimbia, alitwiti, inatubidi, kuwafanya, kuwapata, kuwaridhisha, kuwaunganisha, waliyopitia -->
+    <feat name="ObjNounClass" value="Bantu3" upos="VERB">1</feat><!-- alivitishia -->
+    <feat name="ObjNounClass" value="Bantu5" upos="VERB">1</feat><!-- inayolenga -->
+    <feat name="ObjNounClass" value="Bantu7" upos="VERB">1</feat><!-- azirehemu -->
+    <feat name="ObjNounClass" value="Bantu9" upos="VERB">2</feat><!-- amenyimwa, kuipatia -->
+    <feat name="ObjNounClass" value="BantuSG" upos="VERB">1</feat><!-- kulifuatilia -->
+    <feat name="ObjNumber" value="Plur" upos="VERB">8</feat><!-- Hujichimbia, alitwiti, inatubidi, kuwafanya, kuwapata, kuwaridhisha, kuwaunganisha, waliyopitia -->
+    <feat name="ObjNumber" value="Sing" upos="VERB">18</feat><!-- Kuuchunguza, Manthethe, Tunayo, alichapwa, alivitishia, amenyimwa, azirehemu, inayolenga, kuipatia, kumnyima -->
+    <feat name="ObjPerson" value="1" upos="VERB">4</feat><!-- Hujichimbia, alichapwa, inatubidi, zilizonisaidia -->
+    <feat name="ObjPerson" value="3" upos="VERB">22</feat><!-- Kuuchunguza, Manthethe, alitwiti, alivitishia, amenyimwa, azirehemu, inayolenga, kuipatia, kulifuatilia, kumnyima -->
+    <feat name="Person" value="1" upos="AUX,VERB">18</feat><!-- nina, @zittokabwe, Ikikabilia, Naweza, Nimefanya, Nimekuwa, Sielewi, Tunayo, nikiwa, niliokuwa -->
+    <feat name="Person" value="2" upos="AUX,NOUN,PROPN,VERB">6</feat><!-- @PMMelesZenawi, Meena, MelesZenawi, Unawezaje, micharazo, unasumbuliwa -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PROPN,VERB">172</feat><!-- kuna, hakuna, anaeleza, #NairobiBlast, ANALAZIMISHA, Aliyekuwa, Haider, Imedi, Insaaf, Kinachoonyeshwa -->
     <feat name="Polarity" value="Int" upos="AUX">1</feat><!-- Unawezaje -->
-    <feat name="Polarity" value="Neg" upos="AUX,NOUN,PROPN,VERB">51</feat><!-- hafai, haiwezi, hakuweza, Advice, Agusti, Haider, Haidhuru, Haitoshi, Haiwezekani, Imedi -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADP,AUX,NOUN,PROPN,SCONJ,VERB">1330</feat><!-- ni, kuwa, kuna, kupitia, hakuna, si, alisema, walikuwa, alitwiti, anasema -->
+    <feat name="Polarity" value="Neg" upos="AUX,NOUN,PROPN,VERB">11</feat><!-- Haider, Imedi, Insaaf, Shahbag, Sielewi, haiwezi, hajali, hawakushtakiwa, hawakuweza, isipokuwa -->
+    <feat name="Polarity" value="Pos" upos="AUX,NOUN,PROPN,VERB">263</feat><!-- ni, kuna, kupitia, hakuna, kuwa, anaeleza, kufanya, nina, si, #NairobiBlast -->
     <feat name="RelNounClass" value="16" upos="VERB">1</feat><!-- isipokuwa -->
     <feat name="RelNounClass" value="3" upos="VERB">1</feat><!-- iliyopita -->
-    <feat name="RelNounClass" value="Bantu10" upos="VERB">20</feat><!-- zinazohusu, walizocheza, zilizokuwa, zilizotajwa, zilizotangazwa, zilizotolewa, zilizotumika, zilizowahi, zinamaanisha, zinaorodheshwa -->
-    <feat name="RelNounClass" value="Bantu11" upos="ADJ,NOUN,VERB">13</feat><!-- uanaharakati, uliokadiriwa, uliokithiri, ulioongozwa, unaelezwa, unaofanywa, unaohusiana, unaoitwa, unaotangazwa, unauelekeza -->
-    <feat name="RelNounClass" value="Bantu16" upos="NOUN,VERB">29</feat><!-- Tuanaambiwa, Tunawataka, Walipofika, Wikipedia, Yalipoibuliwa, alipojitokeza, ilivyojionyesha, itakapokuwa, tunapotaka, ulikubaliana -->
-    <feat name="RelNounClass" value="Bantu3" upos="VERB">1</feat><!-- utapelekwa -->
-    <feat name="RelNounClass" value="Bantu4" upos="VERB">3</feat><!-- aliyechukua, inayojengwa, inayowazunguka -->
-    <feat name="RelNounClass" value="Bantu5" upos="VERB">5</feat><!-- anaomba, anasema, iliyolingana, lililotokea, lisilokuwa -->
-    <feat name="RelNounClass" value="Bantu6" upos="VERB">13</feat><!-- alithibitisha, yaliifunga, yaliyochochewa, yaliyoendelea, yaliyofikiwa, yaliyoruhusiwa, yaliyosababishwa, yaliyotokea, yanapoendelea, yanayofanywa -->
-    <feat name="RelNounClass" value="Bantu7" upos="NOUN,VERB">9</feat><!-- @elijahzarwan, Inashangaza, alichokiita, kilichojitokeza, kilichokuwa, kilichotokea, kinachoongozwa, kinaongelea, kinasomeka -->
-    <feat name="RelNounClass" value="Bantu8" upos="VERB">17</feat><!-- TUNAWAPIGA, alivyohukumiwa, alivyosema, ilivyoonyeshwa, iliyopelekea, inayothibitisha, itakavyokuwa, lililowakasirisha, unavyoweza, yaliyoangamiza -->
-    <feat name="RelNounClass" value="Bantu9" upos="NOUN,VERB">23</feat><!-- ilishawaambia, ilivyoangazwa, iliyochelewa, iliyohusika, iliyokuwa, iliyoletwa, iliyotolewa, iliyowekwa, iliyozoeleka, inayodumu -->
-    <feat name="RelNumber" value="Plur" upos="VERB">52</feat><!-- zinazohusu, TUNAWAPIGA, alithibitisha, alivyohukumiwa, alivyosema, aliyechukua, ilivyoonyeshwa, iliyopelekea, inayojengwa, inayothibitisha -->
-    <feat name="RelNumber" value="Sing" upos="ADJ,NOUN,VERB">81</feat><!-- @elijahzarwan, Inashangaza, Tuanaambiwa, Tunawataka, Walipofika, Wikipedia, Yalipoibuliwa, alichokiita, alipojitokeza, anaomba -->
-    <feat name="RelPerson" value="3" upos="ADJ,AUX,NOUN,VERB">172</feat><!-- waliokuwa, aliyekuwa, waliopoteza, zinazohusu, @elijahzarwan, Inashangaza, TUNAWAPIGA, Tuanaambiwa, Tunawataka, Walipofika -->
+    <feat name="RelNounClass" value="Bantu10" upos="VERB">5</feat><!-- zilizotajwa, zilizotolewa, zinazoharibikiwa, zinazohusu, zinazounga -->
+    <feat name="RelNounClass" value="Bantu11" upos="VERB">4</feat><!-- ulioongozwa, unaohusiana, unaotangazwa, unayemjali -->
+    <feat name="RelNounClass" value="Bantu16" upos="VERB">7</feat><!-- Yalipoibuliwa, walilazimishwa, walipokuwa, waliyowekwa, wanaohusianisha, wanaomboleza, wanaotumikishwa -->
+    <feat name="RelNounClass" value="Bantu7" upos="NOUN,VERB">5</feat><!-- kilichojitokeza, kilichokuwa, kilichotokea, kinachoongozwa, kinaongelea -->
+    <feat name="RelNounClass" value="Bantu8" upos="VERB">3</feat><!-- alivyohukumiwa, alivyosema, zilizotengenezwa -->
+    <feat name="RelNounClass" value="Bantu9" upos="VERB">6</feat><!-- iliyochelewa, iliyozoeleka, inayodumu, inayoongozwa, inayotumika, lilivyoongeza -->
+    <feat name="RelNumber" value="Plur" upos="VERB">8</feat><!-- alivyohukumiwa, alivyosema, zilizotajwa, zilizotengenezwa, zilizotolewa, zinazoharibikiwa, zinazohusu, zinazounga -->
+    <feat name="RelNumber" value="Sing" upos="NOUN,VERB">23</feat><!-- Yalipoibuliwa, iliyochelewa, iliyopita, iliyozoeleka, inayodumu, inayoongozwa, inayotumika, kilichojitokeza, kilichokuwa, kilichotokea -->
+    <feat name="RelPerson" value="3" upos="AUX,NOUN,VERB">38</feat><!-- Aliyekuwa, Yalipoibuliwa, alivyohukumiwa, alivyosema, anayeishi, iliyochelewa, iliyopita, iliyozoeleka, inayodumu, inayoongozwa -->
     <feat name="RelSubcat" value="Intr" upos="VERB">1</feat><!-- zilizonisaidia -->
-    <feat name="Subcat" value="Ditran" upos="NOUN,VERB">18</feat><!-- kusoma, kumwambia, Kuvunja, Quoting, YouTube, alichapwa, alipe, hawaajiriwi, hawakushtakiwa, iliitishwa -->
-    <feat name="Subcat" value="Intr" upos="ADP,AUX,NOUN,PROPN,SCONJ,VERB">324</feat><!-- kuwa, kupitia, walikuwa, akiwa, ilikuwa, kuingia, ulikuwa, wamekuwa, alikuwa, imekuwa -->
-    <feat name="Subcat" value="Tran" upos="ADJ,AUX,NOUN,PROPN,VERB">927</feat><!-- alisema, alitwiti, anasema, kuonyesha, kupata, kutoa, unaweza, kufanya, kuhusiana, kutumia -->
+    <feat name="Subcat" value="Ditran" upos="NOUN,VERB">4</feat><!-- Kuvunja, alichapwa, hawakushtakiwa, tuwape -->
+    <feat name="Subcat" value="Intr" upos="AUX,NOUN,PROPN,VERB">65</feat><!-- kupitia, kuwa, Aliyekuwa, Haider, Insaaf, Nimekuwa, Shahbag, Yalipoibuliwa, afike, akiwa -->
+    <feat name="Subcat" value="Tran" upos="AUX,NOUN,PROPN,VERB">182</feat><!-- anaeleza, kufanya, nina, #NairobiBlast, @PMMelesZenawi, @zittokabwe, ANALAZIMISHA, Hujichimbia, Ikikabilia, Imedi -->
     <feat name="Subcat" value="Trans" upos="VERB">1</feat><!-- isipokuwa -->
-    <feat name="Tense" value="Fut" upos="NOUN,PROPN,VERB">43</feat><!-- @PMMelesZenawi, Inakejeli, Italia, Mostafa, Mutalama, Muyinda, Nilimkabidhi, TAWANYIKENI, Utafikiri, akikumbushia -->
-    <feat name="Tense" value="Past" upos="AUX,NOUN,PROPN,VERB">663</feat><!-- alisema, walikuwa, alitwiti, ilikuwa, akiwa, ulikuwa, alijibu, alikuwa, lilikuwa, nilikuwa -->
-    <feat name="Tense" value="Pres" upos="ADJ,AUX,NOUN,PROPN,VERB">324</feat><!-- anasema, unaweza, anaandika, anaeleza, inaweza, ningependa, wanataka, Akiblogu, anaelezea, anaonyesha -->
+    <feat name="Tense" value="Fut" upos="NOUN,PROPN,VERB">4</feat><!-- @PMMelesZenawi, anatuhumiwa, atakayekutwa, haitavuliwa -->
+    <feat name="Tense" value="Past" upos="AUX,NOUN,VERB">62</feat><!-- Aliyekuwa, Ikikabilia, Yalipoibuliwa, akiwa, alichapwa, alielewa, alijawa, alisema, alishtakiwa, alitangaza -->
+    <feat name="Tense" value="Pres" upos="AUX,NOUN,PROPN,VERB">67</feat><!-- anaeleza, Meena, Naweza, Unawezaje, anabaki, anahisi, anajadili, anajitahidi, anajua, anaonyesha -->
     <feat name="VerbForm" value="Inf" upos="VERB">2</feat><!-- kutoa, kuwaunganisha -->
-    <feat name="Voice" value="Act" upos="ADP,AUX,NOUN,PROPN,SCONJ,VERB">1257</feat><!-- ni, kuwa, kuna, kupitia, hakuna, si, alisema, walikuwa, akiwa, alitwiti -->
-    <feat name="Voice" value="Appl" upos="NOUN,VERB">121</feat><!-- kupitia, kutumia, alizungumzia, anaelezea, imetolewa, imetumiwa, kuachiwa, kutolewa, tunazungumzia, walitumia -->
-    <feat name="Voice" value="Cau" upos="NOUN,PROPN,VERB">88</feat><!-- kuonyesha, kusababisha, alitwiti, anaonyesha, imetangaza, kukiwa, kumridhisha, kupoteza, waliopoteza, @zittokabwe -->
-    <feat name="Voice" value="Pass" upos="ADJ,NOUN,PROPN,VERB">142</feat><!-- kuzuiwa, imetolewa, imetumiwa, kuachiwa, kuchomwa, kutolewa, @zittokabwe, Ukiachana, Ukifahamika, Valentine -->
-    <feat name="Voice" value="Rcp" upos="NOUN,VERB">67</feat><!-- kuhusiana, kuungana, walionusurika, Guatemala, Haiwezekani, Inaonekana, Yalipoibuliwa, ajulikanaye, aliungana, anaonekana -->
+    <feat name="Voice" value="Act" upos="AUX,NOUN,PROPN,VERB">188</feat><!-- ni, kuna, hakuna, kuwa, anaeleza, kufanya, nina, si, #NairobiBlast, @PMMelesZenawi -->
+    <feat name="Voice" value="Appl" upos="NOUN,VERB">15</feat><!-- kupitia, alijawa, alitembelea, kilichotokea, kuipatia, kulifuatilia, kumpokonya, kunatoa, kuvamia, vimeyapuuza -->
+    <feat name="Voice" value="Cau" upos="VERB">20</feat><!-- alitangaza, alitwiti, anaonyesha, iliyochelewa, iliyopita, iliyozoeleka, imetangaza, inatawala, kubadilisha, kumtangaza -->
+    <feat name="Voice" value="Pass" upos="NOUN,PROPN,VERB">33</feat><!-- @zittokabwe, Valentine, alishtakiwa, alitiwa, alivyohukumiwa, anatuhumiwa, atakayekutwa, haitavuliwa, imefungamanishwa, inaelekezwa -->
+    <feat name="Voice" value="Rcp" upos="VERB">18</feat><!-- Yalipoibuliwa, ilionekana, inayoingizwa, kuhusiana, kujididimiza, kukutana, kusherehekewa, kuwaunganisha, limepatikana, unaohusiana -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="31">
-    <dep name="_">7284</dep>
-    <dep name="acl">60</dep>
+  <deps unique="30">
+    <dep name="acl">61</dep>
     <dep name="advcl">14</dep>
-    <dep name="advmod">64</dep>
+    <dep name="advmod">65</dep>
     <dep name="amod">38</dep>
     <dep name="appos">12</dep>
     <dep name="aux">14</dep>
@@ -141,14 +126,14 @@
     <dep name="flat">45</dep>
     <dep name="iobj">3</dep>
     <dep name="mark">15</dep>
-    <dep name="nmod">255</dep>
+    <dep name="nmod">258</dep>
     <dep name="nsubj">109</dep>
     <dep name="nummod">29</dep>
     <dep name="obj">132</dep>
-    <dep name="obl">96</dep>
+    <dep name="obl">99</dep>
     <dep name="parataxis">9</dep>
-    <dep name="punct">201</dep>
-    <dep name="root">99</dep>
+    <dep name="punct">206</dep>
+    <dep name="root">101</dep>
     <dep name="xcomp">38</dep>
   </deps>
 </treebank>
