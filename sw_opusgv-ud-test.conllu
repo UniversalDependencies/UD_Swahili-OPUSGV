@@ -633,7 +633,7 @@
 20	,	,	PUNCT	COMMA	_	21	punct	_	_
 21	yaani	yaani	ADV	ADV	_	17	advmod	_	_
 22	Valentine	Ralentine	PROPN	PROPNAME	Aspect=Imp|Mood=Sub|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Cau|Voice=Pass	21	nmod	_	@OBJ
-23	:	:	PUNCT	COLON	_	_	_	_	_
+23	:	:	PUNCT	COLON	_	1	punct	_	_
 
 # sent_id = 19305
 # note: I think wananchi wake wa ndani should be coordinated with watu wa nje. However, this isn't allowed if projectivity is maintained.
@@ -755,7 +755,7 @@
 8	mara	mara	NOUN	N	NounClass=Bantu10|Number=Plur	2	obl	_	@<P
 9	nyingine	ingine	DET	ADJ	Degree=Pos|NounClass=Bantu10|Number=Plur	8	det	_	@<DN
 10	tena	tena	ADV	ADV	_	8	advmod	_	_
-11	,	,	PUNCT	COMMA	_	_	_	_	_
+11	,	,	PUNCT	COMMA	_	2	punct	_	_
 12	pengine	ingine	ADV	ADV	_	14	advmod	_	_
 13	kwa	kwa	ADP	PREP	_	14	case	_	_
 14	mara	mara	NOUN	ADV	NounClass=Bantu9|Number=Sing	2	obl	_	@<P
@@ -829,7 +829,7 @@
 16	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	17	case	_	@GCON
 17	kushiriki	shiriki	NOUN	N	NounClass=Bantu15|Number=Sing	15	nmod	_	@<NH
 18	mgomo	mgomo	NOUN	N	NounClass=Bantu3|Number=Sing	17	obj	_	@OBJ
-19	.	.	PUNCT	_	_	_	_	_	_
+19	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 29189
 # trans: A private individual found guilty of publishing or spreading fake news can face a prison term of up to five years.
@@ -869,7 +869,7 @@
 10	wa	wa	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	11	case	_	@GCON
 11	Thailand	Thailand	PROPN	PROPNAME	NounClass=Bantu9|Number=Sing	6	nmod	_	@<NH
 12	,	,	PUNCT	COMMA	_	6	punct	_	_
-13	amefariki	fariki	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	_	_	_	@FMAINVintr
+13	amefariki	fariki	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	6	parataxis	_	@FMAINVintr
 14	leo	leo	ADV	ADV	_	13	advmod	_	_
 15	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -915,26 +915,26 @@
 2	wajumbe	mjumbe	NOUN	N	NounClass=Bantu2|Number=Plur	1	compound	_	@<P
 3	10	10	NUM	NUM	_	1	nummod	_	_
 4	tu	tu	ADV	ADV	_	3	advmod	_	_
-5	ndio	ndio	ADV	V-BE	_	_	_	_	_
+5	ndio	ndio	ADV	V-BE	_	3	advmod	_	_
 6	waliounga	unga	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu2|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act|Voice=Rcp	0	root	_	@FMAINVtr+OBJ>
 7	mkono	mkono	NOUN	N	NounClass=Bantu3|Number=Sing	6	obj	_	@OBJ
-8	muswada	muswada	NOUN	N	NounClass=Bantu3|Number=Sing	_	_	_	@OBJ
+8	muswada	muswada	NOUN	N	NounClass=Bantu3|Number=Sing	7	nmod	_	@OBJ
 9	wa	wa	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	10	case	_	@GCON
 10	kutokuwa	wa	VERB	V	NounClass=Bantu15|Number=Sing	12	cop	_	@-FMAINV
 11	na	na	CCONJ	CC	_	12	case	_	_
 12	imani	imani	NOUN	N	NounClass=Bantu9|Number=Sing	8	nmod	_	@PAT
-13	uliofadhiliwa	fadhiliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	_	_	_	@FMAINVtr-OBJ>
+13	uliofadhiliwa	fadhiliwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|ObjNounClass=Bantu1|ObjNumber=Sing|ObjPerson=3|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	8	acl	_	@FMAINVtr-OBJ>
 14	na	na	ADP	CC	_	16	case	_	_
 15	katika	katika	ADP	PREP	_	16	case	_	_
-16	serikali	serikali	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<P
+16	serikali	serikali	NOUN	N	NounClass=Bantu9|Number=Sing	13	obl	_	@<P
 17	inayoongozwa	ongozwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu9|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu9|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Pres|Voice=Pass	16	acl	_	@FMAINVtr-OBJ>
 18	na	na	ADP	AG-PART	_	19	case	_	_
 19	Tymoshenko	oshena	VERB	PROPNAME	NounClass=Bantu3|Number=Sing	17	obj	_	@AG
 20	katika	katika	ADP	PREP	_	21	case	_	_
-21	bunge	bunge	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<P
+21	bunge	bunge	NOUN	N	NounClass=Bantu5|Number=Sing	6	obl	_	@<P
 22	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	23	case	_	@GCON
 23	Ukraine	ukraine	NOUN	N	Aspect=Imp|Mood=Sub|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	21	nmod	_	@<NH
-24	leo	leo	NOUN	N	_	_	_	_	_
+24	leo	leo	NOUN	N	_	6	obl	_	_
 25	hii	hii	DET	PRON	NounClass=Bantu9|Number=Sing	24	det	_	@<NDEM
 26	.	.	PUNCT	_	_	_	_	_	_
 
@@ -1614,30 +1614,6 @@
 6	Bahrain	Bahrain	PROPN	PROPNAME	Degree=Pos	5	obj	_	@P>
 7	anakumbushia	kumbushia	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	0	root	_	@FMAINVtr-OBJ>
 8	:	:	PUNCT	COLON	_	7	punct	_	_
-
-# sent_id = 24635
-# Uharibifu wa Bwawa la Mariba limejengwa karne ya nane (KK) na limelengwa na ndege za kijeshi za Kisaudi
-# trans: Albukhaiti posts a photograph of ruins, of what he describes as the dam, which dates back to the 8th century BC and is considered the oldest known dam in the world:
-1	Uharibifu	uharibifu	NOUN	N	NounClass=Bantu11|Number=Sing	_	_	_	@SUBJ
-2	wa	wa	ADP	GEN-CON	NounClass=Bantu11|Number=Sing	_	_	_	@GCON
-3	Bwawa	Bwawa	NOUN	N	NounClass=Bantu5|Number=Sing	_	_	_	@<NH
-4	la	la	ADP	GEN-CON	NounClass=Bantu5|Number=Sing	_	_	_	@GCON
-5	Mariba	mariba	NOUN	PROPNAME	_	_	_	_	_
-6	limejengwa	jengwa	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu5|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Cau	_	_	_	@FMAINVtr+OBJ>
-7	karne	karne	NOUN	N	NounClass=Bantu9|Number=Sing	_	_	_	@OBJ
-8	ya	ya	ADP	GEN-CON	NounClass=Bantu9|Number=Sing	_	_	_	@GCON
-9	nane	nane	NUM	NUM	NounClass=Bantu10|NumType=Card|Number=Plur	_	_	_	@<NH
-10	(	(	PUNCT	LEFT-PARENTHESIS	_	_	_	_	_
-11	KK	Kk	PROPN	PROPNAME	_	_	_	_	_
-12	)	)	PUNCT	RIGHT-PARENTHESIS	_	_	_	_	_
-13	na	na	CCONJ	CC	_	_	_	_	_
-14	limelengwa	lengwa	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu5|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Appl|Voice=Pass	_	_	_	@FMAINVtr-OBJ>
-15	na	na	ADP	CC	_	_	_	_	_
-16	ndege	ndege	NOUN	N	NounClass=Bantu10|Number=Plur	_	_	_	@AG
-17	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-18	kijeshi	jeshi	ADV	N	_	_	_	_	_
-19	za	za	ADP	GEN-CON	NounClass=Bantu10|Number=Plur	_	_	_	@GCON
-20	Kisaudi	Kisaudi	PROPN	N	NounClass=Bantu9|Number=Sing	_	_	_	@<NH
 
 # sent_id = 14373
 # Zile zinazounga mkono maandamano haya ni kama harakazi zaShahbag na Eneo la Projonmo na zile zinazopinga maandamano ni Sauti za Wazalendo na Bamboo Castle.
