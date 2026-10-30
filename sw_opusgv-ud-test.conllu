@@ -936,7 +936,7 @@
 23	Ukraine	ukraine	NOUN	N	Aspect=Imp|Mood=Sub|NounClass=Bantu11|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Voice=Act	21	nmod	_	@<NH
 24	leo	leo	NOUN	N	_	6	obl	_	_
 25	hii	hii	DET	PRON	NounClass=Bantu9|Number=Sing	24	det	_	@<NDEM
-26	.	.	PUNCT	_	_	_	_	_	_
+26	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 14713
 # trans: Africa and Africans are not liable guilty of any offence in the form of irrationality.
@@ -1626,7 +1626,7 @@
 5	haya	haya	DET	PRON	NounClass=Bantu6|Number=Plur	4	det	_	@<NDEM
 6	ni	ni	AUX	V	Aspect=Imp|Mood=Ind|Polarity=Pos|Voice=Act	8	cop	_	@FMAINVintr-def
 7	kama	kama	ADV	ADV	_	8	advmod	_	_
-8	harakazi	harakazi	NOUN	N	NounClass=Bantu10|Number=Sing	_	_	_	@FMAINVtr-OBJ>
+8	harakazi	harakazi	NOUN	N	NounClass=Bantu10|Number=Sing	8	obl	_	@FMAINVtr-OBJ>
 9	za	zam	ADP	GEN-CON	NounClass=Bantu10|Number=Sing	10	case	_	SpaceAfter=No
 10	Shahbag	Mshahbag	PROPN	V	Aspect=Imp|Mood=Ind|NounClass=Bantu6|Number=Plur|Person=3|Polarity=Neg|Subcat=Intr|Voice=Act	8	nmod	_	@OBJ
 11	na	na	CCONJ	CC	_	12	cc	_	_
@@ -1898,7 +1898,7 @@
 9	na	na	CCONJ	CC	_	10	cc	_	_
 10	kuwakuza	kuza	NOUN	N	NounClass=Bantu15|Number=Sing	4	conj	_	@<P
 11	kwa	kwa	ADP	GEN-CON-KWA	NounClass=Bantu15|Number=Sing	12	case	_	@ADVL
-12	kuwanukuu	anukuu	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<P
+12	kuwanukuu	anukuu	NOUN	N	NounClass=Bantu15|Number=Sing	10	nmod	_	@<P
 13	au	au	CCONJ	CONJ/CC	_	15	cc	_	_
 14	kwa	kwa	ADP	PREP	_	15	case	_	_
 15	kuongea	ongea	NOUN	N	NounClass=Bantu15|Number=Sing	12	conj	_	@<P
@@ -1971,7 +1971,7 @@
 2	ulioongozwa	ongozwa	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|RelNounClass=Bantu11|RelNumber=Sing|RelPerson=3|Subcat=Tran|Tense=Past|Tense=Past|Voice=Pass	1	acl	_	@FMAINVtr-OBJ>
 3	na	na	ADP	AG-PART	_	4	case	_	_
 4	Marekani	Marekani	PROPN	PROPNAME	_	2	obj	_	_
-5	,	,	PUNCT	COMMA	_	_	_	_	_
+5	,	,	PUNCT	COMMA	_	2	punct	_	_
 6	ulifanikisha	fanikisha	VERB	V	Aspect=Imp|Mood=Ind|NounClass=Bantu3|Number=Sing|Person=3|Polarity=Pos|Subcat=Tran|Tense=Past|Tense=Past|Voice=Act	0	root	_	@FMAINVtr-OBJ>
 7	kuipatia	patia	VERB	V	Aspect=Imp|Mood=Ind|ObjNounClass=Bantu9|ObjNumber=Sing|ObjPerson=3|Polarity=Pos|Subcat=Tran|Voice=Act|Voice=Appl	6	xcomp	_	@-FMAINV-n
 8	uhuru	uhuru	NOUN	N	NounClass=Bantu11|Number=Sing	7	obj	_	@OBJ
@@ -2117,7 +2117,7 @@
 9	wajinga	mjinga	NOUN	N	NounClass=Bantu2|Number=Plur	7	nmod	_	@<NH
 10	duniani	dunia	NOUN	N	NounClass=Bantu9|Number=Sing	9	nmod	_	@OBJ
 11	kwa	kwa	ADP	PREP	_	12	case	_	_
-12	kutangaza	tangaza	NOUN	N	NounClass=Bantu15|Number=Sing	_	_	_	@<P
+12	kutangaza	tangaza	NOUN	N	NounClass=Bantu15|Number=Sing	10	nmod	_	@<P
 13	habari	habari	NOUN	N	NounClass=Bantu10|Number=Plur	12	obj	_	@OBJ
 14	bandia	bandia	ADJ	N	Degree=Pos	13	amod	_	@<NADJ
 15	ambazo	amba	PRON	PRON	NounClass=Bantu10|Number=Plur	16	nsubj	_	@SUBJ
