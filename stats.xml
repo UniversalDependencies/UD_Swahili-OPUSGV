@@ -10,8 +10,8 @@
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
     <test><sentences>502</sentences><tokens>9113</tokens><words>9113</words><fused>0</fused></test>
   </size>
-  <lemmas unique="2544" /><!-- wa, ., ya, na, ,, kwa, :, za, katika, ni, la, kwenye, mtu, amba, nchi -->
-  <forms unique="3279" /><!-- ., ya, na, ,, wa, kwa, :, za, katika, ni, la, kwenye, kuwa, watu, habari -->
+  <lemmas unique="2543" /><!-- wa, ., ya, na, ,, kwa, :, za, katika, ni, la, kwenye, mtu, amba, nchi -->
+  <forms unique="3276" /><!-- ., ya, na, ,, wa, kwa, :, za, katika, ni, la, kwenye, kuwa, watu, habari -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="14">
@@ -85,7 +85,7 @@
     <feat name="Person" value="2" upos="AUX,NOUN,PROPN,VERB">33</feat><!-- @PMMelesZenawi, Iwacu, Meena, MelesZenawi, Mmisri, Mostafa, Mouzalas, Mubarak, Musleh, Mutalama -->
     <feat name="Person" value="3" upos="ADJ,AUX,NOUN,PROPN,VERB">874</feat><!-- kuna, hakuna, alisema, walikuwa, akiwa, alitwiti, anasema, ilikuwa, ulikuwa, unaweza -->
     <feat name="Polarity" value="Int" upos="AUX">1</feat><!-- Unawezaje -->
-    <feat name="Polarity" value="Neg" upos="AUX,NOUN,PROPN,VERB">51</feat><!-- hafai, haiwezi, hakuweza,  Shahbag, Advice, Agusti, Haider, Haidhuru, Haitoshi, Haiwezekani -->
+    <feat name="Polarity" value="Neg" upos="AUX,NOUN,PROPN,VERB">51</feat><!-- hafai, haiwezi, hakuweza, Advice, Agusti, Haider, Haidhuru, Haitoshi, Haiwezekani, Imedi -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADP,AUX,NOUN,PROPN,SCONJ,VERB">1330</feat><!-- ni, kuwa, kuna, kupitia, hakuna, si, alisema, walikuwa, alitwiti, anasema -->
     <feat name="RelNounClass" value="16" upos="VERB">1</feat><!-- isipokuwa -->
     <feat name="RelNounClass" value="3" upos="VERB">1</feat><!-- iliyopita -->
@@ -119,7 +119,7 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="31">
-    <dep name="_">7285</dep>
+    <dep name="_">7284</dep>
     <dep name="acl">60</dep>
     <dep name="advcl">14</dep>
     <dep name="advmod">64</dep>
@@ -141,7 +141,7 @@
     <dep name="flat">45</dep>
     <dep name="iobj">3</dep>
     <dep name="mark">15</dep>
-    <dep name="nmod">254</dep>
+    <dep name="nmod">255</dep>
     <dep name="nsubj">109</dep>
     <dep name="nummod">29</dep>
     <dep name="obj">132</dep>
