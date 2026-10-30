@@ -858,7 +858,7 @@
 # sent_id = 4700
 # trans: praditpi: Samak Sundaravej, 25th prime minister of Thailand, passed away today.
 1	praditpi	Zraditpi	PROPN	N	_	13	discourse	_	_
-2	:	:	PUNCT	COLON	_	13	punct	_	_
+2	:	:	PUNCT	COLON	_	1	punct	_	_
 3	Samak	Samak	PROPN	PROPNAME	_	13	nsubj	_	_
 4	Sundaravej	Sundarave	PROPN	PROPNAME	Aspect=Imp|Mood=Ind|Polarity=Pos|Subcat=Tran|Voice=Act	3	flat	_	@<P
 5	,	,	PUNCT	COMMA	_	6	punct	_	_
@@ -869,7 +869,7 @@
 10	wa	wa	ADP	GEN-CON	NounClass=Bantu3|Number=Sing	11	case	_	@GCON
 11	Thailand	Thailand	PROPN	PROPNAME	NounClass=Bantu9|Number=Sing	6	nmod	_	@<NH
 12	,	,	PUNCT	COMMA	_	6	punct	_	_
-13	amefariki	fariki	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	6	parataxis	_	@FMAINVintr
+13	amefariki	fariki	VERB	V	Aspect=Perf|Mood=Ind|NounClass=Bantu1|Number=Sing|Person=3|Polarity=Pos|Subcat=Intr|Voice=Act	0	root	_	@FMAINVintr
 14	leo	leo	ADV	ADV	_	13	advmod	_	_
 15	.	.	PUNCT	_	_	13	punct	_	_
 
